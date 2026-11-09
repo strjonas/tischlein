@@ -1,0 +1,53 @@
+subsystem,item,qty,notes
+arm A,Feetech STS3215-C018 12 V 30 kg·cm bus servo,5,"J1, J2, wrist yaw, wrist roll, drawer"
+arm A,Feetech STS3250 12 V 50 kg·cm bus servo,1,wrist pitch: carries the CAP gripper and the camera about 27 cm out; same bus and horn as the STS3215
+arm A,Dynamixel XL330-M288-T,1,"the CAP gripper's own motor; its printed body is made for it, so it is printed unchanged"
+arm A,ROBOTIS U2D2 (USB to Dynamixel TTL),1,drives the grippers; on its own 5 V supply
+arm A,Waveshare Bus Servo Adapter (A),1,Feetech bus to the host by USB. Signal only: servo power goes around it (docs/power-and-safety.md)
+arm A,6000-2RS bearing 10x26x8,4,shoulder and elbow
+arm A,10 mm shaft (h6) 300 mm,1,cut into two joint shafts
+arm A,"GT2 pulleys: 60T/10 mm, 40T/10 mm, 2x 20T/5 mm",1,metal
+arm A,GT2 6 mm closed belt 200 mm,2,
+arm A,250 mm full-extension slides (pair),1,tray drawer
+arm A,"CAP gripper hardware (M3/M4/M5 screws and nuts, M4x22 dowel, 10x0.7x50 spring, ~30 cm Kevlar string, foam, grip tape)",1,"CAP's own parts are printed unchanged (nyu-gripper.pages.dev, Robot Gripper); an L-shaped adapter goes between the roll servo and their bottom plate (2x M3 into its nut traps)"
+arm A,"2020 Nut-6 profile ~1.6 m (links, tray arms, yoke) + 2040 x 400 mm shoulder beam",1,cut to length
+arm A,"M3/M4/M5 screws, T-nuts, heat-set inserts",1,
+arm A,Luggage scale,1,test equipment: measures a fridge door's seal
+arm A,PETG 1 kg + TPU 0.5 kg,1,printing material
+lift,2040 V-slot 1.8 m,1,"mast; tray to ~1.54 m, fingertips to ~1.58 m (upper fridge shelves)"
+lift,MGN12 rail ~1.6 m + 2x MGN12H,1,alternative: 4 V-wheels on the 2040
+lift,NEMA17 with 24 V power-off brake (>= 0.3 N·m brake torque) + TMC2209,1,holds a payload unpowered (docs/power-and-safety.md)
+lift,"GT2 20T x2, 60T, idler, 608 bearings, 6 mm open belt 4 m",1,
+lift,"Constant-force spring balancer (tool balancer), 3-5 kg range",1,"balances the carriage (~4.1 kg with two arms): halves the motor's work, so 5 kg parcels are liftable"
+lift,"ESP32 dev board, 2 limit switches",1,drives the lift stepper and its brake; later the body controller
+power and safety,"Power supplies: 12 V 15 A (servos), 5 V 3 A (XL330 + U2D2), 24 V 3 A (lift + brake)",1,bench supplies; the robot later runs from its battery through bucks
+power and safety,"6-way blade fuse block + fuses (15 A main, 7.5/5/3 A branches)",1,each servo branch fed directly; data and GND daisy-chained (docs/power-and-safety.md)
+power and safety,Latching e-stop 2-pole (12 V servos + 24 V lift),1,also drops the lift brake
+power and safety,"1.0 mm2 wire, ferrules, WAGO 221 connectors",1,
+power and safety,"2200 uF 25 V capacitor, 3-pin servo extension leads",1,
+stand,"2020 base frame + straddle legs ~2.4 m, corner brackets",1,the robot's own base frame doubles as the bench stand
+stand,"Deck: 6 mm birch plywood, or 3 mm aluminium composite",1,
+stand,4 fixed rubber feet + >= 5 kg ballast at the rear of the deck,1,calc.py: without ballast the stand tips with the arms out at the top (SF 0.8); 5 kg gives 2.5
+IR camera,"Arducam B0332: OV9281 1 MP mono global shutter, USB UVC, no IR filter, 38x38 mm, M12 lens",1,"replaces the phone on the hand; docs/ir-camera.md, cad/ir_camera.py -> print/ir_cam_insert.stl"
+IR camera,"M12 lens ~2.1 mm (>= 90 deg horizontal on a 1/4"" sensor)",1,covers CAP's full 53.1 deg vertical view after undistortion; the stock 70 deg lens gives only 47 deg
+IR camera,"2x 940 nm 5 mm LED (e.g. Vishay TSAL6400), 22 ohm, USB 5 V lead, M2 screws, cable ties",1,invisible light for the dark; in series from USB 5 V
+drawer,"Spring-steel strip ~0.6 x 60 x 250 mm (the tongue) + 9 mm GT2 belts, bigger pulleys, preload springs",1,tongue vs lift on 1-1.5 kg bottles; belts 30 -> 16 mm deflection under 5 N
+option: arm B,Feetech STS3215-C018 12 V,4,"J1, J2, yaw, roll of the left arm"
+option: arm B,Feetech STS3250 12 V,1,left wrist pitch
+option: arm B,Dynamixel XL330-M288-T,1,left CAP gripper
+option: arm B,"Bearings 4x 6000, 10 mm shaft 300 mm, GT2 pulley set, 2 belts, CAP gripper hardware, 2020 for the links",1,
+option: arm B,iPhone SE 2020,1,left wrist camera; anchor point by two-view triangulation (docs/cameras.md)
+option: stump (replaces arm B),Feetech STS3215-C018 12 V,3,"J1, J2 and a wrist yaw that turns the printed tool head (hook, fork, pad, scoop loop); docs/asymmetric-arms.md"
+option: stump (replaces arm B),"Bearings 2x 6000, 10 mm shaft, GT2 pulley set, 2 belts, 2020 for the links, screws",1,the arm-B hardware without the CAP gripper parts; tool head printed
+drive,"6.5"" hoverboard (hub motors, 36 V pack, charger, mainboard)",1,FOC firmware is flashed to the mainboard
+drive,ST-Link V2,1,flashes the FOC firmware
+drive,100 mm swivel casters,3,roll over ~15 mm thresholds
+drive,"36V->12V 10A buck, 36V->24V 5A buck, 36V->5V 3A buck",1,
+drive,"XT60, battery fuse + holder, wire",1,
+drive,Bumper microswitches x4 + WS2812 status ring,1,front/rear contact stop; ring = status light
+drive,"Phone as face, head camera, microphone and speaker",1,sits on the carriage and rides with the hands
+autonomy,Slamtec RPLIDAR C1,1,navigation and finding the dock; works without light
+autonomy,Warm dimmable LED + driver (the lamp),1,"reading and night light, and light for the cameras at night"
+autonomy,Alternative wrist camera: iPhone 12 Pro / 13 Pro + Record3D,1,"LiDAR depth, matches CAP's images; docs/cameras.md"
+home use,LiFePO4 8S 25.6 V 10-15 Ah with BMS + 3 A charger,1,also the counterweight (tipping SF 1.9 -> 2.2)
+home use,"Dock: spring contacts + brass pads, reed switch + relay, 5 A fuse, printed funnel and lidar V-target, base plate",1,docs/base-and-dock.md

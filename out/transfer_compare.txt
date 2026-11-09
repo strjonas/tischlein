@@ -1,0 +1,26 @@
+Drag onto the drawer vs lift and carry (sim/transfer_compare.py), 30 trials per cell, scripted
+
+object                             squeeze/finger    drag  drag+tongue    lift   wrist pitch peak, drag / tongue / lift (STS3250: rated 1.6, peak 4.9 N.m)
+can 0.35 kg                                 10 N    100%         100%    100%   1.7 / 1.0 / 1.7 N.m
+can 0.35 kg                                 25 N    100%         100%    100%   1.7 / 1.0 / 1.7 N.m
+0.5 l bottle                                10 N    100%         100%    100%   2.2 / 1.1 / 2.2 N.m
+0.5 l bottle                                25 N    100%         100%    100%   2.2 / 1.0 / 2.2 N.m
+1 l bottle                                  10 N    100%         100%     70%   1.7 / 1.3 / 3.3 N.m
+1 l bottle                                  25 N    100%         100%     97%   2.7 / 1.0 / 3.3 N.m
+1.5 kg bottle                               10 N     60%         100%     53%   1.7 / 1.4 / 4.3 N.m
+1.5 kg bottle                               25 N    100%         100%     93%   3.3 / 1.0 / 4.4 N.m
+0.5 l bottle behind a 20 mm lip             10 N      0%           0%     77%   2.5 / 2.3 / 2.5 N.m
+0.5 l bottle behind a 20 mm lip             25 N      0%           0%     97%   2.9 / 2.6 / 2.4 N.m
+
+Failure modes:
+  0.5 l bottle behind a 20 mm lip, 10 N, drag: 27x tipped over, 3x never moved (missed or slipped at once)
+  0.5 l bottle behind a 20 mm lip, 10 N, lift: 5x tipped over, 2x never moved (missed or slipped at once)
+  0.5 l bottle behind a 20 mm lip, 10 N, tongue: 28x tipped over, 1x dropped / left behind, 1x never moved (missed or slipped at once)
+  0.5 l bottle behind a 20 mm lip, 25 N, drag: 29x tipped over, 1x never moved (missed or slipped at once)
+  0.5 l bottle behind a 20 mm lip, 25 N, lift: 1x never moved (missed or slipped at once)
+  0.5 l bottle behind a 20 mm lip, 25 N, tongue: 29x tipped over, 1x never moved (missed or slipped at once)
+  1 l bottle, 10 N, lift: 9x tipped over
+  1 l bottle, 25 N, lift: 1x tipped over
+  1.5 kg bottle, 10 N, drag: 12x tipped over
+  1.5 kg bottle, 10 N, lift: 14x tipped over
+  1.5 kg bottle, 25 N, lift: 2x tipped over

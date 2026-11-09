@@ -1,0 +1,45 @@
+Flat-arm actuator study (sim/actuators.py). Tip at mid reach, 637 mm from the shoulder; 3 yaw joints.
+
+1) Slow alignment, 2 cm sideways at 1 cm/s, 0.3 kg in the hand; new policy target every 0.1 s
+                                   mode  tracking RMS mm  peak tip acc m/s2  tip stops
+   STS direct on each joint         raw             2.17               1.54         12
+   STS direct on each joint     planned             2.66               0.74          0
+   STS + belts (Tischlein plan)     raw             0.72               1.59         14
+   STS + belts (Tischlein plan) planned             1.36               0.67          3
+   STS + stiffer belts + spring     raw             1.36               2.33         31
+   STS + stiffer belts + spring planned             1.82               1.00          6
+   Closed-loop steppers at J1/J     raw             0.82               1.98         16
+   Closed-loop steppers at J1/J planned             0.33               0.66          3
+
+2) Fast reach, 25 cm with 0.3 kg in the hand, then hold
+                                   mode  peak tip acc m/s2  overshoot mm  within 2 mm after s  final mm
+   STS direct on each joint         raw              34.65          36.2                 0.61      0.56
+   STS direct on each joint     planned               2.25           0.0                 0.88      1.00
+   STS + belts (Tischlein plan)     raw              48.90         160.3                 1.80      0.37
+   STS + belts (Tischlein plan) planned               4.42           3.5                 1.00      0.84
+   STS + stiffer belts + spring     raw              41.85          71.3                 0.80      1.48
+   STS + stiffer belts + spring planned               3.45           0.6                 0.78      1.33
+   Closed-loop steppers at J1/J     raw              39.14         221.6                 1.48      0.62
+   Closed-loop steppers at J1/J planned               4.09           3.0                 0.86      0.29
+   (planned move: 0.83 s at the joint speed limits; raw: as fast as the actuator goes)
+
+3) Stiffness: 5 N sideways at the tip, then 5 N the other way, then released (pushing a box, a door)
+                                 +5 N mm  -5 N mm  span mm  after release mm
+   STS direct on each joint       pushed away: a joint's torque limit is below what 5 N at this reach needs
+   STS + belts (Tischlein plan)     30.4     30.8     61.2               0.6
+   STS + stiffer belts + spring     16.0     16.7     32.7               1.8
+   Closed-loop steppers at J1/J     10.2     10.3     20.5               0.6
+
+4) Bidirectional repeatability: back to one point from +3 cm and -3 cm, 6 times each, friction +-20 %
+                                 max spread mm  mean error mm
+   STS direct on each joint               2.09           0.98
+   STS + belts (Tischlein plan)           0.27           0.18
+   STS + stiffer belts + spring           0.30           1.45
+   Closed-loop steppers at J1/J           0.78           0.52
+
+5) Wrist camera closes the loop after the planned reach (camera sigma 1.5 mm; arm calibration 3.6 mm off)
+                                 no camera mm  with camera mm  extra time s
+   STS direct on each joint               4.5             1.3          1.90
+   STS + belts (Tischlein plan)           4.2             2.3          0.50
+   STS + stiffer belts + spring           4.6             2.2          0.50
+   Closed-loop steppers at J1/J           3.5             1.3          0.50

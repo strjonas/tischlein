@@ -1,0 +1,27 @@
+
+Actuator peak load (fraction of the real limit):
+  base_x    peak   22.35 / 1500.00  =   1.5%   at t= 11.2s   saturated 0.00s
+  base_y    peak   24.54 / 1500.00  =   1.6%   at t= 52.4s   saturated 0.00s
+  base_yaw  peak   19.52 /  500.00  =   3.9%   at t= 48.9s   saturated 0.00s
+  lift      peak   73.34 /  200.00  =  36.7%   at t= 24.8s   saturated 0.00s
+  drawer    peak    4.79 /   60.00  =   8.0%   at t= 24.8s   saturated 0.00s
+  j1        peak    3.08 /    8.82  =  34.9%   at t= 37.7s   saturated 0.00s
+  j2        peak    2.76 /    5.88  =  46.9%   at t= 37.3s   saturated 0.00s
+  j3        peak    1.44 /    2.94  =  49.0%   at t= 41.7s   saturated 0.00s
+  j4        peak    1.92 /    4.90  =  39.1%   at t= 24.8s   saturated 0.00s
+  grip      peak   63.01 /  100.00  =  63.0%   at t= 24.8s   saturated 0.00s
+  j5        peak    0.18 /    2.94  =   6.0%   at t= 37.8s   saturated 0.00s
+  j1b       peak    0.05 /    8.82  =   0.6%   at t= 37.9s   saturated 0.00s
+  j2b       peak    0.05 /    5.88  =   0.8%   at t= 49.3s   saturated 0.00s
+  j3b       peak    0.15 /    2.94  =   5.2%   at t=  0.1s   saturated 0.00s
+  j4b       peak    0.12 /    4.90  =   2.4%   at t= 39.8s   saturated 0.00s
+  j5b       peak    0.00 /    2.94  =   0.2%   at t=  0.0s   saturated 0.00s
+  gripb     peak    0.00 /  100.00  =   0.0%   at t= 49.0s   saturated 0.00s
+
+Box in drawer frame at the end: x=196 mm (tray 136.0..386.0), y=-1 mm, z=-0 mm above tray surface
+Box fully on the tray: True
+  t= 26.5s box world [436  -1 947]  drawer origin [240   0 947]
+  t= 31.0s box world [425  -1 947]  drawer origin [229   0 947]
+  t= 60.4s box world [-599 1556  639]  drawer origin [-600 1360  639]
+
+video -> out/demo.mp4 (0.7 MB, 907 frames)

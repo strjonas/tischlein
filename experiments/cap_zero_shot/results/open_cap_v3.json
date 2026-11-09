@@ -1,0 +1,813 @@
+{
+ "task": "open",
+ "robot": "cap",
+ "episodes": 100,
+ "success_rate": 0.08,
+ "seed": 7,
+ "num_objs": 1,
+ "max_steps": 80,
+ "minutes": 8.144617680708567,
+ "episodes_detail": [
+  {
+   "worker": 0,
+   "ep": 0,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 0,
+   "ep": 1,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 0,
+   "ep": 2,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 0,
+   "ep": 3,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 0,
+   "ep": 4,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 0,
+   "ep": 5,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 0,
+   "ep": 6,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0012419841996233383,
+   "object": "cabinet"
+  },
+  {
+   "worker": 0,
+   "ep": 7,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 0,
+   "ep": 8,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 0,
+   "ep": 9,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 0,
+   "ep": 10,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 0,
+   "ep": 11,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 1,
+   "ep": 0,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0010212430420825092,
+   "object": "cabinet"
+  },
+  {
+   "worker": 1,
+   "ep": 1,
+   "success": true,
+   "steps": 32,
+   "reward": 0.5635541362765281,
+   "object": "drawer"
+  },
+  {
+   "worker": 1,
+   "ep": 2,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 1,
+   "ep": 3,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 1,
+   "ep": 4,
+   "success": true,
+   "steps": 28,
+   "reward": 0.5319586198381223,
+   "object": "cabinet"
+  },
+  {
+   "worker": 1,
+   "ep": 5,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 1,
+   "ep": 6,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 1,
+   "ep": 7,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 1,
+   "ep": 8,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 1,
+   "ep": 9,
+   "success": false,
+   "steps": 80,
+   "reward": 7.07276190632092e-05,
+   "object": "drawer"
+  },
+  {
+   "worker": 1,
+   "ep": 10,
+   "success": true,
+   "steps": 29,
+   "reward": 0.5099403712261815,
+   "object": "cabinet"
+  },
+  {
+   "worker": 2,
+   "ep": 0,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 2,
+   "ep": 1,
+   "success": false,
+   "steps": 80,
+   "reward": 0.001065380261362204,
+   "object": "drawer"
+  },
+  {
+   "worker": 2,
+   "ep": 2,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 2,
+   "ep": 3,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 2,
+   "ep": 4,
+   "success": false,
+   "steps": 80,
+   "reward": 0.05415888431214908,
+   "object": "cabinet"
+  },
+  {
+   "worker": 2,
+   "ep": 5,
+   "success": true,
+   "steps": 56,
+   "reward": 0.5642850073012261,
+   "object": "drawer"
+  },
+  {
+   "worker": 2,
+   "ep": 6,
+   "success": true,
+   "steps": 34,
+   "reward": 0.501298963373983,
+   "object": "cabinet"
+  },
+  {
+   "worker": 2,
+   "ep": 7,
+   "success": false,
+   "steps": 80,
+   "reward": 8.050941011375194e-05,
+   "object": "drawer"
+  },
+  {
+   "worker": 2,
+   "ep": 8,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 2,
+   "ep": 9,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0009594396597382562,
+   "object": "drawer"
+  },
+  {
+   "worker": 2,
+   "ep": 10,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 3,
+   "ep": 0,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0003786403335359812,
+   "object": "cabinet"
+  },
+  {
+   "worker": 3,
+   "ep": 1,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 3,
+   "ep": 2,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 3,
+   "ep": 3,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0003393078457534353,
+   "object": "drawer"
+  },
+  {
+   "worker": 3,
+   "ep": 4,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 3,
+   "ep": 5,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 3,
+   "ep": 6,
+   "success": false,
+   "steps": 80,
+   "reward": 0.09498848734818734,
+   "object": "cabinet"
+  },
+  {
+   "worker": 3,
+   "ep": 7,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 3,
+   "ep": 8,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 3,
+   "ep": 9,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 3,
+   "ep": 10,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 4,
+   "ep": 0,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 4,
+   "ep": 1,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 4,
+   "ep": 2,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 4,
+   "ep": 3,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 4,
+   "ep": 4,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0005748484301542978,
+   "object": "cabinet"
+  },
+  {
+   "worker": 4,
+   "ep": 5,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 4,
+   "ep": 6,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0018301700849651882,
+   "object": "cabinet"
+  },
+  {
+   "worker": 4,
+   "ep": 7,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 4,
+   "ep": 8,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 4,
+   "ep": 9,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 4,
+   "ep": 10,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 5,
+   "ep": 0,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 5,
+   "ep": 1,
+   "success": false,
+   "steps": 80,
+   "reward": 0.00018985302164864007,
+   "object": "drawer"
+  },
+  {
+   "worker": 5,
+   "ep": 2,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 5,
+   "ep": 3,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 5,
+   "ep": 4,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 5,
+   "ep": 5,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0005966428618142938,
+   "object": "drawer"
+  },
+  {
+   "worker": 5,
+   "ep": 6,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 5,
+   "ep": 7,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 5,
+   "ep": 8,
+   "success": true,
+   "steps": 37,
+   "reward": 0.5260223529440242,
+   "object": "cabinet"
+  },
+  {
+   "worker": 5,
+   "ep": 9,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 5,
+   "ep": 10,
+   "success": false,
+   "steps": 80,
+   "reward": 5.335610208767932e-05,
+   "object": "cabinet"
+  },
+  {
+   "worker": 6,
+   "ep": 0,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 6,
+   "ep": 1,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 6,
+   "ep": 2,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0006825322601360466,
+   "object": "cabinet"
+  },
+  {
+   "worker": 6,
+   "ep": 3,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0018825346579714776,
+   "object": "drawer"
+  },
+  {
+   "worker": 6,
+   "ep": 4,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 6,
+   "ep": 5,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 6,
+   "ep": 6,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 6,
+   "ep": 7,
+   "success": false,
+   "steps": 80,
+   "reward": 0.03512330053277163,
+   "object": "drawer"
+  },
+  {
+   "worker": 6,
+   "ep": 8,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0010560175831620206,
+   "object": "cabinet"
+  },
+  {
+   "worker": 6,
+   "ep": 9,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 6,
+   "ep": 10,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 7,
+   "ep": 0,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 7,
+   "ep": 1,
+   "success": false,
+   "steps": 80,
+   "reward": 0.00020935841966577903,
+   "object": "drawer"
+  },
+  {
+   "worker": 7,
+   "ep": 2,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 7,
+   "ep": 3,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 7,
+   "ep": 4,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 7,
+   "ep": 5,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 7,
+   "ep": 6,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 7,
+   "ep": 7,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0002239847643259539,
+   "object": "drawer"
+  },
+  {
+   "worker": 7,
+   "ep": 8,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 7,
+   "ep": 9,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 7,
+   "ep": 10,
+   "success": false,
+   "steps": 80,
+   "reward": 0.3602711825351882,
+   "object": "cabinet"
+  },
+  {
+   "worker": 8,
+   "ep": 0,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 8,
+   "ep": 1,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0003472915914244338,
+   "object": "drawer"
+  },
+  {
+   "worker": 8,
+   "ep": 2,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 8,
+   "ep": 3,
+   "success": false,
+   "steps": 80,
+   "reward": 0.3523211102241338,
+   "object": "drawer"
+  },
+  {
+   "worker": 8,
+   "ep": 4,
+   "success": true,
+   "steps": 33,
+   "reward": 0.5567378849229195,
+   "object": "cabinet"
+  },
+  {
+   "worker": 8,
+   "ep": 5,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 8,
+   "ep": 6,
+   "success": true,
+   "steps": 31,
+   "reward": 0.5860872977461102,
+   "object": "cabinet"
+  },
+  {
+   "worker": 8,
+   "ep": 7,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 8,
+   "ep": 8,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  },
+  {
+   "worker": 8,
+   "ep": 9,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "drawer"
+  },
+  {
+   "worker": 8,
+   "ep": 10,
+   "success": false,
+   "steps": 80,
+   "reward": 0.0,
+   "object": "cabinet"
+  }
+ ],
+ "note": "copied from v2: this embodiment does not use the base (or the run was not repeated in v3)"
+}

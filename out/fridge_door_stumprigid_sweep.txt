@@ -1,0 +1,66 @@
+strat  door  close seal   mu   max  final  ok? plan  clr  hit N  lag   arm%  base%  sat s  time  arms  by0  base end
+  (max/final: door deg; plan clr: planned door clearance cm; hit: largest robot-body contact force on door/fridge;
+   lag: largest speed-limiter clip in s; arm%: peak arm torque during the swing; sat: s at an arm torque limit;
+   arms: closest approach of the two arms in cm, top view; by0: sideways start offset of the base in cm)
+stumprigid upper  cam25   15  0.4    104    104  yes   ok   8.9     50  0.00   100    53  1.48    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam25   15  0.6    104    104  yes   ok   8.9     73  0.00   100    31  1.57    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam25   15  0.8    104    104  yes   ok   8.9     74  0.00   100    23  2.18    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam25   35  0.4    104    104  yes   ok   8.9     50  0.00   100    46  1.60    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam25   35  0.6    104    104  yes   ok   8.9     73  0.00   100    31  1.68    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam25   35  0.8    104    104  yes   ok   8.9     74  0.00   100    26  2.29    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam25   55  0.4      0     -0  NO    ok   8.9     64  0.00   100    13  2.17    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam25   55  0.6    104    104  yes   ok   8.9     73  0.00   100    35  1.77    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam25   55  0.8    104    104  yes   ok   8.9     74  0.00   100    27  2.38    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam60   15  0.4    104    104  yes   ok   8.9     50  0.00   100    41  1.52    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam60   15  0.6    104    104  yes   ok   8.9     73  0.00   100    26  1.60    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam60   15  0.8    104    104  yes   ok   8.9     74  0.00   100    17  2.22    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam60   35  0.4    104    104  yes   ok   8.9     50  0.00   100    40  1.64    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam60   35  0.6    104    104  yes   ok   8.9     73  0.00   100    28  1.71    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam60   35  0.8    104    104  yes   ok   8.9     74  0.00   100    20  2.32    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam60   55  0.4      0     -0  NO    ok   8.9     64  0.00   100    13  2.17    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam60   55  0.6    104    104  yes   ok   8.9     73  0.00   100    32  1.81    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam60   55  0.8    104    104  yes   ok   8.9     74  0.00   100    17  2.41    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper always   15  0.4    101    101  yes   ok   8.9     50  0.00   100    49  1.46    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper always   15  0.6    101    101  yes   ok   8.9     73  0.00   100    34  1.53    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper always   15  0.8    101    101  yes   ok   8.9     74  0.00   100    22  2.15    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper always   35  0.4    101    101  yes   ok   8.9     50  0.00   100    43  1.57    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper always   35  0.6    101    101  yes   ok   8.9     73  0.00   100    29  1.65    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper always   35  0.8    101    101  yes   ok   8.9     74  0.00   100    25  2.26    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper always   55  0.4      0     -0  NO    ok   8.9     65  0.00   100    13  2.07    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper always   55  0.6    101    101  yes   ok   8.9     73  0.00   100    29  1.75    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper always   55  0.8    101    101  yes   ok   8.9     74  0.00   100    25  2.35    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam25   15  0.4    104    104  yes   ok   8.9     50  0.00   100    30  1.53    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam25   15  0.6    104    104  yes   ok   8.9     73  0.00   100    19  1.61    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam25   15  0.8    104    104  yes   ok   8.9     74  0.00   100    17  2.22    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam25   35  0.4    104    104  yes   ok   8.9     54  0.00   100    26  1.65    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam25   35  0.6    104    104  yes   ok   8.9     73  0.00   100    17  1.73    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam25   35  0.8    104    104  yes   ok   8.9     74  0.00   100    12  2.34    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam25   55  0.4      0     -0  NO    ok   8.9     61  0.00   100    12  1.76    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam25   55  0.6      0     -0  NO    ok   8.9     73  0.00   100     8  1.84    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam25   55  0.8      0     -0  NO    ok   8.9     74  0.00   100     6  2.43    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam60   15  0.4    104    104  yes   ok   8.9     50  0.00   100    24  1.52    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam60   15  0.6    104    104  yes   ok   8.9     73  0.00   100    16  1.61    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam60   15  0.8    104    104  yes   ok   8.9     74  0.00   100    12  2.23    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam60   35  0.4    104    104  yes   ok   8.9     54  0.00   100    60  1.65    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam60   35  0.6    104    104  yes   ok   8.9     73  0.00   100    16  1.74    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam60   35  0.8    104    104  yes   ok   8.9     74  0.00   100    12  2.35    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam60   55  0.4      0     -0  NO    ok   8.9     61  0.00   100    12  1.76    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam60   55  0.6      0     -0  NO    ok   8.9     73  0.00   100     8  1.84    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam60   55  0.8      0     -0  NO    ok   8.9     74  0.00   100     6  2.43    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full always   15  0.4    101    101  yes   ok   8.9     50  0.00   100    40  1.47    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full always   15  0.6    102    101  yes   ok   8.9     73  0.00   100    46  2.16    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full always   15  0.8    101    101  yes   ok   8.9     74  0.00   100    16  2.17    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full always   35  0.4    101    101  yes   ok   8.9     50  0.00   100    42  1.62    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full always   35  0.6    101    101  yes   ok   8.9     73  0.00   100    25  1.68    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full always   35  0.8    101    101  yes   ok   8.9     74  0.00   100    18  2.29    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full always   55  0.4      0     -0  NO    ok   8.9     66  0.00   100    12  1.74    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full always   55  0.6      0     -0  NO    ok   8.9     73  0.00   100     8  1.81    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full always   55  0.8      0     -0  NO    ok   8.9     74  0.00   100     6  2.45    32   0.0  -22    -6/ +20 cm  +81 deg
+
+success by strategy x door x closing (over seal x floor):
+  stumprigid upper  cam25: 8/9
+  stumprigid upper  cam60: 8/9
+  stumprigid upper always: 8/9
+  stumprigid  full  cam25: 6/9
+  stumprigid  full  cam60: 6/9
+  stumprigid  full always: 6/9

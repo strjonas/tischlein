@@ -1,0 +1,126 @@
+strat  door  close seal   mu   max  final  ok? plan  clr  hit N  lag   arm%  base%  sat s  time  arms  by0  base end
+  (max/final: door deg; plan clr: planned door clearance cm; hit: largest robot-body contact force on door/fridge;
+   lag: largest speed-limiter clip in s; arm%: peak arm torque during the swing; sat: s at an arm torque limit;
+   arms: closest approach of the two arms in cm, top view; by0: sideways start offset of the base in cm)
+ one upper  cam25   15  0.4    104    104  yes   ok  10.5      0  0.01   100    43  0.96    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam25   15  0.6    104    104  yes   ok  10.5      0  0.01   100    29  0.96    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam25   15  0.8    104    104  yes   ok  10.5      0  0.01   100    22  0.96    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam25   35  0.4    104    104  yes   ok  10.5      0  0.01   100    43  0.97    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam25   35  0.6    104    104  yes   ok  10.5      0  0.01   100    29  0.97    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam25   35  0.8    104    104  yes   ok  10.5      0  0.01   100    22  0.97    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam25   55  0.4      0     -0  NO    ok  10.5      0  0.99    58    11  0.38    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam25   55  0.6      0     -0  NO    ok  10.5      0  0.99    58     8  0.48    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam25   55  0.8      0     -0  NO    ok  10.5      0  0.99    58     6  0.48    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam60   15  0.4     35     -0  NO    ok  10.5      0  0.99    58    11  0.00    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam60   15  0.6     35     -0  NO    ok  10.5      0  0.99    58     8  0.00    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam60   15  0.8     35     -0  NO    ok  10.5      0  0.99    58     6  0.00    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam60   35  0.4     34     -0  NO    ok  10.5      0  0.99    58    11  0.00    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam60   35  0.6     34     -0  NO    ok  10.5      0  0.99    58     8  0.00    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam60   35  0.8     34     -0  NO    ok  10.5      0  0.99    58     6  0.00    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam60   55  0.4      0     -0  NO    ok  10.5      0  0.99    58    11  0.38    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam60   55  0.6      0     -0  NO    ok  10.5      0  0.99    58     8  0.48    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper  cam60   55  0.8      0     -0  NO    ok  10.5      0  0.99    58     6  0.48    38 900.0   -7   -12/ +10 cm  +56 deg
+ one upper always   15  0.4     35     -0  NO    ok  10.5      0  0.99    58    11  0.00    37 900.0   -7   -12/ +10 cm  +56 deg
+ one upper always   15  0.6     35     -0  NO    ok  10.5      0  0.99    58     8  0.00    37 900.0   -7   -12/ +10 cm  +56 deg
+ one upper always   15  0.8     35     -0  NO    ok  10.5      0  0.99    58     6  0.00    37 900.0   -7   -12/ +10 cm  +56 deg
+ one upper always   35  0.4     34     -0  NO    ok  10.5      0  0.99    58    11  0.00    37 900.0   -7   -12/ +10 cm  +56 deg
+ one upper always   35  0.6     34     -0  NO    ok  10.5      0  0.99    58     8  0.00    37 900.0   -7   -12/ +10 cm  +56 deg
+ one upper always   35  0.8     34     -0  NO    ok  10.5      0  0.99    58     6  0.00    37 900.0   -7   -12/ +10 cm  +56 deg
+ one upper always   55  0.4      0     -0  NO    ok  10.5      0  0.99    58    11  0.38    37 900.0   -7   -12/ +10 cm  +56 deg
+ one upper always   55  0.6      0     -0  NO    ok  10.5      0  0.99    58     8  0.48    37 900.0   -7   -12/ +10 cm  +56 deg
+ one upper always   55  0.8      0     -0  NO    ok  10.5      0  0.99    58     6  0.48    37 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam25   15  0.4    104    104  yes   ok  10.5      0  0.01   100    45  1.09    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam25   15  0.6    104    104  yes   ok  10.5      0  0.01   100    30  1.09    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam25   15  0.8    104    104  yes   ok  10.5      0  0.01   100    22  1.09    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam25   35  0.4    104    104  yes   ok  10.5      0  0.01   100    46  1.07    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam25   35  0.6    104    104  yes   ok  10.5      0  0.01   100    31  1.07    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam25   35  0.8    104    104  yes   ok  10.5      0  0.01   100    23  1.07    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam25   55  0.4      0     -0  NO    ok  10.5      0  0.99    58    11  0.38    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam25   55  0.6      0     -0  NO    ok  10.5      0  0.99    58     8  0.49    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam25   55  0.8      0     -0  NO    ok  10.5      0  0.99    58     6  0.49    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam60   15  0.4     35     -0  NO    ok  10.5      0  0.99    58    11  0.00    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam60   15  0.6     35     -0  NO    ok  10.5      0  0.99    58     8  0.00    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam60   15  0.8     35     -0  NO    ok  10.5      0  0.99    58     6  0.00    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam60   35  0.4     34     -0  NO    ok  10.5      0  0.99    58    11  0.00    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam60   35  0.6     34     -0  NO    ok  10.5      0  0.99    58     8  0.00    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam60   35  0.8     34     -0  NO    ok  10.5      0  0.99    58     6  0.00    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam60   55  0.4      0     -0  NO    ok  10.5      0  0.99    58    11  0.38    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam60   55  0.6      0     -0  NO    ok  10.5      0  0.99    58     8  0.49    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full  cam60   55  0.8      0     -0  NO    ok  10.5      0  0.99    58     6  0.49    38 900.0   -7   -12/ +10 cm  +56 deg
+ one  full always   15  0.4     35     -0  NO    ok  10.5      0  0.99    58    11  0.00    37 900.0   -7   -12/ +10 cm  +56 deg
+ one  full always   15  0.6     35     -0  NO    ok  10.5      0  0.99    58     8  0.00    37 900.0   -7   -12/ +10 cm  +56 deg
+ one  full always   15  0.8     35     -0  NO    ok  10.5      0  0.99    58     6  0.00    37 900.0   -7   -12/ +10 cm  +56 deg
+ one  full always   35  0.4     34     -0  NO    ok  10.5      0  0.99    58    11  0.00    37 900.0   -7   -12/ +10 cm  +56 deg
+ one  full always   35  0.6     34     -0  NO    ok  10.5      0  0.99    58     8  0.00    37 900.0   -7   -12/ +10 cm  +56 deg
+ one  full always   35  0.8     34     -0  NO    ok  10.5      0  0.99    58     6  0.00    37 900.0   -7   -12/ +10 cm  +56 deg
+ one  full always   55  0.4      0     -0  NO    ok  10.5      0  0.99    58    11  0.38    37 900.0   -7   -12/ +10 cm  +56 deg
+ one  full always   55  0.6      0     -0  NO    ok  10.5      0  0.99    58     8  0.49    37 900.0   -7   -12/ +10 cm  +56 deg
+ one  full always   55  0.8      0     -0  NO    ok  10.5      0  0.99    58     6  0.49    37 900.0   -7   -12/ +10 cm  +56 deg
+ two upper  cam25   15  0.4    104    104  yes   ok  10.4      0  0.02    75    31  1.71    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam25   15  0.6    104    104  yes   ok  10.4      0  0.02    75    21  1.71    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam25   15  0.8    104    104  yes   ok  10.4      0  0.02    75    15  1.71    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam25   35  0.4    104    104  yes   ok  10.4      0  0.02    75    31  1.71    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam25   35  0.6    104    104  yes   ok  10.4      0  0.02    75    21  1.71    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam25   35  0.8    104    104  yes   ok  10.4      0  0.02    75    15  1.71    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam25   55  0.4      0     -0  NO    ok  10.4      0  0.02    15    11  1.14    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam25   55  0.6      0     -0  NO    ok  10.4      0  0.02    15     7  1.14    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam25   55  0.8      0     -0  NO    ok  10.4      0  0.02    15     6  1.14    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam60   15  0.4    104    104  yes   ok  10.4      0  0.02    65    31  1.65    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam60   15  0.6    104    104  yes   ok  10.4      0  0.02    65    21  1.65    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam60   15  0.8    104    104  yes   ok  10.4      0  0.02    65    16  1.65    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam60   35  0.4    104    104  yes   ok  10.4      0  0.02    65    31  1.66    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam60   35  0.6    104    104  yes   ok  10.4      0  0.02    65    21  1.66    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam60   35  0.8    104    104  yes   ok  10.4      0  0.02    65    16  1.66    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam60   55  0.4      0     -0  NO    ok  10.4      0  0.02    15    11  1.14    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam60   55  0.6      0     -0  NO    ok  10.4      0  0.02    15     7  1.14    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper  cam60   55  0.8      0     -0  NO    ok  10.4      0  0.02    15     6  1.14    35   6.5  -15   -16/ +15 cm  +68 deg
+ two upper always   15  0.4    101    101  yes   ok  10.4      0  0.02    67    31  1.64    33   6.5  -15   -16/ +15 cm  +68 deg
+ two upper always   15  0.6    101    101  yes   ok  10.4      0  0.02    67    21  1.64    33   6.5  -15   -16/ +15 cm  +68 deg
+ two upper always   15  0.8    101    101  yes   ok  10.4      0  0.02    67    16  1.64    33   6.5  -15   -16/ +15 cm  +68 deg
+ two upper always   35  0.4    101    101  yes   ok  10.4      0  0.02    67    31  1.65    33   6.5  -15   -16/ +15 cm  +68 deg
+ two upper always   35  0.6    101    101  yes   ok  10.4      0  0.02    67    21  1.65    33   6.5  -15   -16/ +15 cm  +68 deg
+ two upper always   35  0.8    101    101  yes   ok  10.4      0  0.02    67    16  1.65    33   6.5  -15   -16/ +15 cm  +68 deg
+ two upper always   55  0.4      0     -0  NO    ok  10.4      0  0.02    15    11  1.14    33   6.5  -15   -16/ +15 cm  +68 deg
+ two upper always   55  0.6      0     -0  NO    ok  10.4      0  0.02    15     7  1.14    33   6.5  -15   -16/ +15 cm  +68 deg
+ two upper always   55  0.8      0     -0  NO    ok  10.4      0  0.02    15     6  1.14    33   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam25   15  0.4    104    104  yes   ok  10.4      0  0.02   100    61  1.98    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam25   15  0.6    104    104  yes   ok  10.4      0  0.02   100    40  1.98    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam25   15  0.8    104    104  yes   ok  10.4      0  0.02   100    30  1.98    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam25   35  0.4    104    104  yes   ok  10.4      0  0.02   100    60  1.99    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam25   35  0.6    104    104  yes   ok  10.4      0  0.02   100    40  1.99    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam25   35  0.8    104    104  yes   ok  10.4      0  0.02   100    30  1.99    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam25   55  0.4      0     -0  NO    ok  10.4      0  0.02    15    11  1.14    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam25   55  0.6      0     -0  NO    ok  10.4      0  0.02    15     7  1.14    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam25   55  0.8      0     -0  NO    ok  10.4      0  0.02    15     6  1.14    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam60   15  0.4    104    104  yes   ok  10.4      0  0.02   100    60  1.93    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam60   15  0.6    104    104  yes   ok  10.4      0  0.02   100    40  1.93    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam60   15  0.8    104    104  yes   ok  10.4      0  0.02   100    30  1.93    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam60   35  0.4    104    104  yes   ok  10.4      0  0.02   100    60  1.94    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam60   35  0.6    104    104  yes   ok  10.4      0  0.02   100    40  1.94    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam60   35  0.8    104    104  yes   ok  10.4      0  0.02   100    30  1.94    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam60   55  0.4      0     -0  NO    ok  10.4      0  0.02    15    11  1.14    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam60   55  0.6      0     -0  NO    ok  10.4      0  0.02    15     7  1.14    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full  cam60   55  0.8      0     -0  NO    ok  10.4      0  0.02    15     6  1.14    35   6.5  -15   -16/ +15 cm  +68 deg
+ two  full always   15  0.4    103    103  yes   ok  10.4      0  0.02   100    70  1.88    33   6.5  -15   -16/ +15 cm  +68 deg
+ two  full always   15  0.6    103    103  yes   ok  10.4      0  0.02   100    47  1.88    33   6.5  -15   -16/ +15 cm  +68 deg
+ two  full always   15  0.8    103    103  yes   ok  10.4      0  0.02   100    35  1.88    33   6.5  -15   -16/ +15 cm  +68 deg
+ two  full always   35  0.4    103    103  yes   ok  10.4      0  0.02   100    70  1.89    33   6.5  -15   -16/ +15 cm  +68 deg
+ two  full always   35  0.6    103    103  yes   ok  10.4      0  0.02   100    47  1.89    33   6.5  -15   -16/ +15 cm  +68 deg
+ two  full always   35  0.8    103    103  yes   ok  10.4      0  0.02   100    35  1.89    33   6.5  -15   -16/ +15 cm  +68 deg
+ two  full always   55  0.4      0     -0  NO    ok  10.4      0  0.02    15    11  1.14    33   6.5  -15   -16/ +15 cm  +68 deg
+ two  full always   55  0.6      0     -0  NO    ok  10.4      0  0.02    15     7  1.14    33   6.5  -15   -16/ +15 cm  +68 deg
+ two  full always   55  0.8      0     -0  NO    ok  10.4      0  0.02    15     6  1.14    33   6.5  -15   -16/ +15 cm  +68 deg
+
+success by strategy x door x closing (over seal x floor):
+   one upper  cam25: 6/9
+   one upper  cam60: 0/9
+   one upper always: 0/9
+   one  full  cam25: 6/9
+   one  full  cam60: 0/9
+   one  full always: 0/9
+   two upper  cam25: 6/9
+   two upper  cam60: 6/9
+   two upper always: 6/9
+   two  full  cam25: 6/9
+   two  full  cam60: 6/9
+   two  full always: 6/9

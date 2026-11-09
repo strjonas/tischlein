@@ -1,0 +1,386 @@
+[
+ {
+  "part": "axle_clamp_adapter",
+  "link": "base",
+  "size_mm": [
+   44,
+   24,
+   60
+  ],
+  "volume_cm3": 55.0,
+  "fits_250": true,
+  "qty": 2
+ },
+ {
+  "part": "front_caster_pad_tpu",
+  "link": "base",
+  "size_mm": [
+   50,
+   50,
+   12
+  ],
+  "volume_cm3": 30.0,
+  "fits_250": true,
+  "qty": 2
+ },
+ {
+  "part": "rear_caster_spring_mount",
+  "link": "base",
+  "size_mm": [
+   50,
+   50,
+   32
+  ],
+  "volume_cm3": 59.6,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "electronics_box",
+  "link": "base",
+  "size_mm": [
+   175,
+   94,
+   55
+  ],
+  "volume_cm3": 88.8,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "lidar_post",
+  "link": "base",
+  "size_mm": [
+   30,
+   30,
+   50
+  ],
+  "volume_cm3": 35.3,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "mast_foot_gusset",
+  "link": "base",
+  "size_mm": [
+   45,
+   6,
+   110
+  ],
+  "volume_cm3": 23.7,
+  "fits_250": true,
+  "qty": 2
+ },
+ {
+  "part": "nema17_mount",
+  "link": "base",
+  "size_mm": [
+   50,
+   5,
+   46
+  ],
+  "volume_cm3": 11.5,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "lift_lower_bearing_block",
+  "link": "base",
+  "size_mm": [
+   44,
+   42,
+   44
+  ],
+  "volume_cm3": 44.2,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "lift_top_block",
+  "link": "base",
+  "size_mm": [
+   44,
+   20,
+   58
+  ],
+  "volume_cm3": 36.8,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "lamp_holder",
+  "link": "base",
+  "size_mm": [
+   48,
+   36,
+   70
+  ],
+  "volume_cm3": 60.6,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "balancer_hanger",
+  "link": "base",
+  "size_mm": [
+   40,
+   24,
+   30
+  ],
+  "volume_cm3": 22.1,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "carriage_plate",
+  "link": "carriage",
+  "size_mm": [
+   95,
+   160,
+   240
+  ],
+  "volume_cm3": 308.7,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "slide_spacer",
+  "link": "carriage",
+  "size_mm": [
+   240,
+   0,
+   27
+  ],
+  "volume_cm3": 1.9,
+  "fits_250": true,
+  "qty": 2
+ },
+ {
+  "part": "yoke_bracket",
+  "link": "carriage",
+  "size_mm": [
+   30,
+   160,
+   25
+  ],
+  "volume_cm3": 49.4,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "drawer_servo_mount",
+  "link": "carriage",
+  "size_mm": [
+   50,
+   32,
+   7
+  ],
+  "volume_cm3": 3.0,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "shoulder_housing",
+  "link": "carriage",
+  "size_mm": [
+   42,
+   90,
+   48
+  ],
+  "volume_cm3": 101.7,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "j1_servo_bracket",
+  "link": "carriage",
+  "size_mm": [
+   36,
+   54,
+   42
+  ],
+  "volume_cm3": 22.2,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "shoulder_housing_b",
+  "link": "carriage",
+  "size_mm": [
+   42,
+   90,
+   48
+  ],
+  "volume_cm3": 101.7,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "j1_servo_bracket_b",
+  "link": "carriage",
+  "size_mm": [
+   36,
+   54,
+   42
+  ],
+  "volume_cm3": 22.2,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "face_mount",
+  "link": "carriage",
+  "size_mm": [
+   24,
+   85,
+   157
+  ],
+  "volume_cm3": 139.4,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "tray_half_left",
+  "link": "drawer",
+  "size_mm": [
+   250,
+   140,
+   40
+  ],
+  "volume_cm3": 257.8,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "tray_half_right",
+  "link": "drawer",
+  "size_mm": [
+   250,
+   140,
+   40
+  ],
+  "volume_cm3": 257.8,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "tray_seam_strap",
+  "link": "drawer",
+  "size_mm": [
+   185,
+   44,
+   3
+  ],
+  "volume_cm3": 24.4,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "tray_belt_clamp",
+  "link": "drawer",
+  "size_mm": [
+   30,
+   29,
+   15
+  ],
+  "volume_cm3": 13.1,
+  "fits_250": true,
+  "qty": 1
+ },
+ {
+  "part": "l1_root_clamp",
+  "link": "upper_arm_a",
+  "size_mm": [
+   67,
+   32,
+   24
+  ],
+  "volume_cm3": 37.9,
+  "fits_250": true,
+  "qty": 2
+ },
+ {
+  "part": "elbow_block",
+  "link": "upper_arm_a",
+  "size_mm": [
+   67,
+   36,
+   52
+  ],
+  "volume_cm3": 81.5,
+  "fits_250": true,
+  "qty": 2
+ },
+ {
+  "part": "j2_servo_saddle",
+  "link": "upper_arm_a",
+  "size_mm": [
+   56,
+   32,
+   26
+  ],
+  "volume_cm3": 18.3,
+  "fits_250": true,
+  "qty": 2
+ },
+ {
+  "part": "l2_root_clamp",
+  "link": "forearm_a",
+  "size_mm": [
+   67,
+   32,
+   24
+  ],
+  "volume_cm3": 37.9,
+  "fits_250": true,
+  "qty": 2
+ },
+ {
+  "part": "wrist_block",
+  "link": "forearm_a",
+  "size_mm": [
+   59,
+   32,
+   54
+  ],
+  "volume_cm3": 44.8,
+  "fits_250": true,
+  "qty": 2
+ },
+ {
+  "part": "wrist_bracket",
+  "link": "wrist_a",
+  "size_mm": [
+   49,
+   36,
+   14
+  ],
+  "volume_cm3": 20.6,
+  "fits_250": true,
+  "qty": 2
+ },
+ {
+  "part": "roll_bracket",
+  "link": "hand_a",
+  "size_mm": [
+   76,
+   62,
+   32
+  ],
+  "volume_cm3": 41.0,
+  "fits_250": true,
+  "qty": 2
+ },
+ {
+  "part": "cap_adapter_plate",
+  "link": "tool_a",
+  "size_mm": [
+   42,
+   65,
+   45
+  ],
+  "volume_cm3": 28.8,
+  "fits_250": true,
+  "qty": 2
+ }
+]

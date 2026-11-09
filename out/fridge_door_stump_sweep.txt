@@ -1,0 +1,66 @@
+strat  door  close seal   mu   max  final  ok? plan  clr  hit N  lag   arm%  base%  sat s  time  arms  by0  base end
+  (max/final: door deg; plan clr: planned door clearance cm; hit: largest robot-body contact force on door/fridge;
+   lag: largest speed-limiter clip in s; arm%: peak arm torque during the swing; sat: s at an arm torque limit;
+   arms: closest approach of the two arms in cm, top view; by0: sideways start offset of the base in cm)
+stumpyaw upper  cam25   15  0.4    104    104  yes   ok  10.4     12  0.02    78    57  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam25   15  0.6    104    104  yes   ok  10.4     12  0.02    78    38  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam25   15  0.8    104    104  yes   ok  10.4     12  0.02    78    28  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam25   35  0.4    104    104  yes   ok  10.4     19  0.02    82    58  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam25   35  0.6    104    104  yes   ok  10.4     19  0.02    82    39  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam25   35  0.8    104    104  yes   ok  10.4     19  0.02    82    29  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam25   55  0.4    104    104  yes   ok  10.4    193  0.02    78    57  1.70    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam25   55  0.6    104    104  yes   ok  10.4    269  0.02    84    40  1.67    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam25   55  0.8    104    104  yes   ok  10.4    242  0.02    84    30  1.66    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam60   15  0.4    104    104  yes   ok  10.4     12  0.02    63    50  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam60   15  0.6    104    104  yes   ok  10.4     12  0.02    63    33  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam60   15  0.8    104    104  yes   ok  10.4     12  0.02    63    25  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam60   35  0.4    104    104  yes   ok  10.4     19  0.02    66    52  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam60   35  0.6    104    104  yes   ok  10.4     19  0.02    66    35  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam60   35  0.8    104    104  yes   ok  10.4     19  0.02    66    26  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam60   55  0.4    104    104  yes   ok  10.4    193  0.02    63    49  1.70    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam60   55  0.6    104    104  yes   ok  10.4    269  0.02    64    34  1.67    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper  cam60   55  0.8    104    104  yes   ok  10.4    242  0.02    60    23  1.66    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper always   15  0.4    101    101  yes   ok  10.4      9  0.02    59    45  0.00    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper always   15  0.6    101    101  yes   ok  10.4      9  0.02    59    30  0.00    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper always   15  0.8    101    101  yes   ok  10.4      9  0.02    59    23  0.00    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper always   35  0.4    101    101  yes   ok  10.4     19  0.02    60    47  0.00    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper always   35  0.6    101    101  yes   ok  10.4     19  0.02    60    31  0.00    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper always   35  0.8    101    101  yes   ok  10.4     19  0.02    60    23  0.00    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper always   55  0.4    101    101  yes   ok  10.4    193  0.02    58    44  1.70    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper always   55  0.6    101    101  yes   ok  10.4    262  0.02    59    30  1.66    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw upper always   55  0.8    101    101  yes   ok  10.4    269  0.02    61    23  1.66    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam25   15  0.4    104    104  yes   ok  10.4      9  0.02    39    15  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam25   15  0.6    104    104  yes   ok  10.4      9  0.02    39    10  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam25   15  0.8    104    104  yes   ok  10.4      9  0.02    39     7  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam25   35  0.4    104    104  yes   ok  10.4     21  0.02    39    15  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam25   35  0.6    104    104  yes   ok  10.4     21  0.02    39    10  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam25   35  0.8    104    104  yes   ok  10.4     21  0.02    39     7  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam25   55  0.4    104    104  yes   ok  10.4    195  0.02    39    15  1.71    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam25   55  0.6    104    104  yes   ok  10.4    275  0.02    39    11  1.70    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam25   55  0.8    104    104  yes   ok  10.4    259  0.02    39     9  1.69    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam60   15  0.4    104    104  yes   ok  10.4      9  0.02    39    20  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam60   15  0.6    104    104  yes   ok  10.4      9  0.02    39    14  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam60   15  0.8    104    104  yes   ok  10.4      9  0.02    39    10  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam60   35  0.4    104    104  yes   ok  10.4     21  0.02    39    22  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam60   35  0.6    104    104  yes   ok  10.4     21  0.02    39    14  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam60   35  0.8    104    104  yes   ok  10.4     21  0.02    39    11  0.00    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam60   55  0.4    104    104  yes   ok  10.4    195  0.02    39    19  1.71    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam60   55  0.6    104    104  yes   ok  10.4    275  0.02    39    10  1.70    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full  cam60   55  0.8    104    104  yes   ok  10.4    259  0.02    39    11  1.69    35   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full always   15  0.4    102    101  yes   ok  10.4      9  0.02    41    24  0.00    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full always   15  0.6    102    101  yes   ok  10.4      9  0.02    41    16  0.00    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full always   15  0.8    102    101  yes   ok  10.4      9  0.02    41    12  0.00    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full always   35  0.4    102    101  yes   ok  10.4     19  0.02    41    24  0.00    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full always   35  0.6    102    101  yes   ok  10.4     19  0.02    41    16  0.00    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full always   35  0.8    102    101  yes   ok  10.4     19  0.02    41    12  0.00    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full always   55  0.4    102    101  yes   ok  10.4    195  0.02    41    24  1.71    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full always   55  0.6    102    101  yes   ok  10.4    269  0.02    41    15  1.70    33   5.8  -15   -16/ +15 cm  +68 deg
+stumpyaw  full always   55  0.8    102    101  yes   ok  10.4    254  0.02    41    12  1.69    33   5.8  -15   -16/ +15 cm  +68 deg
+
+success by strategy x door x closing (over seal x floor):
+  stumpyaw upper  cam25: 9/9
+  stumpyaw upper  cam60: 9/9
+  stumpyaw upper always: 9/9
+  stumpyaw  full  cam25: 9/9
+  stumpyaw  full  cam60: 9/9
+  stumpyaw  full always: 9/9

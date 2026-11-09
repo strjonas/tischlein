@@ -1,0 +1,38 @@
+.venv/
+__pycache__/
+out/demo_frames/
+out/*.glb
+sim/meshes/
+.DS_Store
+MUJOCO_LOG.TXT
+out/door_frames/
+sim/_door.xml
+*.mp4
+*.mov
+out/*_frames/
+third_party/
+experiments/cap_zero_shot/videos/
+sim/_fridge_*.xml
+sim/_jar_*.xml
+out/policy/demos_*.npz
+out/actuators_traces.npz
+out/videos/_demo_log.txt
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Console output and transient run markers
+*.log
+*.pid
+**/ALL_DONE
+.pytest_cache/
+.ruff_cache/
+
+# Lock files written by the parallel simulation scripts
+designs/**/.*.lock

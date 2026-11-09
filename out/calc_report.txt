@@ -1,0 +1,121 @@
+
+## Arm: horizontal pulling (sliding a box onto the tray)
+J1 rated 2.9 N·m (peak 8.8), J2 rated 2.0 N·m (peak 5.9)
+  PP box on glass shelf (mu~0.3), 1 kg: pull force  2.9 N, within rated torque out to r = 435 mm
+  PP box on glass shelf (mu~0.3), 2 kg: pull force  5.9 N, within rated torque out to r = 435 mm
+  PP box on glass shelf (mu~0.3), 3 kg: pull force  8.8 N, within rated torque out to r = 435 mm
+  sticky/wet worst case (mu~0.6), 1 kg: pull force  5.9 N, within rated torque out to r = 435 mm
+  sticky/wet worst case (mu~0.6), 2 kg: pull force 11.8 N, within rated torque out to r = 435 mm
+  sticky/wet worst case (mu~0.6), 3 kg: pull force 17.7 N, within rated torque out to r = 435 mm
+
+## Arm: worst case, tangential pull at full reach
+   5 N tangential at 440 mm -> J1 needs 2.2 N·m (ok)
+  10 N tangential at 440 mm -> J1 needs 4.4 N·m (over rated)
+  20 N tangential at 440 mm -> J1 needs 8.8 N·m (over rated)
+
+## Arm: lifting with the gripper (wrist pitch STS3250, direct drive)
+  0.3 kg held forward at 276 mm: wrist pitch 1.32 N·m vs rated 1.60 (peak 4.9) -> ok
+  0.5 kg held forward at 276 mm: wrist pitch 1.86 N·m vs rated 1.60 (peak 4.9) -> only short peaks
+  1.0 kg held forward at 276 mm: wrist pitch 3.21 N·m vs rated 1.60 (peak 4.9) -> only short peaks
+
+## Arm: vertical bending at the shoulder bearings (the servo does NOT carry this)
+  arm + 0.5 kg at full reach: 8.0 N·m -> 201 N per bearing at 40 mm spacing (6001: C0 ~ 2.4 kN, fine)
+
+## Fridge door: pull through a straight (singular) arm
+  20 N straight back, arm almost straight: J1 0.00 N·m, J2 0.42 N·m (load goes into bearings, not servos)
+  40 N straight back, arm almost straight: J1 0.00 N·m, J2 0.84 N·m (load goes into bearings, not servos)
+  60 N straight back, arm almost straight: J1 0.00 N·m, J2 1.26 N·m (load goes into bearings, not servos)
+  -> the base, not the arm, provides the pulling force; arm stays near-straight and compliant.
+
+## Lift: NEMA17 + 3:1 GT2 reduction + GT2 belt on the mast, constant-force spring balancer
+  moving mass with 2 arms: 4.08 kg -> balancer range must include 4.1 kg (a 3-5 kg tool balancer)
+  no balancer: +0 kg:  53.0 N, motor 0.125 N·m (at 600 rpm ~0.22 available, margin 1.8x)
+  balanced: +0 kg:   3.0 N, motor 0.007 N·m (at 600 rpm ~0.22 available, margin 31.1x)
+  no balancer: +1 kg:  65.3 N, motor 0.154 N·m (at 600 rpm ~0.22 available, margin 1.4x)
+  balanced: +1 kg:  15.3 N, motor 0.036 N·m (at 600 rpm ~0.22 available, margin 6.1x)
+  no balancer: +3 kg:  89.8 N, motor 0.212 N·m (at 600 rpm ~0.22 available, margin 1.0x)
+  balanced: +3 kg:  39.8 N, motor 0.094 N·m (at 600 rpm ~0.22 available, margin 2.3x)
+  no balancer: +5 kg: 114.3 N, motor 0.270 N·m (at 600 rpm ~0.22 available, margin 0.8x)
+  balanced: +5 kg:  64.3 N, motor 0.152 N·m (at 600 rpm ~0.22 available, margin 1.5x)
+  speed at 600 rpm motor: 133 mm/s -> full stroke 11 s (run at ~60 mm/s for quiet: 24 s)
+  powered holding force 198 N.
+
+## Lift on power loss (26 Oct review: the balancer alone does not hold a payload)
+  1 kg on the tray, power off, coils shorted: creeps down at ~1 mm/s (23 min for the full stroke)
+  3 kg on the tray, power off, coils shorted: creeps down at ~3 mm/s (8 min for the full stroke)
+  5 kg on the tray, power off, coils shorted: creeps down at ~5 mm/s (5 min for the full stroke)
+  -> not a holding mechanism. Fix: a NEMA17 with a 24 V power-off (spring-applied) brake.
+  brake 0.2 N*m at the motor -> holds 94 N at the carriage (5 kg parcel + a mis-set balancer needs 59 N: ok)
+  brake 0.4 N*m at the motor -> holds 188 N at the carriage (5 kg parcel + a mis-set balancer needs 59 N: ok)
+  Belt break: the balancer still carries the carriage; only a payload would come down (slowly, balancer friction).
+  Bench test: 5 kg on the tray at 1.0 m, cut power, drift < 2 mm in 10 min; repeat with the brake wire pulled.
+
+## Base: thresholds
+  drive wheel   step 10 mm: push force = 0.54 x wheel load
+  drive wheel   step 15 mm: push force = 0.70 x wheel load
+  drive wheel   step 20 mm: push force = 0.86 x wheel load
+  caster 75 mm  step 10 mm: push force = 0.75 x wheel load
+  caster 75 mm  step 15 mm: push force = 1.02 x wheel load
+  caster 75 mm  step 20 mm: push force = 1.33 x wheel load
+  caster 100 mm step 10 mm: push force = 0.75 x wheel load
+  caster 100 mm step 15 mm: push force = 1.02 x wheel load
+  caster 100 mm step 20 mm: push force = 1.33 x wheel load
+  caster 50 mm  step 10 mm: push force = 1.33 x wheel load
+  caster 50 mm  step 15 mm: push force = 2.29 x wheel load
+  caster 50 mm  step 20 mm: push force = 4.90 x wheel load
+  -> 75 mm casters handle ~10 mm, 100 mm casters ~15-20 mm. Thresholds are a real limit.
+
+## Base: masses and static tipping
+  base + mast: 11.8 kg; moving lift group 4.08 kg; total robot 15.8 kg without payload
+  3 kg on tray, tray at 0.4 m, standing            SF 10.8 OK
+  3 kg on tray, tray at top, standing              SF 10.8 OK
+  0.5 kg in each gripper, arms full forward, top   SF  2.1 OK
+  3 kg, tray at 0.7 m, braking 1 m/s²              SF  3.0 OK
+  3 kg, tray at TOP, braking 1 m/s² (don't)        SF  1.9 OK
+  drawer out 240, 1 kg box at its front, 0.95 m    SF  3.6 OK
+  drawer out 240, 2 kg box at its front, 0.95 m    SF  2.6 OK
+  drawer out 240, 3 kg box at its front, 0.95 m    SF  2.0 OK
+  drawer out over the bed, 1 kg meal               SF  6.2 OK
+  drawer out over the bed, 5 kg parcel             SF  1.9 OK
+  5 kg parcel, tray at 0.3 m, hard brake 1.5 m/s²  SF  2.5 OK
+  (v0.2 numbers: axle 12 cm forward, two arms with CAP hands and phones, 1.8 m mast with lamp and balancer.
+   The axle shift alone took the 5 kg-over-the-bed case from ~2.3 to ~1.9; the docs quoted 2.3 until 26 Oct.)
+
+## Tipping with the home battery (LiFePO4 2.6 kg instead of the 1.4 kg hoverboard pack, same rear spot)
+  drawer out over the bed, 5 kg parcel (LiFePO4)   SF  2.2 OK
+  drawer out 240, 3 kg box at its front (LiFePO4)  SF  2.4 OK
+
+## Bench stand: the real base frame, no hub motors, no battery
+  bench, 0 kg ballast: 0.5 kg per hand, arms forward, top SF  0.8 TIPS
+  bench, 0 kg ballast: drawer out, 3 kg box at its front SF  0.8 TIPS
+  bench, 5 kg ballast: 0.5 kg per hand, arms forward, top SF  2.6 OK
+  bench, 5 kg ballast: drawer out, 3 kg box at its front SF  2.5 OK
+  bench, 8 kg ballast: 0.5 kg per hand, arms forward, top SF  3.8 OK
+  bench, 8 kg ballast: drawer out, 3 kg box at its front SF  3.5 OK
+  -> on the bench, put >= 5 kg (a sandbag or a dumbbell plate, later the battery) on the rear of the deck,
+     and stand the frame on four fixed rubber feet instead of casters, so it can't roll during tests.
+
+## Base: sideways tipping when the arm swings out (roll about the wheel line)
+  0.5 kg held 836 mm to the side: SF 4.2
+  1.0 kg held 836 mm to the side: SF 3.0
+
+## Battery
+  idle (Pi, cams, lidar)     9 W -> 17.6 h from a healthy 158 Wh pack
+  mixed use                 22 W ->  7.2 h from a healthy 158 Wh pack
+  busy, two arms            45 W ->  3.5 h from a healthy 158 Wh pack
+  LiFePO4 8S 10 Ah: 256 Wh -> 12 h mixed use; 3 A dock charger: 3.4 h for 0-100%
+
+## Servo power on the bench (26 Oct review: the 12 V wiring was underspecified)
+  every servo stalled at once: 17.7 A; realistic peak (two joints near stall, others moving): ~8 A
+  -> the Waveshare adapter is a signal converter: route servo power around it, not through it.
+     12 V 15 A supply -> 15 A main fuse -> latching e-stop -> fuse block: J1+J2 5 A, wrist (yaw, pitch, roll) 7.5 A,
+     drawer 3 A; 1.0 mm2 wire to each branch; 2200 uF at the block; data + GND daisy-chained through the adapter.
+     In every servo's EEPROM: protection current ~2 A (STS3215) / 3 A (STS3250), torque limit 80%, max temp 65 C.
+     XL330 + U2D2 stay on their own 5 V supply; lift stepper on 24 V; common ground.
+
+## Door opening: can the base pull hard enough?
+  CG of base + mast at x = -76 mm (axle at 0, rear caster at -345); drive wheels carry ~75% with a light rear-caster spring
+  floor mu 0.4: max pull before wheel slip ~47 N (fridge doors are typically tens of N at breakaway; measure yours)
+  floor mu 0.7: max pull before wheel slip ~82 N (fridge doors are typically tens of N at breakaway; measure yours)
+
+figures -> out

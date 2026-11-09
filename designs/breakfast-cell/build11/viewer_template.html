@@ -1,0 +1,560 @@
+<meta charset="utf-8">
+<title>Build11 Breakfast Cell</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a workshop inspection bench. The 3D stage fills the left; a narrow log on the right
+   holds the morning timeline, the parts list and the checks. Orange is the printed PETG. */
+:root {
+  --bg: #e9ecee;
+  --panel: #f8f9fa;
+  --ink: #1b2127;
+  --muted: #5a6670;
+  --line: #d2d8dc;
+  --stage: #dde2e5;
+  --accent: #cf5b14;
+  --accent-soft: #f6dcc9;
+  --good: #2c7a52;
+  --warn: #9a6512;
+  --bad: #b23a2c;
+  --display: "Barlow Semi Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111518; --panel: #171c20; --ink: #e4e8eb; --muted: #95a2ab; --line: #2a3238;
+    --stage: #0d1013; --accent: #f07b30; --accent-soft: #3d2516; --good: #5dbb8a; --warn: #e0aa55; --bad: #ef7a6c;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111518; --panel: #171c20; --ink: #e4e8eb; --muted: #95a2ab; --line: #2a3238;
+  --stage: #0d1013; --accent: #f07b30; --accent-soft: #3d2516; --good: #5dbb8a; --warn: #e0aa55; --bad: #ef7a6c;
+  color-scheme: dark;
+}
+html, body { height: 100%; }
+body {
+  background: var(--bg); color: var(--ink); font: 14px/1.5 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 12px; box-sizing: border-box;
+}
+*, *::before, *::after { box-sizing: border-box; }
+.app { height: 100%; display: grid; grid-template-rows: auto 1fr; gap: 12px; min-height: 0; }
+header { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.brand { display: flex; align-items: baseline; gap: 10px; min-width: 0; }
+.brand h1 { font: 700 26px/1 var(--display); letter-spacing: .01em; margin: 0; text-wrap: balance; }
+.brand span { color: var(--muted); font-size: 13px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--panel); }
+.seg button { font: 600 13px/1 var(--display); letter-spacing: .04em; text-transform: uppercase; padding: 9px 12px; border: 0; background: transparent; color: var(--muted); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.seg button:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+main { display: grid; grid-template-columns: minmax(0, 1fr) 370px; gap: 12px; min-height: 0; }
+.stage { position: relative; border-radius: 10px; overflow: hidden; background: var(--stage); min-height: 0; border: 1px solid var(--line); }
+#c { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; }
+#c:active { cursor: grabbing; }
+.views { position: absolute; top: 10px; left: 10px; display: flex; flex-wrap: wrap; gap: 6px; max-width: calc(100% - 20px); }
+.views button { font: 600 12px/1 var(--display); letter-spacing: .05em; text-transform: uppercase; padding: 7px 9px; border-radius: 6px;
+  border: 1px solid var(--line); background: color-mix(in srgb, var(--panel) 88%, transparent); color: var(--ink); cursor: pointer; }
+.views button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+.caption { position: absolute; left: 10px; bottom: 10px; max-width: min(520px, calc(100% - 20px)); padding: 10px 12px; border-radius: 8px;
+  background: color-mix(in srgb, var(--panel) 92%, transparent); border: 1px solid var(--line); }
+.caption .k { font: 600 12px/1.2 var(--display); letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+.caption .t { font-size: 14px; }
+.card { position: absolute; right: 10px; top: 50px; width: min(300px, calc(100% - 20px)); padding: 12px 14px; border-radius: 8px;
+  background: var(--panel); border: 1px solid var(--accent); box-shadow: 0 6px 24px rgb(0 0 0 / .12); }
+.card h3 { margin: 0 24px 4px 0; font: 700 18px/1.2 var(--display); }
+.card .close { position: absolute; top: 6px; right: 8px; border: 0; background: none; color: var(--muted); font-size: 20px; cursor: pointer; line-height: 1; }
+.card dl { display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; margin: 8px 0 0; font-size: 13px; }
+.card dt { color: var(--muted); }
+.card dd { margin: 0; min-width: 0; }
+.hint { position: absolute; right: 10px; bottom: 10px; font-size: 12px; color: var(--muted); }
+aside { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; display: grid; grid-template-rows: auto 1fr; min-height: 0; }
+.tabs { display: flex; border-bottom: 1px solid var(--line); }
+.tabs button { flex: 1; font: 600 14px/1 var(--display); letter-spacing: .06em; text-transform: uppercase; padding: 13px 8px; border: 0;
+  background: none; color: var(--muted); cursor: pointer; border-bottom: 2px solid transparent; }
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.pane { overflow: auto; padding: 14px 16px 18px; min-height: 0; }
+.player { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; }
+.play { width: 40px; height: 40px; border-radius: 50%; border: 0; background: var(--accent); color: #fff; cursor: pointer; font-size: 15px; }
+#t { width: 100%; accent-color: var(--accent); }
+.clock { font: 500 13px/1 var(--mono); font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+.speed { margin-top: 8px; display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 12px; }
+.speed .seg button { padding: 6px 9px; font-size: 12px; }
+.steps { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 2px; }
+.steps button { width: 100%; display: grid; grid-template-columns: 48px 1fr; gap: 8px; text-align: left; padding: 8px 8px; border-radius: 6px;
+  border: 0; background: none; color: var(--ink); cursor: pointer; font: 14px/1.35 var(--body); }
+.steps button:hover { background: color-mix(in srgb, var(--accent-soft) 50%, transparent); }
+.steps button[aria-current="true"] { background: var(--accent-soft); }
+.steps .ts { font: 500 12px/1.6 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+h2 { font: 700 15px/1.2 var(--display); letter-spacing: .06em; text-transform: uppercase; margin: 18px 0 8px; color: var(--muted); }
+h2:first-child { margin-top: 0; }
+.note { color: var(--muted); font-size: 13px; margin: 8px 0 0; }
+.bom { list-style: none; margin: 0; padding: 0; display: grid; }
+.bom li button { width: 100%; display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; text-align: left; padding: 8px 6px; border: 0;
+  border-bottom: 1px solid var(--line); background: none; color: var(--ink); cursor: pointer; font: 13px/1.35 var(--body); }
+.bom li button[aria-pressed="true"] { background: var(--accent-soft); }
+.bom li button[data-drawn="0"] { cursor: default; }
+.bom .it { min-width: 0; }
+.bom .eur { font: 500 13px/1.35 var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+.bom .sub { grid-column: 1 / -1; color: var(--muted); font-size: 12px; }
+.bom .tag { font: 500 11px/1 var(--mono); color: var(--muted); }
+.total { display: flex; justify-content: space-between; font: 700 18px/1 var(--display); padding: 12px 6px 4px; }
+.total span:last-child { font-family: var(--mono); font-size: 16px; font-weight: 500; }
+.kv { display: grid; grid-template-columns: 1fr auto; gap: 0; margin: 0; }
+.kv dt, .kv dd { padding: 7px 0; border-bottom: 1px solid var(--line); margin: 0; }
+.kv dd { font: 500 13px/1.5 var(--mono); text-align: right; font-variant-numeric: tabular-nums; padding-left: 10px; }
+.pill { display: inline-block; padding: 2px 7px; border-radius: 999px; font: 600 11px/1.4 var(--display); letter-spacing: .05em; text-transform: uppercase; }
+.pill.good { color: var(--good); border: 1px solid var(--good); }
+.pill.warn { color: var(--warn); border: 1px solid var(--warn); }
+.pill.bad { color: var(--bad); border: 1px solid var(--bad); }
+table.loads { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.loads th, table.loads td { padding: 6px 4px; border-bottom: 1px solid var(--line); text-align: right; font-variant-numeric: tabular-nums; }
+table.loads th:first-child, table.loads td:first-child { text-align: left; }
+table.loads td { font-family: var(--mono); }
+ul.plain { margin: 6px 0 0; padding-left: 18px; color: var(--ink); }
+ul.plain li { margin: 3px 0; }
+.err { position: absolute; inset: 0; display: grid; place-items: center; padding: 24px; text-align: center; color: var(--muted); }
+@media (max-width: 860px) {
+  html, body { height: auto; }
+  .app { height: auto; }
+  main { grid-template-columns: minmax(0, 1fr); }
+  .stage { height: 62vh; min-height: 340px; }
+  aside { min-height: 0; }
+  .pane { overflow: visible; }
+  .card { top: auto; bottom: 64px; }
+  .hint { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+<div class="app">
+  <header>
+    <div class="brand"><h1>Build11 breakfast cell</h1><span>Planned and physics mornings</span></div>
+    <div class="controls">
+      <div class="seg" role="group" aria-label="Meal">
+        <button id="o-jar" aria-pressed="true">Jar</button>
+        <button id="o-box" aria-pressed="false">1 L box</button>
+      </div>
+      <div class="seg" role="group" aria-label="Fridge">
+        <button id="k-large" aria-pressed="true">90 cm fridge</button>
+        <button id="k-small" aria-pressed="false">50 cm fridge</button>
+      </div>
+      <div class="seg" role="group" aria-label="Replay">
+        <button id="m-plan" aria-pressed="true" title="The planned morning, every frame collision-checked">Plan</button>
+        <button id="m-phys" aria-pressed="false" title="The same morning in physics, closed loop: gravity, servo torque limits, friction, free doors">Physics</button>
+      </div>
+      <div class="seg" role="group" aria-label="Appliances">
+        <button id="xray" aria-pressed="false">See-through appliances</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="stage" id="stage">
+      <canvas id="c" aria-label="3D model of the cell; drag to turn, scroll or pinch to zoom, click a part for details"></canvas>
+      <div class="views" id="views"></div>
+      <div class="caption"><div class="k" id="cap-k"></div><div class="t" id="cap-t"></div></div>
+      <div class="card" id="card" hidden>
+        <button class="close" id="card-x" aria-label="Close part details">×</button>
+        <h3 id="card-h"></h3>
+        <div id="card-s" class="note" style="margin:0"></div>
+        <dl id="card-d"></dl>
+      </div>
+      <div class="hint" id="hint">Drag to turn · scroll to zoom · click a part</div>
+    </section>
+    <aside>
+      <div class="tabs" role="tablist">
+        <button role="tab" id="tab-m" aria-selected="true" aria-controls="p-m">Morning</button>
+        <button role="tab" id="tab-p" aria-selected="false" aria-controls="p-p">Parts</button>
+        <button role="tab" id="tab-c" aria-selected="false" aria-controls="p-c">Checks</button>
+      </div>
+      <div class="pane" id="p-m" role="tabpanel">
+        <div class="player">
+          <button class="play" id="play" aria-label="Play">▶</button>
+          <input type="range" id="t" min="0" max="1" step="1" value="0" aria-label="Time in the morning">
+          <span class="clock" id="clock">0:00</span>
+        </div>
+        <div class="speed">Speed
+          <div class="seg" role="group" aria-label="Playback speed">
+            <button data-s="1" aria-pressed="false">1×</button><button data-s="4" aria-pressed="true">4×</button><button data-s="10" aria-pressed="false">10×</button>
+          </div>
+        </div>
+        <ol class="steps" id="steps"></ol>
+        <p class="note" id="mode-note"></p>
+      </div>
+      <div class="pane" id="p-p" role="tabpanel" hidden>
+        <p class="note" style="margin-top:0">Parts list of the build11 cell. The wrist yaw is an STS3250, because the physics showed the stock servo breaking fridge seals only up to about 17 N. The hand, pins and rails are printed in PETG. The box job's two lines are for 1 L glass boxes. Click a line to light up its parts.</p>
+        <div id="bom"></div>
+      </div>
+      <div class="pane" id="p-c" role="tabpanel" hidden>
+        <div id="checks"></div>
+      </div>
+    </aside>
+  </main>
+</div>
+
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+<script id="data" type="application/json">/*DATA*/null</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = (id) => document.getElementById(id);
+const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+// ---------------------------------------------------------------- renderer
+const canvas = $('c');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(38, 1, 0.02, 30);
+camera.up.set(0, 0, 1);
+camera.position.set(1.45, -2.0, 1.55);
+const controls = new OrbitControls(camera, canvas);
+controls.target.set(-0.15, 0.12, 0.7);
+controls.enableDamping = true;
+controls.maxDistance = 8;
+scene.add(new THREE.HemisphereLight(0xffffff, 0x8a8478, 1.15));
+const sun = new THREE.DirectionalLight(0xffffff, 1.6);
+sun.position.set(1.4, -2.2, 3.2);
+sun.castShadow = true;
+sun.shadow.mapSize.set(2048, 2048);
+Object.assign(sun.shadow.camera, { left: -1.6, right: 1.6, top: 1.8, bottom: -1.2, near: 0.5, far: 8 });
+sun.shadow.bias = -0.0004;
+scene.add(sun);
+const fill = new THREE.DirectionalLight(0xffffff, 0.45);
+fill.position.set(-2, -1, 1.5);
+scene.add(fill);
+function themeBg() { scene.background = new THREE.Color(css('--stage') || '#dde2e5'); }
+themeBg();
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', themeBg);
+new MutationObserver(themeBg).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+// ---------------------------------------------------------------- model
+let kind = 'large', meal = 'jar', mode = 'plan', builtKey = null, root = null, bodies = [], meshes = [], seq = null, nFrames = 1, FPS = 15;
+const key = () => `${meal}_${kind}`;
+const AIDS = /^(f_bar|f_pin|m_bar|m_pin|f_shelf_rail|m_plate_rib|m_top_rib|flap_tab)/;
+const APPLIANCE = { test: (n) => /^(f_|m_|rack|bottle|veg|cheese|pot|batten|wall|flap)/.test(n) && !AIDS.test(n) };
+function material(name) {
+  const m = D.mats[name] || { c: [0.8, 0.8, 0.8, 1], metal: false };
+  const [r, g, b, a] = m.c;
+  const glassy = a < 1;
+  return new THREE.MeshStandardMaterial({
+    color: new THREE.Color(r, g, b), metalness: m.metal ? 0.65 : 0.05, roughness: m.metal ? 0.38 : (glassy ? 0.12 : 0.62),
+    transparent: glassy, opacity: a, depthWrite: !glassy || a > 0.6,
+  });
+}
+function useSeq() {
+  const Mn = D.menus[key()];
+  seq = Mn[mode]; FPS = seq.fps; nFrames = seq.frames.length;
+  $('t').max = nFrames - 1;
+  $('mode-note').textContent = mode === 'plan'
+    ? 'The planned morning at the servos\' real speeds, every frame collision-checked: 3 mm from everything, 8 mm from a door the hand is moving, 3 mm around a carried meal. Heating is shown sped up.'
+    : 'The same morning in physics, closed loop: before every step and every door grasp the robot looks (door pins to 2 mm, the meal to 2 mm and 1°) and plans on from what it sees. Gravity, servo torque limits and lag, friction, doors free on their hinges with seal and catch; heating at the turntable\'s real 5 rpm.';
+  buildSteps(); buildChecks();
+}
+function build() {
+  if (builtKey === key()) { useSeq(); return; }
+  if (root) { scene.remove(root); root.traverse((o) => { if (o.isMesh) { o.geometry.dispose(); o.material.dispose(); } }); }
+  builtKey = key();
+  $('card').hidden = true; picked = new Set(); syncBomButtons(null);
+  const S = D.menus[key()].scene;
+  root = new THREE.Group(); scene.add(root);
+  bodies = S.bodies.map((b, i) => {
+    if (i === 0) return { outer: root, inner: root, joint: null };
+    const outer = new THREE.Group(), inner = new THREE.Group();
+    outer.position.fromArray(b.pos);
+    outer.quaternion.set(b.quat[1], b.quat[2], b.quat[3], b.quat[0]);
+    outer.add(inner);
+    return { outer, inner, joint: b.joint, name: b.name, parent: b.parent };
+  });
+  S.bodies.forEach((b, i) => { if (i) bodies[b.parent].inner.add(bodies[i].outer); });
+  meshes = [];
+  for (const g of S.geoms) {
+    let geo;
+    if (g.t === 'box') geo = new THREE.BoxGeometry(2 * g.s[0], 2 * g.s[1], 2 * g.s[2]);
+    else if (g.t === 'cap') { geo = new THREE.CapsuleGeometry(g.s[0], 2 * g.s[1], 8, 24); geo.rotateX(Math.PI / 2); }
+    else { geo = new THREE.CylinderGeometry(g.s[0], g.s[0], 2 * g.s[1], 36); geo.rotateX(Math.PI / 2); }
+    const mesh = new THREE.Mesh(geo, material(g.m));
+    mesh.position.fromArray(g.p);
+    mesh.quaternion.set(g.q[1], g.q[2], g.q[3], g.q[0]);
+    mesh.castShadow = !mesh.material.transparent && g.n !== 'floor' && g.n !== 'wall_behind';
+    mesh.receiveShadow = true;
+    mesh.userData = { g, base: { opacity: mesh.material.opacity, transparent: mesh.material.transparent, depthWrite: mesh.material.depthWrite } };
+    bodies[g.b].inner.add(mesh);
+    meshes.push(mesh);
+  }
+  applyXray();
+  useSeq();
+}
+function setFrame(f) {
+  const i = Math.max(0, Math.min(nFrames - 1, Math.floor(f))), j = Math.min(nFrames - 1, i + 1), s = f - i;
+  const A = seq.frames[i], B = seq.frames[j];
+  for (const b of bodies) {
+    const jt = b.joint; if (!jt) continue;
+    const a = jt.adr, v = (n) => A[n] + (B[n] - A[n]) * s;
+    if (jt.type === 3) b.inner.quaternion.setFromAxisAngle(new THREE.Vector3().fromArray(jt.axis), v(a));
+    else if (jt.type === 2) b.inner.position.fromArray(jt.axis).multiplyScalar(v(a));
+    else if (jt.type === 0) {
+      b.outer.position.set(v(a), v(a + 1), v(a + 2));
+      b.outer.quaternion.set(v(a + 4), v(a + 5), v(a + 6), v(a + 3)).normalize();
+    }
+  }
+}
+
+// ---------------------------------------------------------------- see-through, highlight, picking
+let xray = false, picked = new Set();
+function applyXray() {
+  for (const m of meshes) {
+    const app = APPLIANCE.test(m.userData.g.n), base = m.userData.base;
+    if (xray && app) { m.material.transparent = true; m.material.opacity = Math.min(base.opacity, 0.16); m.material.depthWrite = false; m.castShadow = false; }
+    else { m.material.transparent = base.transparent; m.material.opacity = base.opacity; m.material.depthWrite = base.depthWrite; }
+    m.material.needsUpdate = true;
+  }
+}
+$('xray').onclick = () => { xray = !xray; $('xray').setAttribute('aria-pressed', xray); applyXray(); };
+function highlight(set) {
+  picked = set;
+  const acc = new THREE.Color(css('--accent') || '#cf5b14');
+  for (const m of meshes) m.material.emissive.copy(set.has(m) ? acc : new THREE.Color(0, 0, 0)).multiplyScalar(set.has(m) ? 0.55 : 1);
+}
+function bomOf(m) { const p = D.parts[m.userData.g.part]; return p ? p.id : null; }
+function label(g) {
+  if (D.names[g.n]) return D.names[g.n];
+  const p = D.parts[g.part]; if (p) return p.label;
+  return g.n.replace(/_/g, ' ').replace(/\d+$/, '').trim();
+}
+function showCard(m) {
+  const g = m.userData.g, p = D.parts[g.part];
+  $('card-h').textContent = label(g);
+  $('card-s').textContent = p ? p.label : (APPLIANCE.test(g.n) ? 'Fridge or microwave (not part of the build)' : AIDS.test(g.n) ? 'Printed aid (PETG)' : 'Printed part');
+  const rows = [];
+  if (p && p.item) {
+    rows.push(['Line', p.id], ['Item', p.item], ['Qty', p.qty]);
+    if (p.use) rows.push(['Does', p.use]);
+  } else if (p) rows.push(['Source', p.id === 'owned' ? 'Not part of the build' : p.id === 'kitchen' ? 'Kitchen side' : p.id]);
+  $('card-d').replaceChildren(...rows.flatMap(([k, v]) => { const dt = document.createElement('dt'), dd = document.createElement('dd'); dt.textContent = k; dd.textContent = v; return [dt, dd]; }));
+  $('card').hidden = false;
+}
+$('card-x').onclick = () => { $('card').hidden = true; highlight(new Set()); syncBomButtons(null); };
+const ray = new THREE.Raycaster(), ptr = new THREE.Vector2();
+let down = null;
+canvas.addEventListener('pointerdown', (e) => { down = [e.clientX, e.clientY]; });
+canvas.addEventListener('pointerup', (e) => {
+  if (!down || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 5) return;
+  const r = canvas.getBoundingClientRect();
+  ptr.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
+  ray.setFromCamera(ptr, camera);
+  const hit = ray.intersectObjects(meshes, false).find((h) => !(xray && APPLIANCE.test(h.object.userData.g.n)) && !['floor', 'wall_behind'].includes(h.object.userData.g.n));
+  if (!hit) return;
+  const id = bomOf(hit.object);
+  const set = new Set(id && id.length <= 4 && id !== 'owned' ? meshes.filter((m) => bomOf(m) === id) : [hit.object]);
+  highlight(set); showCard(hit.object); syncBomButtons(id);
+});
+
+// ---------------------------------------------------------------- camera views
+const VIEWS = [
+  ['Overview', null, [1.45, -2.0, 1.55], [-0.15, 0.12, 0.7]],
+  ['Wrist', 'wrist_pitch', [0.32, -0.36, 0.22], null],
+  ['Shoulder', 'carriage', [0.36, -0.42, 0.2], null],
+  ['Mast foot', null, [0.62, -0.5, 0.42], [0.1, 0.12, 0.08]],
+  ['Mast top', null, [0.62, -0.62, 1.78], [0.07, 0.03, 1.48]],
+  ['Into fridge', null, [0.25, -0.95, 0.85], [-0.3, 0.3, 0.42]],
+  ['From above', null, [-0.18, -0.25, 3.1], [-0.18, 0.12, 0.6]],
+];
+let follow = null;
+function bodyPos(name) { const b = bodies.find((x) => x.name === name); const v = new THREE.Vector3(); b.inner.getWorldPosition(v); return v; }
+function setView(k) {
+  const [_, f, pos, tgt] = VIEWS[k];
+  follow = f ? { name: f, off: new THREE.Vector3().fromArray(pos) } : null;
+  const t = f ? bodyPos(f) : new THREE.Vector3().fromArray(tgt);
+  controls.target.copy(t);
+  camera.position.copy(f ? t.clone().add(follow.off) : new THREE.Vector3().fromArray(pos));
+  document.querySelectorAll('#views button').forEach((b, i) => b.setAttribute('aria-pressed', i === k));
+}
+$('views').replaceChildren(...VIEWS.map((v, i) => { const b = document.createElement('button'); b.textContent = v[0]; b.onclick = () => setView(i); return b; }));
+let lastFollow = null;
+function updateFollow() {
+  if (!follow) return;
+  const p = bodyPos(follow.name);
+  if (lastFollow) { const d = p.clone().sub(lastFollow); controls.target.add(d); camera.position.add(d); }
+  lastFollow = p;
+}
+
+// ---------------------------------------------------------------- morning timeline
+let frame = 0, playing = false, speed = 4;
+function stepAt(fr) { const t = fr / FPS; let k = 0; seq.steps.forEach((s, i) => { if (s.start <= t + 1e-6) k = i; }); return k; }
+function buildSteps() {
+  $('steps').replaceChildren(...seq.steps.map((s, i) => {
+    const li = document.createElement('li'), b = document.createElement('button');
+    b.innerHTML = `<span class="ts">${fmt(s.start)}</span><span></span>`;
+    b.lastChild.textContent = s.text;
+    b.onclick = () => { go(Math.round(s.start * FPS) + 1); };
+    li.append(b); return li;
+  }));
+}
+function go(f) {
+  frame = Math.max(0, Math.min(nFrames - 1, f));
+  setFrame(frame);
+  $('t').value = Math.floor(frame);
+  $('clock').textContent = `${fmt(frame / FPS)} / ${fmt((nFrames - 1) / FPS)}`;
+  const k = stepAt(frame);
+  document.querySelectorAll('#steps button').forEach((b, i) => b.setAttribute('aria-current', i === k));
+  $('cap-k').textContent = `${mode === 'plan' ? 'Plan' : 'Physics'} · step ${k + 1} of ${seq.steps.length} · ${fmt(frame / FPS)}`;
+  $('cap-t').textContent = seq.steps[k].text;
+}
+$('t').addEventListener('input', (e) => { go(+e.target.value); });
+function setPlaying(p) { playing = p; $('play').textContent = p ? '❚❚' : '▶'; $('play').setAttribute('aria-label', p ? 'Pause' : 'Play'); }
+$('play').onclick = () => { if (frame >= nFrames - 1) go(0); setPlaying(!playing); };
+document.querySelectorAll('.speed button').forEach((b) => b.onclick = () => {
+  speed = +b.dataset.s; document.querySelectorAll('.speed button').forEach((x) => x.setAttribute('aria-pressed', x === b));
+});
+addEventListener('keydown', (e) => { if (e.code === 'Space' && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName) && document.activeElement.tagName !== 'BUTTON') { e.preventDefault(); $('play').click(); } });
+
+// ---------------------------------------------------------------- tabs
+const TABS = [['tab-m', 'p-m'], ['tab-p', 'p-p'], ['tab-c', 'p-c']];
+TABS.forEach(([t, p]) => $(t).onclick = () => TABS.forEach(([tt, pp]) => { $(tt).setAttribute('aria-selected', tt === t); $(pp).hidden = pp !== p; }));
+
+// ---------------------------------------------------------------- parts list
+const GROUPS = { servo: 'Servos', control: 'Control', power: 'Power', appliance: 'Appliance aids', wiring: 'Wiring', arm: 'Arm joints', fasteners: 'Fasteners',
+  safety: 'Safety', sensing: 'Cameras', fabrication: 'Printing', lift: 'Lift', base: 'Base',
+  'box job': 'Box job (1 L glass boxes)' };
+function syncBomButtons(id) { document.querySelectorAll('.bom button').forEach((b) => b.setAttribute('aria-pressed', b.dataset.id === id)); }
+function buildBom() {
+  const drawn = new Set(Object.values(D.parts).map((p) => p.id));
+  const by = {};
+  for (const r of D.bom) (by[r.group] ||= []).push(r);
+  const out = [];
+  for (const [g, rows] of Object.entries(by)) {
+    const h = document.createElement('h2'); h.textContent = GROUPS[g] || g; out.push(h);
+    const ul = document.createElement('ul'); ul.className = 'bom';
+    for (const r of rows) {
+      const li = document.createElement('li'), b = document.createElement('button');
+      const isDrawn = drawn.has(r.id);
+      b.dataset.id = r.id; b.dataset.drawn = isDrawn ? '1' : '0';
+      b.innerHTML = '<span class="it"></span><span class="eur"></span><span class="sub"></span>';
+      b.children[0].textContent = `${r.qty !== '1' ? r.qty + ' × ' : ''}${r.item}`;
+      b.children[1].textContent = r.id;
+      b.children[2].textContent = `${isDrawn ? '' : 'not drawn' + (r.use ? ' — ' : '')}${r.use || ''}`;
+      if (isDrawn) b.onclick = () => {
+        const set = new Set(meshes.filter((m) => bomOf(m) === r.id));
+        highlight(set); syncBomButtons(r.id);
+        const first = [...set][0]; if (first) showCard(first);
+      };
+      li.append(b); ul.append(li);
+    }
+    out.push(ul);
+  }
+  $('bom').replaceChildren(...out);
+}
+
+// ---------------------------------------------------------------- checks
+function pct(v) { return `${Math.round(v * 100)}%`; }
+function pill(v, warnAt, badAt) { const c = v >= badAt ? 'bad' : v >= warnAt ? 'warn' : 'good'; return `<span class="pill ${c}">${pct(v)}</span>`; }
+function buildChecks() {
+  const Mn = D.menus[key()], R = Mn.results, P = Mn.phys_run;
+  const row = (k, v) => `<dt>${k}</dt><dd>${v}</dd>`;
+  const ok = (b, t) => `<span class="pill ${b ? 'good' : 'bad'}">${t || (b ? 'pass' : 'fail')}</span>`;
+  const big = (o) => Object.values(o || {}).reduce((m, v) => Math.max(m, Math.abs(v)), 0);
+  const fridge = kind === 'large' ? '90 cm' : '50 cm', what = meal === 'jar' ? 'jar' : '1 L box';
+  let h = `<h2>Planned morning, ${what}, ${fridge} fridge</h2><dl class="kv">
+    ${row('Robot time, without heating', fmt(R.duration_s - 4))}
+    ${row('Frames with any collision', `${R.n_penetrating_frames} ${ok(R.n_penetrating_frames === 0, 'clear')}`)}
+    ${row('Fridge door: outer pin, then inner pin', `${R.outer_pin_deg}° → ${R.inner_pin_deg}°`)}
+    ${row('Microwave door', `${R.mw_door_deg}°`)}
+    ${row(meal === 'jar' ? 'Shelf spots it can take the jar from' : 'Box spots on rails it can take', `${pct(R.coverage.share)} <span class="note">(door at 100°)</span>`)}
+  </dl>
+  <h2>Whole morning in physics (this replay)</h2><dl class="kv">
+    ${row('Result', ok(P.ok))}
+    ${row('Meal served', P.meal ? `${P.meal.place_err_mm} mm off the spot, slipped ${P.meal.slip_mm} mm in the hand` : '–')}
+    ${row('Worst door step', `${big(P.step_end_error_deg).toFixed(1)}° off plan`)}
+    ${row('Servo at stall', Object.keys(P.stalled_s).length ? JSON.stringify(P.stalled_s) : 'never')}
+    ${row('Robot time, with its stops at sharp bends', `${fmt(P.duration_s - P.heat_s)} <span class="note">+ ${Math.round(P.heat_s)} s turning</span>`)}
+  </dl>
+  <p class="note">Nominal: seal 17.5 N at the pin, microwave catch 14 N, servos at 80% stiffness, no calibration error.</p>`;
+  const dr = (name) => D.menus[key()][name];
+  const rand = (label, r) => {
+    if (!r) return '';
+    const fails = {};
+    for (const w of r.why) fails[w] = (fails[w] || 0) + 1;
+    const why = Object.entries(fails).map(([k, v]) => `${k} ×${v}`).join(', ');
+    return row(label, `${r.passed} / ${r.runs} ${ok(r.passed === r.runs, r.passed === r.runs ? 'all' : 'some fail')}`) + (why ? row('Failed on', why) : '');
+  };
+  h += `<h2>Random mornings in physics</h2><p class="note" style="margin-top:0">Each draws the seal (10–25 N at the pin), the microwave catch (8–20 N), door weights and hinge friction, servo stiffness (60–100%), joint calibration error (0.3°, 0.5 mm), the meal's weight and friction (wet glass), the turntable's stop angle (±8°) and the camera's error after heating (2 mm, 1°). The last row halves the joint calibration error, as a calibration against the door pins at install would.</p><dl class="kv">
+    ${rand('Stock wrist yaw (STS3215)', Mn.doors)}
+    ${rand('STS3250 on the wrist yaw', Mn.doors_sts)}
+    ${rand('The same, joints calibrated to 0.15°', Mn.doors_cal)}
+  </dl>`;
+  if (Mn.doors && Mn.doors.seal) {
+    const by = (lo, hi, rows) => { const s = rows.filter((x) => x[0] >= lo && x[0] < hi); return s.length ? `${s.filter((x) => x[2]).length} / ${s.length}` : '–'; };
+    const rs = Mn.doors.seal, rt = Mn.doors_sts ? Mn.doors_sts.seal : [];
+    h += `<table class="loads"><thead><tr><th>Seal at the pin</th><th>Stock yaw</th><th>STS3250</th></tr></thead><tbody>
+      <tr><td>10–17 N</td><td>${by(10, 17, rs)}</td><td>${by(10, 17, rt)}</td></tr>
+      <tr><td>17–21 N</td><td>${by(17, 21, rs)}</td><td>${by(17, 21, rt)}</td></tr>
+      <tr><td>21–25 N</td><td>${by(21, 26, rs)}</td><td>${by(21, 26, rt)}</td></tr></tbody></table>`;
+  }
+  if (Mn.dyn) h += `<h2>Taking and serving with camera errors</h2><dl class="kv">
+    ${row('Trials passed', `${Mn.dyn.passed} / ${Mn.dyn.trials} ${ok(Mn.dyn.passed === Mn.dyn.trials, Mn.dyn.passed === Mn.dyn.trials ? 'all' : 'some fail')}`)}
+    ${row('Failures', Mn.dyn.failures.length ? Mn.dyn.failures.join('; ') : 'none')}
+    ${row('Wrist pitch while carrying (mean)', `${Mn.dyn.pitch_hold_mean_Nm.max} N·m, ${pct(Mn.dyn.pitch_hold_mean_Nm.of_rated)} of rated`)}
+  </dl><p class="note">The meal stands up to ±10 mm from where it should; the camera sees it to 2 mm and 1°; the robot plans from what it sees.</p>`;
+  if (D.sweep) {
+    const line = (o) => D.sweep[o].map((x) => `<td>${x.opened ? '<span class="pill good">opens</span>' : '<span class="pill bad">stuck</span>'}</td>`).join('');
+    h += `<h2>Fridge seal against the wrist</h2><div style="overflow-x:auto"><table class="loads"><thead><tr><th>Seal, N</th>${D.sweep.stock.map((x) => `<th>${x.seal_N}</th>`).join('')}</tr></thead><tbody>
+      <tr><td>STS3215</td>${line('stock')}</tr><tr><td>STS3250</td>${line('sts3250')}</tr></tbody></table></div>
+      <p class="note">Full-size fridges need much more at the handle. No seal forces are published for small fridges; the design measures the seal by pulling on the pin while reading the yaw servo's load, and stops before the stall.</p>`;
+  }
+  h += `<h2>Limits</h2><ul class="plain">
+    <li><b>Freezer flap.</b> With the fridge door shut there are 10 mm between the door racks and the freezer flap, and this hand cannot hook any tab that fits there.</li>
+    <li><b>Fridge seals above about 23 N at the pin.</b> That is the STS3250's limit (the stock yaw stops at about 17 N). A peel lever on the door would take over there; it is not simulated.</li>
+    <li><b>The inner pin</b> stands 4 cm into the fridge: keep the front of the middle shelf clear near the hinge side.</li></ul>`;
+  $('checks').innerHTML = h;
+}
+
+// ---------------------------------------------------------------- fridge switch, loop
+function pick(what, v) {
+  const before = frame / FPS, oldMode = mode, oldLabel = seq ? seq.steps[stepAt(frame)].label : null;
+  if (what === 'kind') kind = v; else if (what === 'meal') meal = v; else mode = v;
+  ['large', 'small'].forEach((x) => $('k-' + x).setAttribute('aria-pressed', x === kind));
+  ['jar', 'box'].forEach((x) => $('o-' + x).setAttribute('aria-pressed', x === meal));
+  ['plan', 'phys'].forEach((x) => $('m-' + x).setAttribute('aria-pressed', x === mode));
+  build();
+  const st = seq.steps.find((s) => s.label === oldLabel);
+  go(oldMode !== mode && st ? Math.round(st.start * FPS) + 1 : Math.min(nFrames - 1, Math.round(before * FPS)));
+  lastFollow = null;
+}
+$('k-large').onclick = () => pick('kind', 'large');
+$('k-small').onclick = () => pick('kind', 'small');
+$('o-jar').onclick = () => pick('meal', 'jar');
+$('o-box').onclick = () => pick('meal', 'box');
+$('m-plan').onclick = () => pick('mode', 'plan');
+$('m-phys').onclick = () => pick('mode', 'phys');
+
+const stage = $('stage');
+new ResizeObserver(() => {
+  const w = stage.clientWidth, h = stage.clientHeight;
+  renderer.setSize(w, h, false); camera.aspect = w / Math.max(1, h); camera.updateProjectionMatrix();
+}).observe(stage);
+
+build();
+buildBom();
+const startStep = seq.steps.findIndex((s) => s.label === 'to_microwave');
+go(Math.round((startStep > 0 ? seq.steps[startStep].start : 60) * FPS) - 2);
+setView(0);
+let last = performance.now();
+renderer.setAnimationLoop((now) => {
+  const dt = Math.min(0.1, (now - last) / 1000); last = now;
+  if (playing) { const f = frame + dt * FPS * speed; if (f >= nFrames - 1) { go(nFrames - 1); setPlaying(false); } else go(f); }
+  updateFollow();
+  controls.update();
+  renderer.render(scene, camera);
+});
+</script>

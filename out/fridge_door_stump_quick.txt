@@ -1,0 +1,30 @@
+strat  door  close seal   mu   max  final  ok? plan  clr  hit N  lag   arm%  base%  sat s  time  arms  by0  base end
+  (max/final: door deg; plan clr: planned door clearance cm; hit: largest robot-body contact force on door/fridge;
+   lag: largest speed-limiter clip in s; arm%: peak arm torque during the swing; sat: s at an arm torque limit;
+   arms: closest approach of the two arms in cm, top view; by0: sideways start offset of the base in cm)
+stumprigid upper  cam25   35  0.6    104    104  yes   ok   8.9     73  0.00   100    31  1.68    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper  cam60   35  0.6    104    104  yes   ok   8.9     73  0.00   100    28  1.71    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid upper always   35  0.6    101    101  yes   ok   8.9     73  0.00   100    29  1.65    32   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam25   35  0.6    104    104  yes   ok   8.9     73  0.00   100    17  1.73    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full  cam60   35  0.6    104    104  yes   ok   8.9     73  0.00   100    16  1.74    34   0.0  -22    -6/ +20 cm  +81 deg
+stumprigid  full always   35  0.6    101    101  yes   ok   8.9     73  0.00   100    25  1.68    32   0.0  -22    -6/ +20 cm  +81 deg
+stump upper  cam25   35  0.6     14     -0  NO    ok  10.4    173  0.02    15     7  1.61    34   5.5  -15   -16/ +15 cm  +68 deg
+stump upper  cam60   35  0.6     14     -0  NO    ok  10.4    173  0.02    15     7  1.61    34   5.5  -15   -16/ +15 cm  +68 deg
+stump upper always   35  0.6     14     -0  NO    ok  10.4    191  0.02    15     7  1.61    32   5.5  -15   -16/ +15 cm  +68 deg
+stump  full  cam25   35  0.6     15     -0  NO    ok  10.4    183  0.02    15     7  1.64    34   5.5  -15   -16/ +15 cm  +68 deg
+stump  full  cam60   35  0.6     15     -0  NO    ok  10.4    183  0.02    15     7  1.64    34   5.5  -15   -16/ +15 cm  +68 deg
+stump  full always   35  0.6     14     -0  NO    ok  10.4    183  0.02    15     7  1.64    32   5.5  -15   -16/ +15 cm  +68 deg
+
+success by strategy x door x closing (over seal x floor):
+  stumprigid upper  cam25: 1/1
+  stumprigid upper  cam60: 1/1
+  stumprigid upper always: 1/1
+  stumprigid  full  cam25: 1/1
+  stumprigid  full  cam60: 1/1
+  stumprigid  full always: 1/1
+  stump upper  cam25: 0/1
+  stump upper  cam60: 0/1
+  stump upper always: 0/1
+  stump  full  cam25: 0/1
+  stump  full  cam60: 0/1
+  stump  full always: 0/1

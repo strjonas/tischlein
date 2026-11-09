@@ -1,0 +1,17 @@
+Floor pickup (sim/floor_pick.py): 20 trials per object x floor x strategy, all three floors pooled
+
+object                   grasp   scoop
+TV remote                 100%    100%
+phone                     100%    100%
+glasses case              100%    100%
+pill bottle (lying)       100%    100%
+credit card                 0%     88%
+coin                        2%    100%
+keys                      100%    100%
+rolled sock               100%    100%
+all                        75%     99%
+
+floor                    grasp   scoop
+tile (mu 0.3)              76%    100%
+wood (mu 0.45)             75%    100%
+carpet (mu 0.8)            75%     96%

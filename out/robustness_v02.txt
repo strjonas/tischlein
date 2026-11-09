@@ -1,0 +1,15 @@
+WARNING: Nan, Inf or huge value in QVEL at DOF 20. The simulation is unstable. Time = 9.2565.
+
+mode: closed loop (camera check + up to 2 re-grasps)
+re-grasps used: Counter({1: 32, 0: 14, 2: 14})
+56/60 transfers succeeded (93%)
+   56  ok
+    2  box not fully on tray
+    1  box tilted / on the lip
+    1  missed grasp (box never moved)
+failures (mass kg, mu, yaw deg, dy mm, dx mm, stiffness):
+  1.49 0.27  -5.7   +13  +13 0.71  box not fully on tray
+  2.00 0.47  -2.2   -13  +11 0.91  box tilted / on the lip
+  1.70 0.44  -4.9    +3  +14 0.55  box not fully on tray
+  1.57 0.45  +5.1   -16  +21 0.86  missed grasp (box never moved)
+boxes > 1.5 kg: 18/21

@@ -1,0 +1,304 @@
+
+<mujoco model="tischlein_v0_2">
+  <compiler angle="degree" meshdir="meshes" inertiafromgeom="false" autolimits="true"/>
+  <option timestep="0.0005" integrator="implicitfast" cone="pyramidal" noslip_iterations="4"/>
+  <size memory="200M"/>
+  <visual>
+    <global offwidth="1600" offheight="1000" azimuth="210" elevation="-25"/>
+    <quality shadowsize="4096" offsamples="8"/>
+    <headlight ambient="0.35 0.35 0.35" diffuse="0.55 0.55 0.55" specular="0.1 0.1 0.1"/>
+    <map znear="0.01"/>
+  </visual>
+  <default>
+    <geom friction="0.6 0.01 0.001" solref="0.004 1" solimp="0.95 0.99 0.001" condim="4"/>
+    <default class="vis"><geom type="mesh" contype="0" conaffinity="0" group="1" mass="0"/></default>
+    <default class="col"><geom group="3" rgba="0.9 0.2 0.2 0.25"/></default>
+    <default class="pad"><geom group="3" friction="1.2 0.02 0.002" rgba="0.2 0.5 0.9 0.4"/></default>
+    <joint damping="0.5" armature="0.01"/>
+  </default>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.94 0.95 0.97" rgb2="0.78 0.80 0.84" width="512" height="512"/>
+    <texture name="grid" type="2d" builtin="checker" rgb1="0.82 0.80 0.76" rgb2="0.78 0.76 0.72" width="512" height="512"/>
+    <material name="floor" texture="grid" texrepeat="8 8" reflectance="0.05"/>
+    <mesh name="base_0" file="base_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_1" file="base_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_2" file="base_2.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_3" file="base_3.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_4" file="base_4.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_5" file="base_5.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_6" file="base_6.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_7" file="base_7.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_8" file="base_8.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_9" file="base_9.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_10" file="base_10.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_11" file="base_11.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_12" file="base_12.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_13" file="base_13.stl" scale="0.001 0.001 0.001"/>
+<mesh name="base_14" file="base_14.stl" scale="0.001 0.001 0.001"/>
+<mesh name="carriage_0" file="carriage_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="carriage_1" file="carriage_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="carriage_2" file="carriage_2.stl" scale="0.001 0.001 0.001"/>
+<mesh name="carriage_3" file="carriage_3.stl" scale="0.001 0.001 0.001"/>
+<mesh name="carriage_4" file="carriage_4.stl" scale="0.001 0.001 0.001"/>
+<mesh name="carriage_5" file="carriage_5.stl" scale="0.001 0.001 0.001"/>
+<mesh name="carriage_6" file="carriage_6.stl" scale="0.001 0.001 0.001"/>
+<mesh name="carriage_7" file="carriage_7.stl" scale="0.001 0.001 0.001"/>
+<mesh name="drawer_0" file="drawer_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="drawer_1" file="drawer_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="drawer_2" file="drawer_2.stl" scale="0.001 0.001 0.001"/>
+<mesh name="upper_arm_a_0" file="upper_arm_a_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="upper_arm_a_1" file="upper_arm_a_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="upper_arm_a_2" file="upper_arm_a_2.stl" scale="0.001 0.001 0.001"/>
+<mesh name="upper_arm_a_3" file="upper_arm_a_3.stl" scale="0.001 0.001 0.001"/>
+<mesh name="upper_arm_a_4" file="upper_arm_a_4.stl" scale="0.001 0.001 0.001"/>
+<mesh name="upper_arm_a_5" file="upper_arm_a_5.stl" scale="0.001 0.001 0.001"/>
+<mesh name="forearm_a_0" file="forearm_a_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="forearm_a_1" file="forearm_a_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="forearm_a_2" file="forearm_a_2.stl" scale="0.001 0.001 0.001"/>
+<mesh name="forearm_a_3" file="forearm_a_3.stl" scale="0.001 0.001 0.001"/>
+<mesh name="wrist_a_0" file="wrist_a_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="wrist_a_1" file="wrist_a_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="hand_a_0" file="hand_a_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="hand_a_1" file="hand_a_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="tool_a_0" file="tool_a_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="tool_a_1" file="tool_a_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="tool_a_2" file="tool_a_2.stl" scale="0.001 0.001 0.001"/>
+<mesh name="tool_a_3" file="tool_a_3.stl" scale="0.001 0.001 0.001"/>
+<mesh name="finger_l_a_0" file="finger_l_a_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="finger_r_a_0" file="finger_r_a_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="upper_arm_b_0" file="upper_arm_b_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="upper_arm_b_1" file="upper_arm_b_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="upper_arm_b_2" file="upper_arm_b_2.stl" scale="0.001 0.001 0.001"/>
+<mesh name="upper_arm_b_3" file="upper_arm_b_3.stl" scale="0.001 0.001 0.001"/>
+<mesh name="upper_arm_b_4" file="upper_arm_b_4.stl" scale="0.001 0.001 0.001"/>
+<mesh name="upper_arm_b_5" file="upper_arm_b_5.stl" scale="0.001 0.001 0.001"/>
+<mesh name="forearm_b_0" file="forearm_b_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="forearm_b_1" file="forearm_b_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="forearm_b_2" file="forearm_b_2.stl" scale="0.001 0.001 0.001"/>
+<mesh name="forearm_b_3" file="forearm_b_3.stl" scale="0.001 0.001 0.001"/>
+<mesh name="wrist_b_0" file="wrist_b_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="wrist_b_1" file="wrist_b_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="hand_b_0" file="hand_b_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="hand_b_1" file="hand_b_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="tool_b_0" file="tool_b_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="tool_b_1" file="tool_b_1.stl" scale="0.001 0.001 0.001"/>
+<mesh name="tool_b_2" file="tool_b_2.stl" scale="0.001 0.001 0.001"/>
+<mesh name="tool_b_3" file="tool_b_3.stl" scale="0.001 0.001 0.001"/>
+<mesh name="finger_l_b_0" file="finger_l_b_0.stl" scale="0.001 0.001 0.001"/>
+<mesh name="finger_r_b_0" file="finger_r_b_0.stl" scale="0.001 0.001 0.001"/>
+  </asset>
+  <worldbody>
+    <light pos="0.5 -1 3" dir="-0.2 0.3 -1" diffuse="0.6 0.6 0.6" castshadow="true"/>
+    <light pos="-2 2 3" dir="0.5 -0.5 -1" diffuse="0.3 0.3 0.3" castshadow="false"/>
+    <geom name="floor" type="plane" size="6 6 0.1" material="floor"/>
+    <body name="base" pos="0 0 0">
+      <joint name="base_x" type="slide" axis="1 0 0" damping="50"/>
+      <joint name="base_y" type="slide" axis="0 1 0" damping="50"/>
+      <joint name="base_yaw" type="hinge" axis="0 0 1" damping="20"/>
+      <inertial pos="-0.06 0 0.2" mass="11.8" diaginertia="0.7 0.7 0.5"/>
+      <geom class="vis" mesh="base_0" rgba="0.75 0.77 0.8 1"/>
+<geom class="vis" mesh="base_1" rgba="0.8 0.68 0.5 1"/>
+<geom class="vis" mesh="base_2" rgba="0.1 0.1 0.11 1"/>
+<geom class="vis" mesh="base_3" rgba="0.55 0.57 0.6 1"/>
+<geom class="vis" mesh="base_4" rgba="0.22 0.24 0.27 1"/>
+<geom class="vis" mesh="base_5" rgba="0.2 0.55 0.85 1"/>
+<geom class="vis" mesh="base_6" rgba="0.93 0.55 0.2 1"/>
+<geom class="vis" mesh="base_7" rgba="0.15 0.15 0.17 1"/>
+<geom class="vis" mesh="base_8" rgba="0.1 0.45 0.25 1"/>
+<geom class="vis" mesh="base_9" rgba="0.85 0.1 0.1 1"/>
+<geom class="vis" mesh="base_10" rgba="0.05 0.05 0.05 1"/>
+<geom class="vis" mesh="base_11" rgba="0.15 0.15 0.15 1"/>
+<geom class="vis" mesh="base_12" rgba="1 0.93 0.75 1"/>
+<geom class="vis" mesh="base_13" rgba="0.97 0.94 0.86 1"/>
+<geom class="vis" mesh="base_14" rgba="0.85 0.25 0.15 1"/>
+      <body name="carriage" pos="0 0 0">
+        <joint name="lift" type="slide" axis="0 0 1" range="0.075 1.54" damping="30"/>
+        <inertial pos="0.156 0 0.12" mass="1.25" diaginertia="0.02 0.01 0.02"/>
+        <geom class="vis" mesh="carriage_0" rgba="0.93 0.55 0.2 1"/>
+<geom class="vis" mesh="carriage_1" rgba="0.55 0.57 0.6 1"/>
+<geom class="vis" mesh="carriage_2" rgba="0.75 0.77 0.8 1"/>
+<geom class="vis" mesh="carriage_3" rgba="0.22 0.24 0.27 1"/>
+<geom class="vis" mesh="carriage_4" rgba="0.12 0.12 0.14 1"/>
+<geom class="vis" mesh="carriage_5" rgba="0.1 0.1 0.11 1"/>
+<geom class="vis" mesh="carriage_6" rgba="0.12 0.12 0.13 1"/>
+<geom class="vis" mesh="carriage_7" rgba="0.95 0.85 0.6 1"/>
+        <body name="drawer" pos="0 0 0">
+          <joint name="drawer" type="slide" axis="1 0 0" range="0 0.24" damping="10"/>
+          <inertial pos="0.261 0 -0.01" mass="0.45" diaginertia="0.004 0.003 0.006"/>
+          <geom class="vis" mesh="drawer_0" rgba="0.93 0.55 0.2 1"/>
+<geom class="vis" mesh="drawer_1" rgba="0.55 0.57 0.6 1"/>
+<geom class="vis" mesh="drawer_2" rgba="0.22 0.24 0.27 1"/>
+          <geom class="col" type="box" pos="0.261 0 -0.015" size="0.125 0.14 0.015" friction="0.45 0.01 0.001"/>
+          <geom class="col" type="box" pos="0.2485 0.1375 0.0075" size="0.1125 0.0025 0.0075"/>
+          <geom class="col" type="box" pos="0.2485 -0.1375 0.0075" size="0.1125 0.0025 0.0075"/>
+          <geom class="col" type="box" pos="0.1385 0 0.0075" size="0.0025 0.14 0.0075"/>
+        </body>
+        
+        <body name="upper_arm" pos="0.156 -0.12 0.155">
+          <joint name="j1" type="hinge" axis="0 0 1" range="-150 150" armature="0.05"/>
+          <inertial pos="0.11 0 0" mass="0.44999999999999996" diaginertia="0.002 0.004 0.004"/>
+          <geom class="vis" mesh="upper_arm_a_0" rgba="0.55 0.57 0.6 1"/>
+<geom class="vis" mesh="upper_arm_a_1" rgba="0.75 0.77 0.8 1"/>
+<geom class="vis" mesh="upper_arm_a_2" rgba="0.93 0.55 0.2 1"/>
+<geom class="vis" mesh="upper_arm_a_3" rgba="0.12 0.12 0.14 1"/>
+<geom class="vis" mesh="upper_arm_a_4" rgba="0.22 0.24 0.27 1"/>
+<geom class="vis" mesh="upper_arm_a_5" rgba="0.1 0.1 0.11 1"/>
+          <body name="forearm" pos="0.22 0 -0.04">
+            <joint name="j2" type="hinge" axis="0 0 1" range="-155 155" armature="0.02"/>
+            <inertial pos="0.12 0 -0.01" mass="0.28" diaginertia="0.001 0.003 0.003"/>
+            <geom class="vis" mesh="forearm_a_0" rgba="0.55 0.57 0.6 1"/>
+<geom class="vis" mesh="forearm_a_1" rgba="0.93 0.55 0.2 1"/>
+<geom class="vis" mesh="forearm_a_2" rgba="0.75 0.77 0.8 1"/>
+<geom class="vis" mesh="forearm_a_3" rgba="0.12 0.12 0.14 1"/>
+            <body name="wrist" pos="0.22 0 0">
+              <joint name="j3" type="hinge" axis="0 0 1" range="-180 180" armature="0.005"/>
+              <inertial pos="-0.01 0 -0.06" mass="0.12" diaginertia="0.0003 0.0003 0.0003"/>
+              <geom class="vis" mesh="wrist_a_0" rgba="0.22 0.24 0.27 1"/>
+<geom class="vis" mesh="wrist_a_1" rgba="0.12 0.12 0.14 1"/>
+              <body name="hand" pos="0 0 -0.075">
+                <joint name="j4" type="hinge" axis="0 1 0" range="-15 100" armature="0.008"/>
+                <inertial pos="0.045 -0.01 0" mass="0.16" diaginertia="0.0004 0.0004 0.0004"/>
+                <geom class="vis" mesh="hand_a_0" rgba="0.93 0.55 0.2 1"/>
+<geom class="vis" mesh="hand_a_1" rgba="0.12 0.12 0.14 1"/>
+                <geom class="col" type="box" pos="0.0455 -0.0125 0" size="0.0175 0.0225 0.0124"/>
+                <body name="tool" pos="0 0 0">
+                  <joint name="j5" type="hinge" axis="1 0 0" range="-180 180" armature="0.005"/>
+                  <inertial pos="0.13 -0.02 0.02" mass="0.45" diaginertia="0.0015 0.0015 0.0012"/>
+                  <geom class="vis" mesh="tool_a_0" rgba="0.93 0.55 0.2 1"/>
+<geom class="vis" mesh="tool_a_1" rgba="0.94 0.94 0.94 1"/>
+<geom class="vis" mesh="tool_a_2" rgba="0.12 0.12 0.13 1"/>
+<geom class="vis" mesh="tool_a_3" rgba="0.05 0.05 0.05 1"/>
+                  <geom class="col" type="box" pos="0.1285 0 -0.00315" size="0.0565 0.0325 0.01915"/>
+                  <geom class="col" type="box" pos="0.08915 0.005 0.0705" size="0.01715 0.021 0.0545"/>
+                  <geom class="col" type="box" pos="0.09955 -0.04155 0.06185" size="0.00425 0.07335 0.03525"/>
+                  <body name="finger_l" pos="0 0 0">
+                    <joint name="grip_l" type="slide" axis="0 1 0" range="-0.01 0.045" damping="2"/>
+                    <inertial pos="0.236 0.018 0" mass="0.03" diaginertia="5e-5 5e-5 5e-5"/>
+                    <geom class="vis" mesh="finger_l_a_0" rgba="0.25 0.55 0.75 1"/>
+                    <geom class="pad" type="box" pos="0.236 0.018 0" size="0.03 0.006 0.015"/>
+                  </body>
+                  <body name="finger_r" pos="0 0 0">
+                    <joint name="grip_r" type="slide" axis="0 -1 0" range="-0.01 0.045" damping="2"/>
+                    <inertial pos="0.236 -0.018 0" mass="0.03" diaginertia="5e-5 5e-5 5e-5"/>
+                    <geom class="vis" mesh="finger_r_a_0" rgba="0.25 0.55 0.75 1"/>
+                    <geom class="pad" type="box" pos="0.236 -0.018 0" size="0.03 0.006 0.015"/>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+        
+        <body name="upper_arm_b" pos="0.156 0.12 0.155">
+          <joint name="j1b" type="hinge" axis="0 0 1" range="-150 150" armature="0.05"/>
+          <inertial pos="0.11 0 0" mass="0.44999999999999996" diaginertia="0.002 0.004 0.004"/>
+          <geom class="vis" mesh="upper_arm_b_0" rgba="0.55 0.57 0.6 1"/>
+<geom class="vis" mesh="upper_arm_b_1" rgba="0.75 0.77 0.8 1"/>
+<geom class="vis" mesh="upper_arm_b_2" rgba="0.93 0.55 0.2 1"/>
+<geom class="vis" mesh="upper_arm_b_3" rgba="0.12 0.12 0.14 1"/>
+<geom class="vis" mesh="upper_arm_b_4" rgba="0.22 0.24 0.27 1"/>
+<geom class="vis" mesh="upper_arm_b_5" rgba="0.1 0.1 0.11 1"/>
+          <body name="forearm_b" pos="0.22 0 -0.04">
+            <joint name="j2b" type="hinge" axis="0 0 1" range="-155 155" armature="0.02"/>
+            <inertial pos="0.12 0 -0.01" mass="0.28" diaginertia="0.001 0.003 0.003"/>
+            <geom class="vis" mesh="forearm_b_0" rgba="0.55 0.57 0.6 1"/>
+<geom class="vis" mesh="forearm_b_1" rgba="0.93 0.55 0.2 1"/>
+<geom class="vis" mesh="forearm_b_2" rgba="0.75 0.77 0.8 1"/>
+<geom class="vis" mesh="forearm_b_3" rgba="0.12 0.12 0.14 1"/>
+            <body name="wrist_b" pos="0.22 0 0">
+              <joint name="j3b" type="hinge" axis="0 0 1" range="-180 180" armature="0.005"/>
+              <inertial pos="-0.01 0 -0.06" mass="0.12" diaginertia="0.0003 0.0003 0.0003"/>
+              <geom class="vis" mesh="wrist_b_0" rgba="0.22 0.24 0.27 1"/>
+<geom class="vis" mesh="wrist_b_1" rgba="0.12 0.12 0.14 1"/>
+              <body name="hand_b" pos="0 0 -0.075">
+                <joint name="j4b" type="hinge" axis="0 1 0" range="-15 100" armature="0.008"/>
+                <inertial pos="0.045 -0.01 0" mass="0.16" diaginertia="0.0004 0.0004 0.0004"/>
+                <geom class="vis" mesh="hand_b_0" rgba="0.93 0.55 0.2 1"/>
+<geom class="vis" mesh="hand_b_1" rgba="0.12 0.12 0.14 1"/>
+                <geom class="col" type="box" pos="0.0455 -0.0125 0" size="0.0175 0.0225 0.0124"/>
+                <body name="tool_b" pos="0 0 0">
+                  <joint name="j5b" type="hinge" axis="1 0 0" range="-180 180" armature="0.005"/>
+                  <inertial pos="0.13 -0.02 0.02" mass="0.45" diaginertia="0.0015 0.0015 0.0012"/>
+                  <geom class="vis" mesh="tool_b_0" rgba="0.93 0.55 0.2 1"/>
+<geom class="vis" mesh="tool_b_1" rgba="0.94 0.94 0.94 1"/>
+<geom class="vis" mesh="tool_b_2" rgba="0.12 0.12 0.13 1"/>
+<geom class="vis" mesh="tool_b_3" rgba="0.05 0.05 0.05 1"/>
+                  <geom class="col" type="box" pos="0.1285 0 -0.00315" size="0.0565 0.0325 0.01915"/>
+                  <geom class="col" type="box" pos="0.08915 0.005 0.0705" size="0.01715 0.021 0.0545"/>
+                  <geom class="col" type="box" pos="0.09955 -0.04155 0.06185" size="0.00425 0.07335 0.03525"/>
+                  <body name="finger_l_b" pos="0 0 0">
+                    <joint name="grip_lb" type="slide" axis="0 1 0" range="-0.01 0.045" damping="2"/>
+                    <inertial pos="0.236 0.018 0" mass="0.03" diaginertia="5e-5 5e-5 5e-5"/>
+                    <geom class="vis" mesh="finger_l_b_0" rgba="0.25 0.55 0.75 1"/>
+                    <geom class="pad" type="box" pos="0.236 0.018 0" size="0.03 0.006 0.015"/>
+                  </body>
+                  <body name="finger_r_b" pos="0 0 0">
+                    <joint name="grip_rb" type="slide" axis="0 -1 0" range="-0.01 0.045" damping="2"/>
+                    <inertial pos="0.236 -0.018 0" mass="0.03" diaginertia="5e-5 5e-5 5e-5"/>
+                    <geom class="vis" mesh="finger_r_b_0" rgba="0.25 0.55 0.75 1"/>
+                    <geom class="pad" type="box" pos="0.236 -0.018 0" size="0.03 0.006 0.015"/>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <geom name="fr_left" type="box" pos="0.925 0.2825 0.925" size="0.325 0.0175 0.925" rgba="0.93 0.93 0.91 1" />
+<geom name="fr_right" type="box" pos="0.925 -0.2825 0.925" size="0.325 0.0175 0.925" rgba="0.93 0.93 0.91 1" />
+<geom name="fr_back" type="box" pos="1.23 0 0.925" size="0.02 0.3 0.925" rgba="0.93 0.93 0.91 1" />
+<geom name="fr_top" type="box" pos="0.925 0 1.83" size="0.325 0.3 0.02" rgba="0.93 0.93 0.91 1" />
+<geom name="fr_freezer" type="box" pos="0.89 0 0.44" size="0.36 0.3 0.44" rgba="0.93 0.93 0.91 1" />
+<geom name="shelf0" type="box" pos="0.9225 0 0.938" size="0.2825 0.265 0.012" rgba="0.75 0.88 0.92 0.55" friction="0.3 0.01 0.001"/>
+<geom name="shelf1" type="box" pos="0.9225 0 1.138" size="0.2825 0.265 0.012" rgba="0.75 0.88 0.92 0.55" friction="0.3 0.01 0.001"/>
+<geom name="shelf2" type="box" pos="0.9225 0 1.338" size="0.2825 0.265 0.012" rgba="0.75 0.88 0.92 0.55" friction="0.3 0.01 0.001"/>
+<geom name="shelf3" type="box" pos="0.9225 0 1.538" size="0.2825 0.265 0.012" rgba="0.75 0.88 0.92 0.55" friction="0.3 0.01 0.001"/>
+<geom name="fr_door" type="box" pos="0.48031 0.57731 1.355" size="0.035 0.3 0.475" euler="0 0 -150.0" rgba="0.93 0.93 0.91 1"/>
+<geom name="bed_frame" type="box" pos="-0.67 1.835 0.325" size="1 0.475 0.045" rgba="0.55 0.4 0.28 1" />
+<geom name="bed_leg0" type="box" pos="-1.64 1.39 0.14" size="0.015 0.015 0.14" rgba="0.55 0.4 0.28 1" />
+<geom name="bed_leg1" type="box" pos="-1.64 2.28 0.14" size="0.015 0.015 0.14" rgba="0.55 0.4 0.28 1" />
+<geom name="bed_leg2" type="box" pos="0.3 1.39 0.14" size="0.015 0.015 0.14" rgba="0.55 0.4 0.28 1" />
+<geom name="bed_leg3" type="box" pos="0.3 2.28 0.14" size="0.015 0.015 0.14" rgba="0.55 0.4 0.28 1" />
+<geom name="mattress" type="box" pos="-0.67 1.835 0.46" size="1 0.475 0.09" rgba="0.93 0.93 0.95 1" />
+<geom name="duvet" type="box" pos="-0.87 1.835 0.57" size="0.8 0.46 0.02" rgba="0.55 0.62 0.7 1" />
+<geom name="pillow" type="box" pos="0.16 1.835 0.6" size="0.15 0.3 0.06" rgba="0.97 0.97 0.97 1" />
+<body name="meal_box" pos="0.658 0 0.95">
+      <freejoint/>
+      <inertial pos="0.09 0 0.03" mass="0.8" diaginertia="0.0013 0.0024 0.0030"/>
+      <geom type="box" pos="0.09 0 0.035" size="0.09 0.06 0.035" rgba="0.85 0.30 0.25 1" friction="0.35 0.01 0.001"/>
+      <geom type="box" pos="0.09 0 0.069" size="0.091 0.061 0.003" rgba="0.95 0.95 0.95 1" contype="0" conaffinity="0"/>
+      <geom type="box" pos="-0.009 0 0.035" size="0.009 0.015 0.015" rgba="0.85 0.30 0.25 1" friction="1 0.02 0.002"/>
+      <geom type="cylinder" pos="-0.002 0 0.035" size="0.02 0.002" euler="0 90 0" rgba="0.85 0.30 0.25 1" contype="0" conaffinity="0"/>
+    </body>
+<body name="bottle" pos="0.76 0.19 0.95">
+      <freejoint/>
+      <inertial pos="0 0 0.1" mass="0.55" diaginertia="0.002 0.002 0.0003"/>
+      <geom type="cylinder" pos="0 0 0.095" size="0.033 0.095" rgba="0.35 0.70 0.95 0.9"/>
+      <geom type="cylinder" pos="0 0 0.21" size="0.015 0.02" rgba="0.35 0.70 0.95 0.9"/>
+    </body>
+  </worldbody>
+  <equality>
+    <joint joint1="grip_r" joint2="grip_l" polycoef="0 1 0 0 0" solref="0.005 1"/>
+    <joint joint1="grip_rb" joint2="grip_lb" polycoef="0 1 0 0 0" solref="0.005 1"/>
+  </equality>
+  <actuator>
+    <position name="base_x" joint="base_x" kp="40000" kv="3000" forcerange="-1500 1500"/>
+    <position name="base_y" joint="base_y" kp="40000" kv="3000" forcerange="-1500 1500"/>
+    <position name="base_yaw" joint="base_yaw" kp="4000" kv="400" forcerange="-500 500"/>
+    <position name="lift" joint="lift" kp="40000" kv="2500" forcerange="-200 200"/>
+    <position name="drawer" joint="drawer" kp="4000" kv="200" forcerange="-60 60"/>
+    <position name="j1" joint="j1" kp="200" kv="8" forcerange="-8.82 8.82"/>
+    <position name="j2" joint="j2" kp="150" kv="5" forcerange="-5.88 5.88"/>
+    <position name="j3" joint="j3" kp="40" kv="1" forcerange="-2.94 2.94"/>
+    <position name="j4" joint="j4" kp="60" kv="1.5" forcerange="-4.90 4.90"/>
+    <position name="grip" joint="grip_l" kp="8000" kv="60" forcerange="-100 100"/>
+    <position name="j5" joint="j5" kp="30" kv="0.8" forcerange="-2.94 2.94"/>
+    <position name="j1b" joint="j1b" kp="200" kv="8" forcerange="-8.82 8.82"/>
+    <position name="j2b" joint="j2b" kp="150" kv="5" forcerange="-5.88 5.88"/>
+    <position name="j3b" joint="j3b" kp="40" kv="1" forcerange="-2.94 2.94"/>
+    <position name="j4b" joint="j4b" kp="60" kv="1.5" forcerange="-4.90 4.90"/>
+    <position name="j5b" joint="j5b" kp="30" kv="0.8" forcerange="-2.94 2.94"/>
+    <position name="gripb" joint="grip_lb" kp="8000" kv="60" forcerange="-100 100"/>
+  </actuator>
+</mujoco>

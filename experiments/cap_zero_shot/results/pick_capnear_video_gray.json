@@ -1,0 +1,99 @@
+{
+ "task": "pick",
+ "robot": "capnear",
+ "episodes": 6,
+ "success_rate": 0.8333333333333334,
+ "seed": 7,
+ "num_objs": 1,
+ "max_steps": 80,
+ "anchor": "frozen",
+ "image": "gray",
+ "cam": "",
+ "minutes": 0.5667211373647054,
+ "episodes_detail": [
+  {
+   "worker": 0,
+   "ep": 0,
+   "success": false,
+   "steps": 54,
+   "reward": -0.00022205253231477595,
+   "object": "spoon_11",
+   "anchor_err": 0.0,
+   "target_xyz": [
+    -0.09897565841785406,
+    0.05396948908644164,
+    0.7663578087373938
+   ]
+  },
+  {
+   "worker": 0,
+   "ep": 1,
+   "success": true,
+   "steps": 7,
+   "reward": 0.07651172001506756,
+   "object": "mango_19",
+   "anchor_err": 0.0,
+   "target_xyz": [
+    0.00719558113290752,
+    -0.05690922525537532,
+    0.7935428104109861
+   ]
+  },
+  {
+   "worker": 0,
+   "ep": 2,
+   "success": true,
+   "steps": 9,
+   "reward": 0.08324278414926922,
+   "object": "sponge_5",
+   "anchor_err": 0.0,
+   "target_xyz": [
+    -0.15288150735624892,
+    -0.1842824695498386,
+    0.7727576818353384
+   ]
+  },
+  {
+   "worker": 0,
+   "ep": 3,
+   "success": true,
+   "steps": 9,
+   "reward": 0.05991916680789444,
+   "object": "banana_24",
+   "anchor_err": 0.0,
+   "target_xyz": [
+    0.033343852916938595,
+    0.008645240984012741,
+    0.7755180452351479
+   ]
+  },
+  {
+   "worker": 0,
+   "ep": 4,
+   "success": true,
+   "steps": 12,
+   "reward": 0.06888905335033635,
+   "object": "kettle_8",
+   "anchor_err": 0.0,
+   "target_xyz": [
+    0.0832810315073691,
+    0.027195506308042624,
+    0.7985171964094843
+   ]
+  },
+  {
+   "worker": 0,
+   "ep": 5,
+   "success": true,
+   "steps": 5,
+   "reward": 0.061618644920617194,
+   "object": "pear_3",
+   "anchor_err": 0.0,
+   "target_xyz": [
+    -0.008271377093499097,
+    0.19236458743285734,
+    0.7967078897571744
+   ]
+  }
+ ]
+}

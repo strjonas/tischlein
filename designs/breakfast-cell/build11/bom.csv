@@ -1,0 +1,33 @@
+id,group,item,part_no,qty,use
+E01,servo,Feetech STS3215 12 V 30 kg·cm,STS3215-C018,6,"shoulder, elbow, wrist roll, wrist pitch, gripper, lift"
+X03,servo,Feetech STS3250 12 V 50 kg·cm (wrist yaw),STS3250-C002,1,"the wrist yaw (same case, 25T spline, same 12 V bus): breaks fridge seals up to about 23 N at the pin instead of about 17 N"
+E02,control,Waveshare Bus Servo Adapter (A),,1,USB to the servo bus; the only controller
+R01,power,Mean Well LRS-150-12 (12 V 12.5 A),LRS-150-12,1,servo supply; print a terminal cover and strain relief
+R02,power,Schuko cord to open ends 3G0.75 1.5 m,,1,mains to the supply
+R03,power,Inline fuse holder 5x20 (32 V),,1,12 V side only
+R04,power,5x20 fuses 10 A slow (pack),,1,for R03
+R05,power,DC plug 5.5x2.1 mm with screw terminals,,1,12 V into the adapter's jack
+R06,power,WAGO 221-412,221-412,10,power injection on the servo bus
+R07,appliance,Shelly Plug S MTR Gen3,Plug S MTR Gen3,1,independent heat cut-off: caps the heating time whatever keys get pressed; its meter shows when heating ends
+R08,wiring,Spiral wrap 3–25 mm 10 m,,1,cable service loops
+A01,arm,608-2RS bearings x10,,1,"two per belt joint (shoulder, elbow), lift top idler, roll support, spares"
+A02,arm,M8x70 A2 bolts x10 with nylock nuts and washers,,1,joint axles
+A03,arm,"GT2 6 mm closed belt 200 mm, glass fibre, 2 pcs",,1,3:1 shoulder and elbow reductions; glass fibre stretches less than the assortment belts
+A04,arm,"GT2 kit: 5 m belt, 5x 20T pulleys, 5x 20T toothed idlers, clamps",,1,20T pulleys on the shoulder and elbow servos; its 5 m belt is the lift loop; clamps for carriage and counterweight
+A05,fasteners,M2–M5 stainless socket screw set 1560 pcs,,1,
+A06,safety,Latching e-stop in housing 1NO+1NC,,1,cuts the 12 V servo supply; the counterweight keeps the lift from dropping when it does
+A07,sensing,InnoMaker U20CAM-1080P USB camera 32x32 mm 130°,,2,"one on the wrist, one on the mast top as the fixed scene camera"
+A08,fabrication,SUNLU PETG 1.75 mm 1 kg,,1,"joint housings, 48T lift pulleys, wrist and gripper, fingers, door pins, mast brace, terminal cover"
+A09,wiring,Waveshare 5264 servo cables 6x 900 mm,,1,bus up the mast and along the arm
+A10,wiring,H05VV-F 2x1 mm² 10 m,,1,12 V feed
+H01,arm,Alu square tube 20x20x1.5 mm 1 m,,1,two links cut to about 320 mm
+A11,lift,2x V-slot 2040 1500 mm with T-nuts and brackets,,1,bolted face to face as a 40x40 mast
+A12,lift,V-slot gantry plate 20–80 with 6 POM wheels and eccentric spacers,,1,carriage; wheel rows 110 mm apart
+A14,lift,M5 hammer nuts slot 6 x50,,1,
+A15,lift,"Cast-iron weight plate 30/31 mm, 1.25 kg",,1,counterweight clamped on the lift belt behind the mast; balances the arm so the lift holds when power is cut
+A16,appliance,Neodymium magnets 10x3 mm x20,,1,"door stay, only if the fridge door drifts shut from 48 deg"
+A17,appliance,3M VHB 5952F 19 mm x 3 m,,1,"door pins on fridge and microwave, mast brace on the fridge side wall; no drilling"
+H02,base,Glued spruce board 800x600x18,,1,"under the fridge, uncut; the fridge is the ballast"
+H03,base,Angle bracket 60x60x45,,1,mast foot (back face); the printed lift-servo mount is the second foot
+X01,box job,"Food-grade silicone strip 20 x 16 mm, 1 m",,1,"two ribs on the turntable and two on the serving spot (cut to 170 mm, food-safe silicone glue); the fork runs in the 64 mm channel between them"
+X02,box job,"Silicone stretch lids, set of 6",,1,lid that rests on the 1 L glass box and stays on while heating (the IKEA plastic lid is not for the microwave)

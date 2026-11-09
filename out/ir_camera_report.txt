@@ -1,0 +1,38 @@
+IR wrist camera in place of the iPhone (cad/ir_camera.py)
+
+Target (EgoGym's CAP model, gripper frame, mm):
+  lens point [0.0, -36.0, 100.0], looking 15 deg below the gripper's forward axis, fovy 53.1 deg, 4:3
+  on the 13 Pro: 31.8 mm from the phone's end, 13.0 mm below its top edge,
+  2.8 mm behind the front of the camera bump
+
+Board placement:
+  PCB front at z = 69.7 (screen face 70.22: in a pocket in the insert), so the lens pupil
+  (9.0 mm above the PCB: MEASURE on the lens used, then change PUPIL_ABOVE_PCB) is on the iPhone's
+  CAP's printed parts leave the space behind the lens free; tolerances: experiments/cap_zero_shot/run_cammount.sh
+
+Lens (OV9281 1/4", 1280 x 800):
+  to cover CAP's view: f <= 2.40 mm (vertical 2.40, horizontal 2.88 for 67.3 deg)
+  stock 70 deg (H) lens: 47 deg vertical (sim: 40 deg vertical still 81 %); a ~2.1 mm M12 lens covers
+  the full view, then undistort and crop to a virtual 53.1 deg pinhole camera in software
+
+Alignment check on the real camera:
+  fingers are 117-192 mm from the lens; 3 mm of lens offset moves them 11-19 px at 960 x 720
+  (parallax 7 px between near and far ends, which a tilt can't fake). Fit the tilt in software,
+  then the residual finger offset against EgoGym's rendering should stay under ~10 px
+
+Infrared light (2x 940 nm LEDs, ~40 mW/sr each at 100 mA, +-25 deg):
+  0.2 m: 2.00 W/m2
+  0.3 m: 0.89 W/m2
+  0.5 m: 0.32 W/m2
+  1.0 m: 0.08 W/m2
+  (office light of ~300 lux carries roughly 1 W/m2 of visible light; the OV9281 is less sensitive at 940 nm
+  than at 850 nm, check its curve. 940 nm is invisible; 850 nm LEDs glow faintly red)
+
+CAP's own parts in the policy's view (share of the 224 x 224 input):
+  lens  0.0 mm back:  2.4 %
+  lens  3.0 mm back:  3.2 %
+  lens  5.0 mm back:  3.4 %
+  lens 10.0 mm back:  6.7 %
+
+Interference with CAP's printed top plate and holder (their surface points inside the insert): 0
+Insert: [81.8, 80.6, 8.7] mm, 42.2 cm3 (~54 g PETG solid)

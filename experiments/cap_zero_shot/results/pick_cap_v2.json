@@ -1,0 +1,1212 @@
+{
+ "task": "pick",
+ "robot": "cap",
+ "episodes": 150,
+ "success_rate": 0.78,
+ "seed": 7,
+ "num_objs": 1,
+ "max_steps": 80,
+ "minutes": 8.181455528736114,
+ "episodes_detail": [
+  {
+   "worker": 0,
+   "ep": 0,
+   "success": true,
+   "steps": 43,
+   "reward": 0.10561264672268011,
+   "object": "spoon_11"
+  },
+  {
+   "worker": 0,
+   "ep": 1,
+   "success": true,
+   "steps": 11,
+   "reward": 0.14941806378349876,
+   "object": "mango_19"
+  },
+  {
+   "worker": 0,
+   "ep": 2,
+   "success": false,
+   "steps": 65,
+   "reward": 5.8564859224397026e-06,
+   "object": "sponge_5"
+  },
+  {
+   "worker": 0,
+   "ep": 3,
+   "success": false,
+   "steps": 70,
+   "reward": -0.00014722189761506854,
+   "object": "banana_24"
+  },
+  {
+   "worker": 0,
+   "ep": 4,
+   "success": true,
+   "steps": 41,
+   "reward": 0.05851373509947577,
+   "object": "kettle_8"
+  },
+  {
+   "worker": 0,
+   "ep": 5,
+   "success": true,
+   "steps": 48,
+   "reward": 0.0906924628039879,
+   "object": "pear_3"
+  },
+  {
+   "worker": 0,
+   "ep": 6,
+   "success": true,
+   "steps": 22,
+   "reward": 0.07883517008379759,
+   "object": "yogurt_3"
+  },
+  {
+   "worker": 0,
+   "ep": 7,
+   "success": true,
+   "steps": 12,
+   "reward": 0.05056813458427489,
+   "object": "mug_17"
+  },
+  {
+   "worker": 0,
+   "ep": 8,
+   "success": true,
+   "steps": 14,
+   "reward": 0.11962683023462439,
+   "object": "mango_18"
+  },
+  {
+   "worker": 0,
+   "ep": 9,
+   "success": true,
+   "steps": 19,
+   "reward": 0.0661208006179399,
+   "object": "mug_7"
+  },
+  {
+   "worker": 0,
+   "ep": 10,
+   "success": true,
+   "steps": 11,
+   "reward": 0.05275208507029572,
+   "object": "egg_4"
+  },
+  {
+   "worker": 0,
+   "ep": 11,
+   "success": true,
+   "steps": 12,
+   "reward": 0.0799250616604088,
+   "object": "water_bottle_17"
+  },
+  {
+   "worker": 0,
+   "ep": 12,
+   "success": true,
+   "steps": 13,
+   "reward": 0.1426824758130123,
+   "object": "egg_5"
+  },
+  {
+   "worker": 0,
+   "ep": 13,
+   "success": false,
+   "steps": 73,
+   "reward": 1.2354448672979856e-06,
+   "object": "bar_0"
+  },
+  {
+   "worker": 0,
+   "ep": 14,
+   "success": false,
+   "steps": 75,
+   "reward": 9.49660173388267e-07,
+   "object": "plate_14"
+  },
+  {
+   "worker": 0,
+   "ep": 15,
+   "success": false,
+   "steps": 80,
+   "reward": -0.0013935245069217617,
+   "object": "plate_17"
+  },
+  {
+   "worker": 0,
+   "ep": 16,
+   "success": true,
+   "steps": 31,
+   "reward": 0.055485770730426376,
+   "object": "bagel_9"
+  },
+  {
+   "worker": 1,
+   "ep": 0,
+   "success": true,
+   "steps": 11,
+   "reward": 0.05654215231444115,
+   "object": "potato_3"
+  },
+  {
+   "worker": 1,
+   "ep": 1,
+   "success": true,
+   "steps": 15,
+   "reward": 0.05910373885383968,
+   "object": "cupcake_12"
+  },
+  {
+   "worker": 1,
+   "ep": 2,
+   "success": true,
+   "steps": 43,
+   "reward": 0.09367396952890883,
+   "object": "kettle_16"
+  },
+  {
+   "worker": 1,
+   "ep": 3,
+   "success": true,
+   "steps": 17,
+   "reward": 0.06453077859323064,
+   "object": "boxed_drink_5"
+  },
+  {
+   "worker": 1,
+   "ep": 4,
+   "success": true,
+   "steps": 14,
+   "reward": 0.07440983474743845,
+   "object": "jug_4"
+  },
+  {
+   "worker": 1,
+   "ep": 5,
+   "success": true,
+   "steps": 17,
+   "reward": 0.05381534803846333,
+   "object": "croissant_9"
+  },
+  {
+   "worker": 1,
+   "ep": 6,
+   "success": true,
+   "steps": 19,
+   "reward": 0.08525671555305792,
+   "object": "spatula_7"
+  },
+  {
+   "worker": 1,
+   "ep": 7,
+   "success": true,
+   "steps": 15,
+   "reward": 0.050645013460176025,
+   "object": "mug_15"
+  },
+  {
+   "worker": 1,
+   "ep": 8,
+   "success": true,
+   "steps": 10,
+   "reward": 0.07990491590617566,
+   "object": "eggplant_2"
+  },
+  {
+   "worker": 1,
+   "ep": 9,
+   "success": false,
+   "steps": 80,
+   "reward": 0.008451293081697786,
+   "object": "boxed_food_8"
+  },
+  {
+   "worker": 1,
+   "ep": 10,
+   "success": true,
+   "steps": 13,
+   "reward": 0.08577181969381398,
+   "object": "bottled_water_14"
+  },
+  {
+   "worker": 1,
+   "ep": 11,
+   "success": true,
+   "steps": 67,
+   "reward": 0.07397749875288206,
+   "object": "can_4"
+  },
+  {
+   "worker": 1,
+   "ep": 12,
+   "success": false,
+   "steps": 80,
+   "reward": -0.019113067117409677,
+   "object": "boxed_food_9"
+  },
+  {
+   "worker": 1,
+   "ep": 13,
+   "success": true,
+   "steps": 10,
+   "reward": 0.08449044259161653,
+   "object": "egg_7"
+  },
+  {
+   "worker": 1,
+   "ep": 14,
+   "success": true,
+   "steps": 19,
+   "reward": 0.08983264809810598,
+   "object": "candle_4"
+  },
+  {
+   "worker": 1,
+   "ep": 15,
+   "success": true,
+   "steps": 18,
+   "reward": 0.059903655567505654,
+   "object": "teapot_6"
+  },
+  {
+   "worker": 1,
+   "ep": 16,
+   "success": false,
+   "steps": 80,
+   "reward": 6.177912124760709e-06,
+   "object": "chocolate_10"
+  },
+  {
+   "worker": 2,
+   "ep": 0,
+   "success": true,
+   "steps": 29,
+   "reward": 0.0717760433912038,
+   "object": "soap_dispenser_2"
+  },
+  {
+   "worker": 2,
+   "ep": 1,
+   "success": true,
+   "steps": 15,
+   "reward": 0.05101940161363916,
+   "object": "croissant_1"
+  },
+  {
+   "worker": 2,
+   "ep": 2,
+   "success": true,
+   "steps": 12,
+   "reward": 0.0571891993075232,
+   "object": "water_bottle_10"
+  },
+  {
+   "worker": 2,
+   "ep": 3,
+   "success": true,
+   "steps": 12,
+   "reward": 0.10605735583174469,
+   "object": "mango_12"
+  },
+  {
+   "worker": 2,
+   "ep": 4,
+   "success": true,
+   "steps": 14,
+   "reward": 0.0798947044673205,
+   "object": "mug_17"
+  },
+  {
+   "worker": 2,
+   "ep": 5,
+   "success": true,
+   "steps": 25,
+   "reward": 0.09067547465011494,
+   "object": "ketchup_8"
+  },
+  {
+   "worker": 2,
+   "ep": 6,
+   "success": true,
+   "steps": 13,
+   "reward": 0.05541808966927697,
+   "object": "onion_4"
+  },
+  {
+   "worker": 2,
+   "ep": 7,
+   "success": false,
+   "steps": 80,
+   "reward": -0.00011037518653178591,
+   "object": "fork_5"
+  },
+  {
+   "worker": 2,
+   "ep": 8,
+   "success": true,
+   "steps": 24,
+   "reward": 0.10884812172423475,
+   "object": "squash_5"
+  },
+  {
+   "worker": 2,
+   "ep": 9,
+   "success": true,
+   "steps": 43,
+   "reward": 0.05552026730520743,
+   "object": "cheese_4"
+  },
+  {
+   "worker": 2,
+   "ep": 10,
+   "success": true,
+   "steps": 50,
+   "reward": 0.06241862149402211,
+   "object": "carrot_7"
+  },
+  {
+   "worker": 2,
+   "ep": 11,
+   "success": true,
+   "steps": 10,
+   "reward": 0.14307223765756538,
+   "object": "can_15"
+  },
+  {
+   "worker": 2,
+   "ep": 12,
+   "success": false,
+   "steps": 80,
+   "reward": 0.024770595229721692,
+   "object": "chips_2"
+  },
+  {
+   "worker": 2,
+   "ep": 13,
+   "success": true,
+   "steps": 10,
+   "reward": 0.10857692954257048,
+   "object": "pear_12"
+  },
+  {
+   "worker": 2,
+   "ep": 14,
+   "success": true,
+   "steps": 22,
+   "reward": 0.06431780498414896,
+   "object": "mushroom_10"
+  },
+  {
+   "worker": 2,
+   "ep": 15,
+   "success": true,
+   "steps": 25,
+   "reward": 0.08513390627731932,
+   "object": "pan_4"
+  },
+  {
+   "worker": 2,
+   "ep": 16,
+   "success": false,
+   "steps": 71,
+   "reward": -0.0002050185052632214,
+   "object": "knife_10"
+  },
+  {
+   "worker": 3,
+   "ep": 0,
+   "success": true,
+   "steps": 37,
+   "reward": 0.1013401503848137,
+   "object": "bagged_food_3"
+  },
+  {
+   "worker": 3,
+   "ep": 1,
+   "success": true,
+   "steps": 12,
+   "reward": 0.06789209041393052,
+   "object": "avocado_2"
+  },
+  {
+   "worker": 3,
+   "ep": 2,
+   "success": true,
+   "steps": 12,
+   "reward": 0.05453980859371177,
+   "object": "alcohol_2"
+  },
+  {
+   "worker": 3,
+   "ep": 3,
+   "success": true,
+   "steps": 10,
+   "reward": 0.1174380381071698,
+   "object": "yogurt_3"
+  },
+  {
+   "worker": 3,
+   "ep": 4,
+   "success": true,
+   "steps": 21,
+   "reward": 0.07459470508738275,
+   "object": "banana_4"
+  },
+  {
+   "worker": 3,
+   "ep": 5,
+   "success": true,
+   "steps": 17,
+   "reward": 0.1377825312375065,
+   "object": "orange_4"
+  },
+  {
+   "worker": 3,
+   "ep": 6,
+   "success": false,
+   "steps": 80,
+   "reward": -1.0208032046876703e-05,
+   "object": "spatula_13"
+  },
+  {
+   "worker": 3,
+   "ep": 7,
+   "success": true,
+   "steps": 33,
+   "reward": 0.1439600341283681,
+   "object": "cereal_0"
+  },
+  {
+   "worker": 3,
+   "ep": 8,
+   "success": false,
+   "steps": 80,
+   "reward": 7.145251134099695e-07,
+   "object": "plate_5"
+  },
+  {
+   "worker": 3,
+   "ep": 9,
+   "success": true,
+   "steps": 20,
+   "reward": 0.06266711366076261,
+   "object": "mango_18"
+  },
+  {
+   "worker": 3,
+   "ep": 10,
+   "success": false,
+   "steps": 80,
+   "reward": 8.225503752568031e-07,
+   "object": "plate_13"
+  },
+  {
+   "worker": 3,
+   "ep": 11,
+   "success": true,
+   "steps": 19,
+   "reward": 0.0715924178956151,
+   "object": "coffee_cup_2"
+  },
+  {
+   "worker": 3,
+   "ep": 12,
+   "success": true,
+   "steps": 13,
+   "reward": 0.09245039186411774,
+   "object": "jam_5"
+  },
+  {
+   "worker": 3,
+   "ep": 13,
+   "success": true,
+   "steps": 35,
+   "reward": 0.07024058213596684,
+   "object": "teapot_4"
+  },
+  {
+   "worker": 3,
+   "ep": 14,
+   "success": true,
+   "steps": 11,
+   "reward": 0.09297379306674092,
+   "object": "egg_4"
+  },
+  {
+   "worker": 3,
+   "ep": 15,
+   "success": true,
+   "steps": 17,
+   "reward": 0.055317155855448275,
+   "object": "candle_3"
+  },
+  {
+   "worker": 3,
+   "ep": 16,
+   "success": true,
+   "steps": 26,
+   "reward": 0.0619726709409667,
+   "object": "eggplant_0"
+  },
+  {
+   "worker": 4,
+   "ep": 0,
+   "success": true,
+   "steps": 26,
+   "reward": 0.07621985499092399,
+   "object": "banana_10"
+  },
+  {
+   "worker": 4,
+   "ep": 1,
+   "success": false,
+   "steps": 80,
+   "reward": -0.0006648004354341541,
+   "object": "spoon_14"
+  },
+  {
+   "worker": 4,
+   "ep": 2,
+   "success": true,
+   "steps": 17,
+   "reward": 0.0883229412022496,
+   "object": "sweet_potato_3"
+  },
+  {
+   "worker": 4,
+   "ep": 3,
+   "success": false,
+   "steps": 56,
+   "reward": -0.0014063366010825806,
+   "object": "bar_7"
+  },
+  {
+   "worker": 4,
+   "ep": 4,
+   "success": true,
+   "steps": 18,
+   "reward": 0.05717258443993534,
+   "object": "egg_0"
+  },
+  {
+   "worker": 4,
+   "ep": 5,
+   "success": true,
+   "steps": 59,
+   "reward": 0.08920622522470079,
+   "object": "alcohol_5"
+  },
+  {
+   "worker": 4,
+   "ep": 6,
+   "success": true,
+   "steps": 29,
+   "reward": 0.05052020919585509,
+   "object": "bread_18"
+  },
+  {
+   "worker": 4,
+   "ep": 7,
+   "success": true,
+   "steps": 26,
+   "reward": 0.05477001931959491,
+   "object": "can_3"
+  },
+  {
+   "worker": 4,
+   "ep": 8,
+   "success": false,
+   "steps": 80,
+   "reward": -0.004144467427396492,
+   "object": "spoon_4"
+  },
+  {
+   "worker": 4,
+   "ep": 9,
+   "success": true,
+   "steps": 16,
+   "reward": 0.146980927870909,
+   "object": "jam_4"
+  },
+  {
+   "worker": 4,
+   "ep": 10,
+   "success": true,
+   "steps": 54,
+   "reward": 0.10626204051746468,
+   "object": "coffee_cup_15"
+  },
+  {
+   "worker": 4,
+   "ep": 11,
+   "success": true,
+   "steps": 11,
+   "reward": 0.09291065246973662,
+   "object": "kiwi_6"
+  },
+  {
+   "worker": 4,
+   "ep": 12,
+   "success": true,
+   "steps": 23,
+   "reward": 0.08909838128925684,
+   "object": "knife_1"
+  },
+  {
+   "worker": 4,
+   "ep": 13,
+   "success": false,
+   "steps": 80,
+   "reward": 6.1247906545380815e-06,
+   "object": "knife_25"
+  },
+  {
+   "worker": 4,
+   "ep": 14,
+   "success": true,
+   "steps": 16,
+   "reward": 0.09528252154406402,
+   "object": "cupcake_9"
+  },
+  {
+   "worker": 4,
+   "ep": 15,
+   "success": true,
+   "steps": 9,
+   "reward": 0.08913562421940235,
+   "object": "coffee_cup_7"
+  },
+  {
+   "worker": 4,
+   "ep": 16,
+   "success": true,
+   "steps": 11,
+   "reward": 0.061322870169558286,
+   "object": "onion_7"
+  },
+  {
+   "worker": 5,
+   "ep": 0,
+   "success": true,
+   "steps": 15,
+   "reward": 0.11615221875582249,
+   "object": "orange_1"
+  },
+  {
+   "worker": 5,
+   "ep": 1,
+   "success": true,
+   "steps": 42,
+   "reward": 0.05696289958998735,
+   "object": "canned_food_10"
+  },
+  {
+   "worker": 5,
+   "ep": 2,
+   "success": true,
+   "steps": 16,
+   "reward": 0.06492156283801809,
+   "object": "mango_15"
+  },
+  {
+   "worker": 5,
+   "ep": 3,
+   "success": true,
+   "steps": 31,
+   "reward": 0.0542781379218652,
+   "object": "donut_1"
+  },
+  {
+   "worker": 5,
+   "ep": 4,
+   "success": true,
+   "steps": 9,
+   "reward": 0.10476589990491558,
+   "object": "orange_3"
+  },
+  {
+   "worker": 5,
+   "ep": 5,
+   "success": false,
+   "steps": 80,
+   "reward": -0.00015229535177763154,
+   "object": "bagel_3"
+  },
+  {
+   "worker": 5,
+   "ep": 6,
+   "success": false,
+   "steps": 80,
+   "reward": -0.0045846166770674435,
+   "object": "spatula_10"
+  },
+  {
+   "worker": 5,
+   "ep": 7,
+   "success": false,
+   "steps": 80,
+   "reward": -0.004157813747545092,
+   "object": "spoon_4"
+  },
+  {
+   "worker": 5,
+   "ep": 8,
+   "success": true,
+   "steps": 25,
+   "reward": 0.056397044029294685,
+   "object": "soap_dispenser_4"
+  },
+  {
+   "worker": 5,
+   "ep": 9,
+   "success": true,
+   "steps": 14,
+   "reward": 0.09482579548644932,
+   "object": "bell_pepper_3"
+  },
+  {
+   "worker": 5,
+   "ep": 10,
+   "success": true,
+   "steps": 11,
+   "reward": 0.12156468053421421,
+   "object": "wine_6"
+  },
+  {
+   "worker": 5,
+   "ep": 11,
+   "success": true,
+   "steps": 11,
+   "reward": 0.11088787750839779,
+   "object": "tangerine_3"
+  },
+  {
+   "worker": 5,
+   "ep": 12,
+   "success": true,
+   "steps": 25,
+   "reward": 0.09619468734908732,
+   "object": "potato_12"
+  },
+  {
+   "worker": 5,
+   "ep": 13,
+   "success": false,
+   "steps": 80,
+   "reward": -0.0007653169268498905,
+   "object": "chips_4"
+  },
+  {
+   "worker": 5,
+   "ep": 14,
+   "success": true,
+   "steps": 15,
+   "reward": 0.05867316347272211,
+   "object": "bell_pepper_2"
+  },
+  {
+   "worker": 5,
+   "ep": 15,
+   "success": true,
+   "steps": 14,
+   "reward": 0.12241341518465743,
+   "object": "wine_10"
+  },
+  {
+   "worker": 5,
+   "ep": 16,
+   "success": true,
+   "steps": 17,
+   "reward": 0.06023265744780271,
+   "object": "apple_19"
+  },
+  {
+   "worker": 6,
+   "ep": 0,
+   "success": true,
+   "steps": 29,
+   "reward": 0.06768760386600536,
+   "object": "ketchup_11"
+  },
+  {
+   "worker": 6,
+   "ep": 1,
+   "success": true,
+   "steps": 16,
+   "reward": 0.11754224183320261,
+   "object": "apple_2"
+  },
+  {
+   "worker": 6,
+   "ep": 2,
+   "success": true,
+   "steps": 14,
+   "reward": 0.05701247952791633,
+   "object": "chips_11"
+  },
+  {
+   "worker": 6,
+   "ep": 3,
+   "success": true,
+   "steps": 12,
+   "reward": 0.1386623830245194,
+   "object": "milk_5"
+  },
+  {
+   "worker": 6,
+   "ep": 4,
+   "success": false,
+   "steps": 80,
+   "reward": -0.0028969271322322188,
+   "object": "spatula_4"
+  },
+  {
+   "worker": 6,
+   "ep": 5,
+   "success": false,
+   "steps": 80,
+   "reward": -0.05050948293957758,
+   "object": "cereal_6"
+  },
+  {
+   "worker": 6,
+   "ep": 6,
+   "success": false,
+   "steps": 80,
+   "reward": 1.2504842424876372e-06,
+   "object": "donut_2"
+  },
+  {
+   "worker": 6,
+   "ep": 7,
+   "success": true,
+   "steps": 14,
+   "reward": 0.05501295667499162,
+   "object": "apple_20"
+  },
+  {
+   "worker": 6,
+   "ep": 8,
+   "success": true,
+   "steps": 22,
+   "reward": 0.08758443471900379,
+   "object": "pan_5"
+  },
+  {
+   "worker": 6,
+   "ep": 9,
+   "success": true,
+   "steps": 24,
+   "reward": 0.057446770879329145,
+   "object": "kettle_4"
+  },
+  {
+   "worker": 6,
+   "ep": 10,
+   "success": true,
+   "steps": 39,
+   "reward": 0.05553400042209533,
+   "object": "candle_14"
+  },
+  {
+   "worker": 6,
+   "ep": 11,
+   "success": true,
+   "steps": 39,
+   "reward": 0.07401256910890686,
+   "object": "cereal_0"
+  },
+  {
+   "worker": 6,
+   "ep": 12,
+   "success": true,
+   "steps": 43,
+   "reward": 0.05562806176121382,
+   "object": "broccoli_0"
+  },
+  {
+   "worker": 6,
+   "ep": 13,
+   "success": true,
+   "steps": 26,
+   "reward": 0.1045744540061867,
+   "object": "bar_6"
+  },
+  {
+   "worker": 6,
+   "ep": 14,
+   "success": true,
+   "steps": 40,
+   "reward": 0.06466467034424261,
+   "object": "hot_dog_4"
+  },
+  {
+   "worker": 6,
+   "ep": 15,
+   "success": true,
+   "steps": 16,
+   "reward": 0.101519421741467,
+   "object": "apple_14"
+  },
+  {
+   "worker": 7,
+   "ep": 0,
+   "success": true,
+   "steps": 13,
+   "reward": 0.09054249057798502,
+   "object": "steak_15"
+  },
+  {
+   "worker": 7,
+   "ep": 1,
+   "success": true,
+   "steps": 10,
+   "reward": 0.10188707651294948,
+   "object": "mug_17"
+  },
+  {
+   "worker": 7,
+   "ep": 2,
+   "success": false,
+   "steps": 80,
+   "reward": -0.0027293771625027663,
+   "object": "sponge_0"
+  },
+  {
+   "worker": 7,
+   "ep": 3,
+   "success": false,
+   "steps": 59,
+   "reward": -1.4279944331341277e-05,
+   "object": "spatula_6"
+  },
+  {
+   "worker": 7,
+   "ep": 4,
+   "success": true,
+   "steps": 38,
+   "reward": 0.055194866776428264,
+   "object": "bread_0"
+  },
+  {
+   "worker": 7,
+   "ep": 5,
+   "success": false,
+   "steps": 64,
+   "reward": -0.0022522974531146156,
+   "object": "fork_6"
+  },
+  {
+   "worker": 7,
+   "ep": 6,
+   "success": true,
+   "steps": 17,
+   "reward": 0.05868877998599065,
+   "object": "kettle_8"
+  },
+  {
+   "worker": 7,
+   "ep": 7,
+   "success": true,
+   "steps": 20,
+   "reward": 0.13472936291910953,
+   "object": "tangerine_1"
+  },
+  {
+   "worker": 7,
+   "ep": 8,
+   "success": true,
+   "steps": 26,
+   "reward": 0.06561749697560315,
+   "object": "cereal_9"
+  },
+  {
+   "worker": 7,
+   "ep": 9,
+   "success": true,
+   "steps": 53,
+   "reward": 0.05224606263914733,
+   "object": "alcohol_10"
+  },
+  {
+   "worker": 7,
+   "ep": 10,
+   "success": true,
+   "steps": 37,
+   "reward": 0.050628340607736355,
+   "object": "kettle_23"
+  },
+  {
+   "worker": 7,
+   "ep": 11,
+   "success": true,
+   "steps": 33,
+   "reward": 0.09208779120812449,
+   "object": "boxed_food_11"
+  },
+  {
+   "worker": 7,
+   "ep": 12,
+   "success": true,
+   "steps": 12,
+   "reward": 0.12390227850802171,
+   "object": "egg_13"
+  },
+  {
+   "worker": 7,
+   "ep": 13,
+   "success": true,
+   "steps": 19,
+   "reward": 0.07556001635117171,
+   "object": "can_3"
+  },
+  {
+   "worker": 7,
+   "ep": 14,
+   "success": true,
+   "steps": 16,
+   "reward": 0.0760721580579844,
+   "object": "chips_8"
+  },
+  {
+   "worker": 7,
+   "ep": 15,
+   "success": false,
+   "steps": 80,
+   "reward": -1.9153867677479397e-06,
+   "object": "plate_15"
+  },
+  {
+   "worker": 8,
+   "ep": 0,
+   "success": true,
+   "steps": 38,
+   "reward": 0.08266964876462612,
+   "object": "spoon_5"
+  },
+  {
+   "worker": 8,
+   "ep": 1,
+   "success": false,
+   "steps": 80,
+   "reward": 7.731525977217046e-07,
+   "object": "pan_8"
+  },
+  {
+   "worker": 8,
+   "ep": 2,
+   "success": true,
+   "steps": 52,
+   "reward": 0.06055079294539001,
+   "object": "cake_7"
+  },
+  {
+   "worker": 8,
+   "ep": 3,
+   "success": false,
+   "steps": 80,
+   "reward": 6.394647379392993e-07,
+   "object": "pan_20"
+  },
+  {
+   "worker": 8,
+   "ep": 4,
+   "success": true,
+   "steps": 18,
+   "reward": 0.08228899874468942,
+   "object": "candle_9"
+  },
+  {
+   "worker": 8,
+   "ep": 5,
+   "success": true,
+   "steps": 14,
+   "reward": 0.09637683420681908,
+   "object": "egg_8"
+  },
+  {
+   "worker": 8,
+   "ep": 6,
+   "success": true,
+   "steps": 52,
+   "reward": 0.07027169836668512,
+   "object": "pear_5"
+  },
+  {
+   "worker": 8,
+   "ep": 7,
+   "success": true,
+   "steps": 38,
+   "reward": 0.0677982482890972,
+   "object": "beer_12"
+  },
+  {
+   "worker": 8,
+   "ep": 8,
+   "success": true,
+   "steps": 28,
+   "reward": 0.050574193180570104,
+   "object": "wine_1"
+  },
+  {
+   "worker": 8,
+   "ep": 9,
+   "success": true,
+   "steps": 49,
+   "reward": 0.07096646078444602,
+   "object": "pan_10"
+  },
+  {
+   "worker": 8,
+   "ep": 10,
+   "success": true,
+   "steps": 77,
+   "reward": 0.05924769497902793,
+   "object": "cake_0"
+  },
+  {
+   "worker": 8,
+   "ep": 11,
+   "success": true,
+   "steps": 54,
+   "reward": 0.09519656968166568,
+   "object": "pan_24"
+  },
+  {
+   "worker": 8,
+   "ep": 12,
+   "success": true,
+   "steps": 40,
+   "reward": 0.05405195951984809,
+   "object": "banana_14"
+  },
+  {
+   "worker": 8,
+   "ep": 13,
+   "success": false,
+   "steps": 78,
+   "reward": -0.0023937395754722868,
+   "object": "chips_1"
+  },
+  {
+   "worker": 8,
+   "ep": 14,
+   "success": false,
+   "steps": 80,
+   "reward": -9.602202454395137e-05,
+   "object": "bread_18"
+  },
+  {
+   "worker": 8,
+   "ep": 15,
+   "success": true,
+   "steps": 12,
+   "reward": 0.08459492638865496,
+   "object": "ketchup_3"
+  }
+ ]
+}

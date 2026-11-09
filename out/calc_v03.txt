@@ -1,0 +1,19 @@
+Does each configuration stand on its own? (calc_v03.py; static, no braking; SF >= 1.5 OK)
+
+configuration 1: 6.2 kg without payload or ballast
+configuration 2: 8.1 kg without payload or ballast
+configuration 3: 16.9 kg without payload or ballast
+hand arm 1.35 kg (v0.2 with iPhone 1.49), stump 0.97 kg
+
+  configuration 1, table height 0.65 m: hand full forward, 1 kg in it forward  SF  1.0  TIPS
+  configuration 1, same, 5 kg ballast                              forward  SF  3.5  OK
+  configuration 1, drawer out, 2 kg bottle on its front (tongue test) forward  SF  1.2  MARGINAL
+  configuration 1, same, 5 kg ballast                              forward  SF  4.0  OK
+  configuration 1, hand straight out to the right, 1 kg            sideways SF  0.8  TIPS
+  configuration 1, same, 5 kg ballast                              sideways SF  1.6  OK
+  configuration 2, floor: hand pitched down 0.4 m ahead, stump forward too forward  SF  4.2  OK
+  configuration 2, drawer out at bed height, 5 kg parcel           forward  SF  2.4  OK
+  configuration 2, same, no ballast                                forward  SF  0.8  TIPS
+  configuration 3, hand full forward, 1 kg in it                   forward  SF  3.4  OK
+  configuration 3, drawer out at bed height, 5 kg parcel           forward  SF  2.3  OK
+  configuration 3, hand straight out to the right, 1 kg            sideways SF  2.6  OK

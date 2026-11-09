@@ -1,0 +1,18 @@
+How accurately can the iPhone SE (no depth) locate a tapped point? Two wrist views, triangulated.
+
+    third_party/EgoGym/.venv/bin/python experiments/cap_zero_shot/triangulate.py [episodes]
+
+For each EgoGym pick scene (random objects, textures, tables):
+  1. the tap: the visible pixel of the target object nearest to its centre, in the first wrist image;
+  2. the truth: the 3D surface point under that pixel, from the renderer's depth buffer;
+  0. the wrist first moves to ~35 cm from the object (the bench protocol's start);
+  3. the wrist moves 8 cm sideways (the robot knows how far from its joint angles; we add the error of cheap
+     servos to that relative pose: 1.5 mm and 0.3 deg per axis), a second image is taken;
+  4. the tapped patch is found again in the second image by template matching along the epipolar line (sub-pixel),
+     and the two rays are intersected (midpoint method).
+Rendered at 960 x 720 with the CAP camera's 53.1 deg vertical field of view (the SE streams 1920 x 1440).
+Rendered images are cleaner than a real phone's (no blur, no noise), so the matching part is optimistic.
+
+pose error per view 1.5 mm / 0.30 deg
+22 matched of 40 scenes (18 not found again, 0 objects hidden behind the gripper), distance 0.31 m median, baseline 8 cm, mode track
+3D error of the triangulated tap: median 1.09 cm, mean 1.25 cm, 90th percentile 2.04 cm, worst 3.83 cm

@@ -1,0 +1,218 @@
+[
+ {
+  "test": "incline slips at atan(mu), mu 0.25 [dt 2 ms]",
+  "got": 14.536,
+  "want": 14.036,
+  "tol": 1.5,
+  "unit": "deg",
+  "ok": true
+ },
+ {
+  "test": "incline slips at atan(mu), mu 0.5 [dt 2 ms]",
+  "got": 27.065,
+  "want": 26.565,
+  "tol": 1.5,
+  "unit": "deg",
+  "ok": true
+ },
+ {
+  "test": "tips at m g a / h [dt 2 ms]",
+  "got": 60.188,
+  "want": 58.86,
+  "tol": 3.5315999999999996,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "pinch holds 2 mu N, mu 0.6 [dt 2 ms]",
+  "got": 48.482,
+  "want": 48.0,
+  "tol": 5.76,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "pinch holds 2 mu N, mu 0.3 [dt 2 ms]",
+  "got": 24.271,
+  "want": 24.0,
+  "tol": 2.88,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "wheel r 37 mm climbs 15 mm at W tan a [dt 2 ms]",
+  "got": 42.272,
+  "want": 40.0,
+  "tol": 8.000000000000002,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "wheel r 50 mm climbs 15 mm at W tan a [dt 2 ms]",
+  "got": 32.528,
+  "want": 30.606,
+  "tol": 6.1212243673224425,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "wheel r 82 mm climbs 15 mm at W tan a [dt 2 ms]",
+  "got": 22.633,
+  "want": 21.082,
+  "tol": 4.2163702135578385,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "penetration under 5 N [dt 2 ms]",
+  "got": 0.024,
+  "want": 0.0,
+  "tol": 0.5,
+  "unit": "mm",
+  "ok": true
+ },
+ {
+  "test": "incline slips at atan(mu), mu 0.25 [dt 1 ms]",
+  "got": 14.536,
+  "want": 14.036,
+  "tol": 1.5,
+  "unit": "deg",
+  "ok": true
+ },
+ {
+  "test": "incline slips at atan(mu), mu 0.5 [dt 1 ms]",
+  "got": 27.065,
+  "want": 26.565,
+  "tol": 1.5,
+  "unit": "deg",
+  "ok": true
+ },
+ {
+  "test": "tips at m g a / h [dt 1 ms]",
+  "got": 60.186,
+  "want": 58.86,
+  "tol": 3.5315999999999996,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "pinch holds 2 mu N, mu 0.6 [dt 1 ms]",
+  "got": 48.477,
+  "want": 48.0,
+  "tol": 5.76,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "pinch holds 2 mu N, mu 0.3 [dt 1 ms]",
+  "got": 24.271,
+  "want": 24.0,
+  "tol": 2.88,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "wheel r 37 mm climbs 15 mm at W tan a [dt 1 ms]",
+  "got": 42.28,
+  "want": 40.0,
+  "tol": 8.000000000000002,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "wheel r 50 mm climbs 15 mm at W tan a [dt 1 ms]",
+  "got": 32.534,
+  "want": 30.606,
+  "tol": 6.1212243673224425,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "wheel r 82 mm climbs 15 mm at W tan a [dt 1 ms]",
+  "got": 22.988,
+  "want": 21.082,
+  "tol": 4.2163702135578385,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "penetration under 5 N [dt 1 ms]",
+  "got": 0.024,
+  "want": 0.0,
+  "tol": 0.5,
+  "unit": "mm",
+  "ok": true
+ },
+ {
+  "test": "incline slips at atan(mu), mu 0.25 [dt 0.5 ms]",
+  "got": 14.536,
+  "want": 14.036,
+  "tol": 1.5,
+  "unit": "deg",
+  "ok": true
+ },
+ {
+  "test": "incline slips at atan(mu), mu 0.5 [dt 0.5 ms]",
+  "got": 27.065,
+  "want": 26.565,
+  "tol": 1.5,
+  "unit": "deg",
+  "ok": true
+ },
+ {
+  "test": "tips at m g a / h [dt 0.5 ms]",
+  "got": 60.186,
+  "want": 58.86,
+  "tol": 3.5315999999999996,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "pinch holds 2 mu N, mu 0.6 [dt 0.5 ms]",
+  "got": 48.477,
+  "want": 48.0,
+  "tol": 5.76,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "pinch holds 2 mu N, mu 0.3 [dt 0.5 ms]",
+  "got": 24.269,
+  "want": 24.0,
+  "tol": 2.88,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "wheel r 37 mm climbs 15 mm at W tan a [dt 0.5 ms]",
+  "got": 42.28,
+  "want": 40.0,
+  "tol": 8.000000000000002,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "wheel r 50 mm climbs 15 mm at W tan a [dt 0.5 ms]",
+  "got": 32.534,
+  "want": 30.606,
+  "tol": 6.1212243673224425,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "wheel r 82 mm climbs 15 mm at W tan a [dt 0.5 ms]",
+  "got": 23.658,
+  "want": 21.082,
+  "tol": 4.2163702135578385,
+  "unit": "N",
+  "ok": true
+ },
+ {
+  "test": "penetration under 5 N [dt 0.5 ms]",
+  "got": 0.024,
+  "want": 0.0,
+  "tol": 0.5,
+  "unit": "mm",
+  "ok": true
+ }
+]

@@ -1,0 +1,6 @@
+60 new random fridges, same for every row. Success = door >= 88 deg at the end (held, for 'always').
+arms controller      all    cam25    cam60   always    upper     full
+ one   scripted    11/60    11/13     0/31     0/16     4/27     7/33
+ one    learned     7/60     7/13     0/31     0/16     2/27     5/33
+ two   scripted    58/60    13/13    29/31    16/16    27/27    31/33
+ two    learned    49/60    10/13    24/31    15/16    24/27    25/33

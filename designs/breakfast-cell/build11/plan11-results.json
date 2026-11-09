@@ -1,0 +1,496 @@
+{
+ "jar_large": {
+  "obj": "jar",
+  "kind": "large",
+  "mw_door_deg": 75.0,
+  "outer_pin_deg": 50.0,
+  "seal_loads": {
+   "16N": {
+    "shoulder": 0.249,
+    "elbow": 0.32,
+    "yaw": 1.064
+   },
+   "30N": {
+    "shoulder": 0.467,
+    "elbow": 0.6,
+    "yaw": 1.996
+   }
+  },
+  "seal_plate_cos": -0.87,
+  "inner_pin_deg": 100.0,
+  "mw_door_closed": true,
+  "handover_deg": 44.0,
+  "fridge_door_closed": true,
+  "hot_heading_deg": 90.0,
+  "duration_s": 285.9,
+  "penetrations": [],
+  "n_penetrating_frames": 0,
+  "closest_by_step": {
+   "mw_open": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "m_panel",
+     "nub_low"
+    ]
+   },
+   "fridge_open": {
+    "clearance_mm": 4.9,
+    "pair": [
+     "fa_tube",
+     "pitch_608"
+    ]
+   },
+   "fridge_wide": {
+    "clearance_mm": 6.0,
+    "pair": [
+     "f_bar2",
+     "plate"
+    ]
+   },
+   "take": {
+    "clearance_mm": 2.6,
+    "pair": [
+     "jar_glass3",
+     "palm"
+    ]
+   },
+   "to_microwave": {
+    "clearance_mm": 1.0,
+    "pair": [
+     "jar_glass0",
+     "m_plate_rib0"
+    ]
+   },
+   "mw_close": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "m_panel",
+     "nub_low"
+    ]
+   },
+   "fridge_close": {
+    "clearance_mm": 3.8,
+    "pair": [
+     "f_door_racks",
+     "nub_low"
+    ]
+   },
+   "mw_reopen": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "m_panel",
+     "nub_low"
+    ]
+   },
+   "take_hot": {
+    "clearance_mm": 2.6,
+    "pair": [
+     "jar_glass3",
+     "palm"
+    ]
+   },
+   "serve": {
+    "clearance_mm": 1.0,
+    "pair": [
+     "jar_glass0",
+     "m_top_rib1"
+    ]
+   },
+   "mw_shut": {
+    "clearance_mm": 6.0,
+    "pair": [
+     "m_bar",
+     "plate"
+    ]
+   }
+  },
+  "coverage": {
+   "0.20": {
+    "spots": 99,
+    "takeable": 72
+   },
+   "0.37": {
+    "spots": 99,
+    "takeable": 72
+   },
+   "0.54": {
+    "spots": 99,
+    "takeable": 72
+   },
+   "share": 0.727
+  }
+ },
+ "box_large": {
+  "obj": "box",
+  "kind": "large",
+  "mw_door_deg": 75.0,
+  "outer_pin_deg": 50.0,
+  "seal_loads": {
+   "16N": {
+    "shoulder": 0.249,
+    "elbow": 0.32,
+    "yaw": 1.064
+   },
+   "30N": {
+    "shoulder": 0.467,
+    "elbow": 0.6,
+    "yaw": 1.996
+   }
+  },
+  "seal_plate_cos": -0.87,
+  "inner_pin_deg": 100.0,
+  "mw_door_closed": true,
+  "handover_deg": 44.0,
+  "fridge_door_closed": true,
+  "hot_heading_deg": 96.0,
+  "duration_s": 286.4,
+  "penetrations": [],
+  "n_penetrating_frames": 0,
+  "closest_by_step": {
+   "start": {
+    "clearance_mm": 7.2,
+    "pair": [
+     "fa_tube",
+     "pitch_cheek0"
+    ]
+   },
+   "mw_open": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "m_panel",
+     "nub_low"
+    ]
+   },
+   "fridge_open": {
+    "clearance_mm": 4.9,
+    "pair": [
+     "fa_tube",
+     "pitch_608"
+    ]
+   },
+   "fridge_wide": {
+    "clearance_mm": 6.0,
+    "pair": [
+     "f_bar2",
+     "plate"
+    ]
+   },
+   "take": {
+    "clearance_mm": 1.5,
+    "pair": [
+     "f_shelf_rail1",
+     "obj_base"
+    ]
+   },
+   "to_microwave": {
+    "clearance_mm": 1.0,
+    "pair": [
+     "m_plate_rib0",
+     "obj_base"
+    ]
+   },
+   "mw_close": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "m_panel",
+     "nub_low"
+    ]
+   },
+   "fridge_close": {
+    "clearance_mm": 4.3,
+    "pair": [
+     "f_door_racks",
+     "plate"
+    ]
+   },
+   "mw_reopen": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "m_panel",
+     "nub_low"
+    ]
+   },
+   "take_hot": {
+    "clearance_mm": 2.5,
+    "pair": [
+     "m_plate_rib0",
+     "obj_base"
+    ]
+   },
+   "serve": {
+    "clearance_mm": 1.0,
+    "pair": [
+     "m_top_rib1",
+     "obj_base"
+    ]
+   },
+   "mw_shut": {
+    "clearance_mm": 6.0,
+    "pair": [
+     "m_bar",
+     "plate"
+    ]
+   }
+  },
+  "coverage": {
+   "0.20": {
+    "spots": 64,
+    "takeable": 56
+   },
+   "0.37": {
+    "spots": 64,
+    "takeable": 56
+   },
+   "0.54": {
+    "spots": 64,
+    "takeable": 56
+   },
+   "share": 0.875
+  }
+ },
+ "tray_large": {
+  "error": "flap_open: cannot reach above the flap tab"
+ },
+ "jar_small": {
+  "obj": "jar",
+  "kind": "small",
+  "mw_door_deg": 75.0,
+  "outer_pin_deg": 64.0,
+  "seal_loads": {
+   "16N": {
+    "shoulder": 0.249,
+    "elbow": 0.32,
+    "yaw": 1.064
+   },
+   "30N": {
+    "shoulder": 0.467,
+    "elbow": 0.6,
+    "yaw": 1.996
+   }
+  },
+  "seal_plate_cos": -0.87,
+  "inner_pin_deg": 100.0,
+  "mw_door_closed": true,
+  "handover_deg": 58.0,
+  "fridge_door_closed": true,
+  "hot_heading_deg": 90.0,
+  "duration_s": 289.0,
+  "penetrations": [],
+  "n_penetrating_frames": 0,
+  "closest_by_step": {
+   "mw_open": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "m_panel",
+     "nub_low"
+    ]
+   },
+   "fridge_open": {
+    "clearance_mm": 3.6,
+    "pair": [
+     "fa_tube",
+     "pitch_608"
+    ]
+   },
+   "fridge_wide": {
+    "clearance_mm": 6.0,
+    "pair": [
+     "f_bar2",
+     "plate"
+    ]
+   },
+   "take": {
+    "clearance_mm": 2.6,
+    "pair": [
+     "jar_glass3",
+     "palm"
+    ]
+   },
+   "to_microwave": {
+    "clearance_mm": 1.0,
+    "pair": [
+     "jar_glass0",
+     "m_plate_rib1"
+    ]
+   },
+   "mw_close": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "m_panel",
+     "nub_low"
+    ]
+   },
+   "fridge_close": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "fa_tube",
+     "pitch_608"
+    ]
+   },
+   "mw_reopen": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "m_panel",
+     "nub_low"
+    ]
+   },
+   "take_hot": {
+    "clearance_mm": 2.6,
+    "pair": [
+     "jar_glass3",
+     "palm"
+    ]
+   },
+   "serve": {
+    "clearance_mm": 1.0,
+    "pair": [
+     "jar_glass0",
+     "m_top_rib1"
+    ]
+   },
+   "mw_shut": {
+    "clearance_mm": 6.0,
+    "pair": [
+     "m_bar",
+     "plate"
+    ]
+   }
+  },
+  "coverage": {
+   "0.21": {
+    "spots": 42,
+    "takeable": 30
+   },
+   "0.05": {
+    "spots": 42,
+    "takeable": 30
+   },
+   "share": 0.714
+  }
+ },
+ "box_small": {
+  "obj": "box",
+  "kind": "small",
+  "mw_door_deg": 75.0,
+  "outer_pin_deg": 64.0,
+  "seal_loads": {
+   "16N": {
+    "shoulder": 0.249,
+    "elbow": 0.32,
+    "yaw": 1.064
+   },
+   "30N": {
+    "shoulder": 0.467,
+    "elbow": 0.6,
+    "yaw": 1.996
+   }
+  },
+  "seal_plate_cos": -0.87,
+  "inner_pin_deg": 100.0,
+  "mw_door_closed": true,
+  "handover_deg": 58.0,
+  "fridge_door_closed": true,
+  "hot_heading_deg": 96.0,
+  "duration_s": 291.1,
+  "penetrations": [],
+  "n_penetrating_frames": 0,
+  "closest_by_step": {
+   "start": {
+    "clearance_mm": 7.2,
+    "pair": [
+     "fa_tube",
+     "pitch_cheek0"
+    ]
+   },
+   "mw_open": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "m_panel",
+     "nub_low"
+    ]
+   },
+   "fridge_open": {
+    "clearance_mm": 3.6,
+    "pair": [
+     "fa_tube",
+     "pitch_608"
+    ]
+   },
+   "fridge_wide": {
+    "clearance_mm": 6.0,
+    "pair": [
+     "f_bar2",
+     "plate"
+    ]
+   },
+   "take": {
+    "clearance_mm": 1.5,
+    "pair": [
+     "f_shelf_rail1",
+     "obj_base"
+    ]
+   },
+   "to_microwave": {
+    "clearance_mm": 1.0,
+    "pair": [
+     "m_plate_rib1",
+     "obj_base"
+    ]
+   },
+   "mw_close": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "m_panel",
+     "nub_low"
+    ]
+   },
+   "fridge_close": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "fa_tube",
+     "pitch_608"
+    ]
+   },
+   "mw_reopen": {
+    "clearance_mm": 5.0,
+    "pair": [
+     "m_panel",
+     "nub_low"
+    ]
+   },
+   "take_hot": {
+    "clearance_mm": 2.5,
+    "pair": [
+     "m_plate_rib1",
+     "obj_base"
+    ]
+   },
+   "serve": {
+    "clearance_mm": 1.0,
+    "pair": [
+     "m_top_rib1",
+     "obj_base"
+    ]
+   },
+   "mw_shut": {
+    "clearance_mm": 6.0,
+    "pair": [
+     "m_bar",
+     "plate"
+    ]
+   }
+  },
+  "coverage": {
+   "0.05": {
+    "spots": 25,
+    "takeable": 20
+   },
+   "0.21": {
+    "spots": 25,
+    "takeable": 20
+   },
+   "share": 0.8
+  }
+ },
+ "runtime_s": 9.9
+}

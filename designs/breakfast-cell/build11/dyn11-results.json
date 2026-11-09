@@ -1,0 +1,9266 @@
+{
+ "box_small": {
+  "trials": 30,
+  "passed": 30,
+  "nominal_ok": true,
+  "failures": [],
+  "peak_of_stall": {
+   "lift": 0.407,
+   "shoulder": 0.453,
+   "elbow": 0.457,
+   "yaw": 0.318,
+   "roll": 0.866,
+   "pitch": 0.211,
+   "grip": 1.0
+  },
+  "pitch_hold_mean_Nm": {
+   "max": 0.063,
+   "of_rated": 0.06
+  },
+  "runtime_s": 90.7,
+  "detail": [
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.107,
+      "shoulder": 0.256,
+      "elbow": 0.284,
+      "yaw": 0.158,
+      "roll": 0.099,
+      "pitch": 0.069,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.36
+     },
+     "pitch_hold_Nm": 0.007,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.145,
+      "elbow": 0.275,
+      "yaw": 0.159,
+      "roll": 0.062,
+      "pitch": 0.1,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.67
+     },
+     "pitch_hold_Nm": 0.017,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.72,
+     "mu": {
+      "plate": 0.25,
+      "pads": 0.525,
+      "jawpetg": 0.25,
+      "shelf": 0.3,
+      "rails": 0.25,
+      "ribs": 0.75,
+      "plate_glass": 0.25
+     },
+     "place_mm": [
+      0.0,
+      0.0
+     ],
+     "tt_deg": 0.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.111,
+      "shoulder": 0.225,
+      "elbow": 0.247,
+      "yaw": 0.147,
+      "roll": 0.162,
+      "pitch": 0.068,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.44
+     },
+     "pitch_hold_Nm": 0.023,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.1,
+     "yaw_err_deg": 0.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.103,
+      "shoulder": 0.252,
+      "elbow": 0.258,
+      "yaw": 0.154,
+      "roll": 0.167,
+      "pitch": 0.09,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.68
+     },
+     "pitch_hold_Nm": 0.032,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.7,
+     "yaw_err_deg": 0.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.609,
+     "mu": {
+      "plate": 0.25,
+      "pads": 0.561,
+      "jawpetg": 0.203,
+      "shelf": 0.23,
+      "rails": 0.293,
+      "ribs": 0.621,
+      "plate_glass": 0.213
+     },
+     "place_mm": [
+      1.5,
+      3.4
+     ],
+     "tt_deg": -0.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.105,
+      "shoulder": 0.199,
+      "elbow": 0.243,
+      "yaw": 0.15,
+      "roll": 0.097,
+      "pitch": 0.067,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.3
+     },
+     "pitch_hold_Nm": 0.011,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.4,
+     "yaw_err_deg": 0.9,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.106,
+      "shoulder": 0.186,
+      "elbow": 0.388,
+      "yaw": 0.241,
+      "roll": 0.06,
+      "pitch": 0.158,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.57
+     },
+     "pitch_hold_Nm": 0.022,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.7,
+     "yaw_err_deg": 1.9,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.653,
+     "mu": {
+      "plate": 0.208,
+      "pads": 0.664,
+      "jawpetg": 0.243,
+      "shelf": 0.23,
+      "rails": 0.267,
+      "ribs": 0.661,
+      "plate_glass": 0.29
+     },
+     "place_mm": [
+      -1.5,
+      -9.7
+     ],
+     "tt_deg": 5.4
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.125,
+      "elbow": 0.097,
+      "yaw": 0.028,
+      "roll": 0.152,
+      "pitch": 0.119,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.83
+     },
+     "pitch_hold_Nm": 0.017,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.6,
+     "yaw_err_deg": 1.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.292,
+      "elbow": 0.362,
+      "yaw": 0.227,
+      "roll": 0.147,
+      "pitch": 0.151,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.64
+     },
+     "pitch_hold_Nm": 0.036,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.6,
+     "yaw_err_deg": 3.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.71,
+     "mu": {
+      "plate": 0.213,
+      "pads": 0.609,
+      "jawpetg": 0.22,
+      "shelf": 0.212,
+      "rails": 0.26,
+      "ribs": 0.869,
+      "plate_glass": 0.203
+     },
+     "place_mm": [
+      -1.5,
+      -5.7
+     ],
+     "tt_deg": 3.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.346,
+      "elbow": 0.123,
+      "yaw": 0.058,
+      "roll": 0.071,
+      "pitch": 0.069,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.78
+     },
+     "pitch_hold_Nm": 0.005,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.0,
+     "yaw_err_deg": 2.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.344,
+      "elbow": 0.299,
+      "yaw": 0.166,
+      "roll": 0.065,
+      "pitch": 0.107,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.65
+     },
+     "pitch_hold_Nm": 0.026,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.8,
+     "yaw_err_deg": 0.6,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.734,
+     "mu": {
+      "plate": 0.266,
+      "pads": 0.592,
+      "jawpetg": 0.278,
+      "shelf": 0.386,
+      "rails": 0.215,
+      "ribs": 0.788,
+      "plate_glass": 0.214
+     },
+     "place_mm": [
+      1.5,
+      -7.1
+     ],
+     "tt_deg": 2.2
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.105,
+      "shoulder": 0.25,
+      "elbow": 0.312,
+      "yaw": 0.134,
+      "roll": 0.11,
+      "pitch": 0.06,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.3
+     },
+     "pitch_hold_Nm": 0.018,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.6,
+     "yaw_err_deg": 0.5,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.105,
+      "shoulder": 0.288,
+      "elbow": 0.322,
+      "yaw": 0.17,
+      "roll": 0.1,
+      "pitch": 0.105,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.58
+     },
+     "pitch_hold_Nm": 0.028,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.8,
+     "yaw_err_deg": 0.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.667,
+     "mu": {
+      "plate": 0.264,
+      "pads": 0.473,
+      "jawpetg": 0.213,
+      "shelf": 0.263,
+      "rails": 0.24,
+      "ribs": 0.874,
+      "plate_glass": 0.212
+     },
+     "place_mm": [
+      1.5,
+      -7.1
+     ],
+     "tt_deg": 1.7
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.224,
+      "elbow": 0.28,
+      "yaw": 0.122,
+      "roll": 0.125,
+      "pitch": 0.072,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.29
+     },
+     "pitch_hold_Nm": 0.012,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.5,
+     "yaw_err_deg": 0.5,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.16,
+      "elbow": 0.287,
+      "yaw": 0.157,
+      "roll": 0.08,
+      "pitch": 0.101,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.66
+     },
+     "pitch_hold_Nm": 0.023,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.5,
+     "yaw_err_deg": 0.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.751,
+     "mu": {
+      "plate": 0.224,
+      "pads": 0.568,
+      "jawpetg": 0.236,
+      "shelf": 0.347,
+      "rails": 0.229,
+      "ribs": 0.84,
+      "plate_glass": 0.242
+     },
+     "place_mm": [
+      -1.5,
+      -9.4
+     ],
+     "tt_deg": 1.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.112,
+      "shoulder": 0.176,
+      "elbow": 0.068,
+      "yaw": 0.056,
+      "roll": 0.091,
+      "pitch": 0.061,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.86
+     },
+     "pitch_hold_Nm": 0.012,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.6,
+     "yaw_err_deg": 0.6,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.112,
+      "shoulder": 0.256,
+      "elbow": 0.457,
+      "yaw": 0.318,
+      "roll": 0.081,
+      "pitch": 0.211,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.55
+     },
+     "pitch_hold_Nm": 0.034,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.0,
+     "yaw_err_deg": 1.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.805,
+     "mu": {
+      "plate": 0.245,
+      "pads": 0.548,
+      "jawpetg": 0.206,
+      "shelf": 0.311,
+      "rails": 0.281,
+      "ribs": 0.812,
+      "plate_glass": 0.28
+     },
+     "place_mm": [
+      1.5,
+      -1.4
+     ],
+     "tt_deg": 7.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.191,
+      "elbow": 0.261,
+      "yaw": 0.13,
+      "roll": 0.112,
+      "pitch": 0.064,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.37
+     },
+     "pitch_hold_Nm": 0.013,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.4,
+     "yaw_err_deg": 1.9,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.168,
+      "elbow": 0.273,
+      "yaw": 0.169,
+      "roll": 0.071,
+      "pitch": 0.106,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.72
+     },
+     "pitch_hold_Nm": 0.018,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.6,
+     "yaw_err_deg": 2.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.731,
+     "mu": {
+      "plate": 0.212,
+      "pads": 0.496,
+      "jawpetg": 0.221,
+      "shelf": 0.343,
+      "rails": 0.254,
+      "ribs": 0.686,
+      "plate_glass": 0.226
+     },
+     "place_mm": [
+      1.5,
+      -2.8
+     ],
+     "tt_deg": -1.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.111,
+      "shoulder": 0.119,
+      "elbow": 0.127,
+      "yaw": 0.034,
+      "roll": 0.125,
+      "pitch": 0.07,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.74
+     },
+     "pitch_hold_Nm": 0.029,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.3,
+     "yaw_err_deg": 0.5,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.111,
+      "shoulder": 0.124,
+      "elbow": 0.292,
+      "yaw": 0.174,
+      "roll": 0.121,
+      "pitch": 0.104,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.64
+     },
+     "pitch_hold_Nm": 0.036,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.6,
+     "yaw_err_deg": 1.8,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.794,
+     "mu": {
+      "plate": 0.237,
+      "pads": 0.404,
+      "jawpetg": 0.258,
+      "shelf": 0.217,
+      "rails": 0.266,
+      "ribs": 0.843,
+      "plate_glass": 0.292
+     },
+     "place_mm": [
+      1.5,
+      -6.3
+     ],
+     "tt_deg": -5.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.181,
+      "elbow": 0.116,
+      "yaw": 0.03,
+      "roll": 0.176,
+      "pitch": 0.079,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.89
+     },
+     "pitch_hold_Nm": 0.047,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.6,
+     "yaw_err_deg": 1.3,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.179,
+      "elbow": 0.392,
+      "yaw": 0.219,
+      "roll": 0.172,
+      "pitch": 0.163,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.5
+     },
+     "pitch_hold_Nm": 0.063,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.8,
+     "yaw_err_deg": 1.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.748,
+     "mu": {
+      "plate": 0.24,
+      "pads": 0.395,
+      "jawpetg": 0.203,
+      "shelf": 0.278,
+      "rails": 0.258,
+      "ribs": 0.756,
+      "plate_glass": 0.29
+     },
+     "place_mm": [
+      -1.5,
+      6.0
+     ],
+     "tt_deg": 4.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.178,
+      "elbow": 0.151,
+      "yaw": 0.045,
+      "roll": 0.103,
+      "pitch": 0.052,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.9
+     },
+     "pitch_hold_Nm": 0.015,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.4,
+     "yaw_err_deg": 1.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.184,
+      "elbow": 0.232,
+      "yaw": 0.13,
+      "roll": 0.085,
+      "pitch": 0.086,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.75
+     },
+     "pitch_hold_Nm": 0.023,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.7,
+     "yaw_err_deg": 0.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.575,
+     "mu": {
+      "plate": 0.203,
+      "pads": 0.559,
+      "jawpetg": 0.223,
+      "shelf": 0.213,
+      "rails": 0.213,
+      "ribs": 0.712,
+      "plate_glass": 0.234
+     },
+     "place_mm": [
+      1.5,
+      -2.3
+     ],
+     "tt_deg": -6.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.205,
+      "elbow": 0.239,
+      "yaw": 0.151,
+      "roll": 0.109,
+      "pitch": 0.061,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.33
+     },
+     "pitch_hold_Nm": 0.019,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 7.0,
+     "yaw_err_deg": 0.8,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.453,
+      "elbow": 0.267,
+      "yaw": 0.144,
+      "roll": 0.117,
+      "pitch": 0.091,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.75
+     },
+     "pitch_hold_Nm": 0.024,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.2,
+     "yaw_err_deg": 3.3,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.575,
+     "mu": {
+      "plate": 0.22,
+      "pads": 0.494,
+      "jawpetg": 0.269,
+      "shelf": 0.288,
+      "rails": 0.251,
+      "ribs": 0.828,
+      "plate_glass": 0.207
+     },
+     "place_mm": [
+      1.5,
+      -4.5
+     ],
+     "tt_deg": -7.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.103,
+      "shoulder": 0.322,
+      "elbow": 0.103,
+      "yaw": 0.039,
+      "roll": 0.079,
+      "pitch": 0.068,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.93
+     },
+     "pitch_hold_Nm": 0.005,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.8,
+     "yaw_err_deg": 0.9,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.103,
+      "shoulder": 0.323,
+      "elbow": 0.267,
+      "yaw": 0.163,
+      "roll": 0.05,
+      "pitch": 0.103,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.65
+     },
+     "pitch_hold_Nm": 0.019,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.8,
+     "yaw_err_deg": 1.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.637,
+     "mu": {
+      "plate": 0.291,
+      "pads": 0.448,
+      "jawpetg": 0.227,
+      "shelf": 0.336,
+      "rails": 0.288,
+      "ribs": 0.689,
+      "plate_glass": 0.238
+     },
+     "place_mm": [
+      1.5,
+      5.6
+     ],
+     "tt_deg": -1.8
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.119,
+      "elbow": 0.107,
+      "yaw": 0.071,
+      "roll": 0.078,
+      "pitch": 0.059,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.83
+     },
+     "pitch_hold_Nm": 0.004,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.5,
+     "yaw_err_deg": 1.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.117,
+      "shoulder": 0.224,
+      "elbow": 0.449,
+      "yaw": 0.289,
+      "roll": 0.049,
+      "pitch": 0.193,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.53
+     },
+     "pitch_hold_Nm": 0.027,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.1,
+     "yaw_err_deg": 1.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.682,
+     "mu": {
+      "plate": 0.293,
+      "pads": 0.488,
+      "jawpetg": 0.28,
+      "shelf": 0.219,
+      "rails": 0.245,
+      "ribs": 0.755,
+      "plate_glass": 0.281
+     },
+     "place_mm": [
+      1.5,
+      -6.3
+     ],
+     "tt_deg": 7.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.104,
+      "shoulder": 0.204,
+      "elbow": 0.258,
+      "yaw": 0.143,
+      "roll": 0.083,
+      "pitch": 0.059,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.53
+     },
+     "pitch_hold_Nm": 0.006,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.2,
+     "yaw_err_deg": 0.5,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.104,
+      "shoulder": 0.183,
+      "elbow": 0.255,
+      "yaw": 0.146,
+      "roll": 0.052,
+      "pitch": 0.093,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.74
+     },
+     "pitch_hold_Nm": 0.017,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.1,
+     "yaw_err_deg": 0.8,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.664,
+     "mu": {
+      "plate": 0.287,
+      "pads": 0.558,
+      "jawpetg": 0.298,
+      "shelf": 0.233,
+      "rails": 0.294,
+      "ribs": 0.832,
+      "plate_glass": 0.257
+     },
+     "place_mm": [
+      -1.5,
+      8.1
+     ],
+     "tt_deg": -2.2
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.11,
+      "shoulder": 0.224,
+      "elbow": 0.264,
+      "yaw": 0.166,
+      "roll": 0.14,
+      "pitch": 0.08,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.38
+     },
+     "pitch_hold_Nm": 0.019,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.2,
+     "yaw_err_deg": 1.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.118,
+      "shoulder": 0.232,
+      "elbow": 0.255,
+      "yaw": 0.153,
+      "roll": 0.141,
+      "pitch": 0.091,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.88
+     },
+     "pitch_hold_Nm": 0.03,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.0,
+     "yaw_err_deg": 1.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.758,
+     "mu": {
+      "plate": 0.245,
+      "pads": 0.61,
+      "jawpetg": 0.281,
+      "shelf": 0.277,
+      "rails": 0.254,
+      "ribs": 0.629,
+      "plate_glass": 0.229
+     },
+     "place_mm": [
+      1.4,
+      -9.9
+     ],
+     "tt_deg": -7.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.104,
+      "shoulder": 0.12,
+      "elbow": 0.1,
+      "yaw": 0.071,
+      "roll": 0.11,
+      "pitch": 0.06,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.97
+     },
+     "pitch_hold_Nm": 0.013,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.6,
+     "yaw_err_deg": 1.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.104,
+      "shoulder": 0.126,
+      "elbow": 0.261,
+      "yaw": 0.151,
+      "roll": 0.088,
+      "pitch": 0.093,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.73
+     },
+     "pitch_hold_Nm": 0.021,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.8,
+     "yaw_err_deg": 1.6,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.656,
+     "mu": {
+      "plate": 0.298,
+      "pads": 0.667,
+      "jawpetg": 0.258,
+      "shelf": 0.357,
+      "rails": 0.29,
+      "ribs": 0.7,
+      "plate_glass": 0.298
+     },
+     "place_mm": [
+      1.5,
+      8.4
+     ],
+     "tt_deg": -6.4
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.148,
+      "elbow": 0.127,
+      "yaw": 0.023,
+      "roll": 0.076,
+      "pitch": 0.073,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.76
+     },
+     "pitch_hold_Nm": 0.003,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.8,
+     "yaw_err_deg": 0.6,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.149,
+      "elbow": 0.3,
+      "yaw": 0.158,
+      "roll": 0.047,
+      "pitch": 0.102,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.59
+     },
+     "pitch_hold_Nm": 0.02,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.1,
+     "yaw_err_deg": 1.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.735,
+     "mu": {
+      "plate": 0.295,
+      "pads": 0.59,
+      "jawpetg": 0.231,
+      "shelf": 0.222,
+      "rails": 0.245,
+      "ribs": 0.744,
+      "plate_glass": 0.247
+     },
+     "place_mm": [
+      1.5,
+      -4.4
+     ],
+     "tt_deg": 0.8
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.21,
+      "elbow": 0.31,
+      "yaw": 0.127,
+      "roll": 0.123,
+      "pitch": 0.082,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.27
+     },
+     "pitch_hold_Nm": 0.011,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.5,
+     "yaw_err_deg": 0.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.206,
+      "elbow": 0.282,
+      "yaw": 0.159,
+      "roll": 0.082,
+      "pitch": 0.108,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.68
+     },
+     "pitch_hold_Nm": 0.021,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.3,
+     "yaw_err_deg": 1.8,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.613,
+     "mu": {
+      "plate": 0.285,
+      "pads": 0.489,
+      "jawpetg": 0.231,
+      "shelf": 0.3,
+      "rails": 0.203,
+      "ribs": 0.606,
+      "plate_glass": 0.226
+     },
+     "place_mm": [
+      -1.5,
+      -8.4
+     ],
+     "tt_deg": -5.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.107,
+      "shoulder": 0.183,
+      "elbow": 0.239,
+      "yaw": 0.134,
+      "roll": 0.107,
+      "pitch": 0.064,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.4
+     },
+     "pitch_hold_Nm": 0.007,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.6,
+     "yaw_err_deg": 1.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.107,
+      "shoulder": 0.187,
+      "elbow": 0.265,
+      "yaw": 0.162,
+      "roll": 0.067,
+      "pitch": 0.1,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.72
+     },
+     "pitch_hold_Nm": 0.017,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.9,
+     "yaw_err_deg": 2.5,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.703,
+     "mu": {
+      "plate": 0.261,
+      "pads": 0.681,
+      "jawpetg": 0.211,
+      "shelf": 0.216,
+      "rails": 0.219,
+      "ribs": 0.666,
+      "plate_glass": 0.216
+     },
+     "place_mm": [
+      1.5,
+      -4.7
+     ],
+     "tt_deg": 1.1
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.167,
+      "elbow": 0.11,
+      "yaw": 0.019,
+      "roll": 0.104,
+      "pitch": 0.055,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.73
+     },
+     "pitch_hold_Nm": 0.006,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.7,
+     "yaw_err_deg": 0.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.167,
+      "elbow": 0.286,
+      "yaw": 0.157,
+      "roll": 0.067,
+      "pitch": 0.095,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.67
+     },
+     "pitch_hold_Nm": 0.024,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.7,
+     "yaw_err_deg": 0.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.725,
+     "mu": {
+      "plate": 0.29,
+      "pads": 0.39,
+      "jawpetg": 0.22,
+      "shelf": 0.313,
+      "rails": 0.257,
+      "ribs": 0.894,
+      "plate_glass": 0.298
+     },
+     "place_mm": [
+      -0.7,
+      -9.8
+     ],
+     "tt_deg": 0.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.126,
+      "elbow": 0.122,
+      "yaw": 0.066,
+      "roll": 0.091,
+      "pitch": 0.054,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.76
+     },
+     "pitch_hold_Nm": 0.008,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.2,
+     "yaw_err_deg": 1.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.13,
+      "elbow": 0.279,
+      "yaw": 0.156,
+      "roll": 0.084,
+      "pitch": 0.107,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.66
+     },
+     "pitch_hold_Nm": 0.023,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.603,
+     "mu": {
+      "plate": 0.254,
+      "pads": 0.54,
+      "jawpetg": 0.235,
+      "shelf": 0.27,
+      "rails": 0.271,
+      "ribs": 0.744,
+      "plate_glass": 0.241
+     },
+     "place_mm": [
+      1.5,
+      -4.5
+     ],
+     "tt_deg": -3.7
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.407,
+      "shoulder": 0.175,
+      "elbow": 0.213,
+      "yaw": 0.196,
+      "roll": 0.866,
+      "pitch": 0.127,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.96
+     },
+     "pitch_hold_Nm": 0.008,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.4,
+     "yaw_err_deg": 0.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.116,
+      "shoulder": 0.177,
+      "elbow": 0.283,
+      "yaw": 0.175,
+      "roll": 0.058,
+      "pitch": 0.131,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.72
+     },
+     "pitch_hold_Nm": 0.022,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.4,
+     "yaw_err_deg": 1.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.823,
+     "mu": {
+      "plate": 0.227,
+      "pads": 0.647,
+      "jawpetg": 0.203,
+      "shelf": 0.253,
+      "rails": 0.216,
+      "ribs": 0.734,
+      "plate_glass": 0.235
+     },
+     "place_mm": [
+      -1.5,
+      8.3
+     ],
+     "tt_deg": -2.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.101,
+      "shoulder": 0.191,
+      "elbow": 0.069,
+      "yaw": 0.045,
+      "roll": 0.113,
+      "pitch": 0.109,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.84
+     },
+     "pitch_hold_Nm": 0.005,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.3,
+     "yaw_err_deg": 1.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.19,
+      "elbow": 0.242,
+      "yaw": 0.146,
+      "roll": 0.072,
+      "pitch": 0.112,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.77
+     },
+     "pitch_hold_Nm": 0.014,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.6,
+     "yaw_err_deg": 2.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.593,
+     "mu": {
+      "plate": 0.267,
+      "pads": 0.604,
+      "jawpetg": 0.203,
+      "shelf": 0.26,
+      "rails": 0.277,
+      "ribs": 0.66,
+      "plate_glass": 0.254
+     },
+     "place_mm": [
+      1.5,
+      -2.2
+     ],
+     "tt_deg": -6.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.141,
+      "elbow": 0.108,
+      "yaw": 0.033,
+      "roll": 0.072,
+      "pitch": 0.071,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.74
+     },
+     "pitch_hold_Nm": 0.004,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.3,
+     "yaw_err_deg": 0.3,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.142,
+      "elbow": 0.271,
+      "yaw": 0.16,
+      "roll": 0.045,
+      "pitch": 0.104,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.64
+     },
+     "pitch_hold_Nm": 0.018,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.0,
+     "yaw_err_deg": 1.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.601,
+     "mu": {
+      "plate": 0.239,
+      "pads": 0.617,
+      "jawpetg": 0.228,
+      "shelf": 0.348,
+      "rails": 0.223,
+      "ribs": 0.686,
+      "plate_glass": 0.247
+     },
+     "place_mm": [
+      -1.5,
+      -9.0
+     ],
+     "tt_deg": -2.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.209,
+      "elbow": 0.28,
+      "yaw": 0.096,
+      "roll": 0.111,
+      "pitch": 0.056,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.5
+     },
+     "pitch_hold_Nm": 0.018,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.5,
+     "yaw_err_deg": 1.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.11,
+      "shoulder": 0.253,
+      "elbow": 0.264,
+      "yaw": 0.149,
+      "roll": 0.084,
+      "pitch": 0.091,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.72
+     },
+     "pitch_hold_Nm": 0.016,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 7.9,
+     "yaw_err_deg": 1.6,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.762,
+     "mu": {
+      "plate": 0.208,
+      "pads": 0.518,
+      "jawpetg": 0.245,
+      "shelf": 0.243,
+      "rails": 0.257,
+      "ribs": 0.801,
+      "plate_glass": 0.213
+     },
+     "place_mm": [
+      1.5,
+      8.9
+     ],
+     "tt_deg": -2.8
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.122,
+      "elbow": 0.087,
+      "yaw": 0.052,
+      "roll": 0.075,
+      "pitch": 0.052,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.82
+     },
+     "pitch_hold_Nm": 0.007,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.6,
+     "yaw_err_deg": 1.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.128,
+      "elbow": 0.279,
+      "yaw": 0.177,
+      "roll": 0.053,
+      "pitch": 0.117,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.64
+     },
+     "pitch_hold_Nm": 0.024,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.2,
+     "yaw_err_deg": 0.7,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.752,
+     "mu": {
+      "plate": 0.241,
+      "pads": 0.459,
+      "jawpetg": 0.21,
+      "shelf": 0.319,
+      "rails": 0.211,
+      "ribs": 0.755,
+      "plate_glass": 0.269
+     },
+     "place_mm": [
+      1.5,
+      -2.1
+     ],
+     "tt_deg": -1.2
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.207,
+      "elbow": 0.256,
+      "yaw": 0.179,
+      "roll": 0.098,
+      "pitch": 0.078,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.47
+     },
+     "pitch_hold_Nm": 0.018,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.3,
+     "yaw_err_deg": 0.3,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.262,
+      "elbow": 0.386,
+      "yaw": 0.226,
+      "roll": 0.096,
+      "pitch": 0.149,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.49
+     },
+     "pitch_hold_Nm": 0.031,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.0,
+     "yaw_err_deg": 1.3,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.574,
+     "mu": {
+      "plate": 0.265,
+      "pads": 0.492,
+      "jawpetg": 0.212,
+      "shelf": 0.326,
+      "rails": 0.244,
+      "ribs": 0.692,
+      "plate_glass": 0.227
+     },
+     "place_mm": [
+      1.5,
+      7.3
+     ],
+     "tt_deg": 7.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.203,
+      "elbow": 0.253,
+      "yaw": 0.158,
+      "roll": 0.121,
+      "pitch": 0.068,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.36
+     },
+     "pitch_hold_Nm": 0.017,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.9,
+     "yaw_err_deg": 0.7,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.331,
+      "elbow": 0.29,
+      "yaw": 0.17,
+      "roll": 0.101,
+      "pitch": 0.091,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.62
+     },
+     "pitch_hold_Nm": 0.025,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.3,
+     "yaw_err_deg": 0.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.584,
+     "mu": {
+      "plate": 0.232,
+      "pads": 0.699,
+      "jawpetg": 0.297,
+      "shelf": 0.334,
+      "rails": 0.213,
+      "ribs": 0.602,
+      "plate_glass": 0.225
+     },
+     "place_mm": [
+      0.5,
+      -3.4
+     ],
+     "tt_deg": 3.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.111,
+      "shoulder": 0.232,
+      "elbow": 0.273,
+      "yaw": 0.18,
+      "roll": 0.089,
+      "pitch": 0.08,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 16.36
+     },
+     "pitch_hold_Nm": 0.015,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.2,
+     "yaw_err_deg": 0.3,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.111,
+      "shoulder": 0.127,
+      "elbow": 0.26,
+      "yaw": 0.154,
+      "roll": 0.056,
+      "pitch": 0.1,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.75
+     },
+     "pitch_hold_Nm": 0.016,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.0,
+     "yaw_err_deg": 0.5,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.775,
+     "mu": {
+      "plate": 0.254,
+      "pads": 0.47,
+      "jawpetg": 0.218,
+      "shelf": 0.373,
+      "rails": 0.241,
+      "ribs": 0.795,
+      "plate_glass": 0.207
+     },
+     "place_mm": [
+      0.6,
+      -1.8
+     ],
+     "tt_deg": -7.7
+    }
+   }
+  ]
+ },
+ "box_large": {
+  "trials": 30,
+  "passed": 30,
+  "nominal_ok": true,
+  "failures": [],
+  "peak_of_stall": {
+   "lift": 0.385,
+   "shoulder": 0.45,
+   "elbow": 0.456,
+   "yaw": 0.318,
+   "roll": 0.814,
+   "pitch": 0.21,
+   "grip": 1.0
+  },
+  "pitch_hold_mean_Nm": {
+   "max": 0.062,
+   "of_rated": 0.06
+  },
+  "runtime_s": 102.3,
+  "detail": [
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.164,
+      "elbow": 0.241,
+      "yaw": 0.189,
+      "roll": 0.082,
+      "pitch": 0.118,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.81
+     },
+     "pitch_hold_Nm": 0.01,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.145,
+      "elbow": 0.275,
+      "yaw": 0.159,
+      "roll": 0.062,
+      "pitch": 0.1,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.67
+     },
+     "pitch_hold_Nm": 0.017,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.72,
+     "mu": {
+      "plate": 0.25,
+      "pads": 0.525,
+      "jawpetg": 0.25,
+      "shelf": 0.3,
+      "rails": 0.25,
+      "ribs": 0.75,
+      "plate_glass": 0.25
+     },
+     "place_mm": [
+      0.0,
+      0.0
+     ],
+     "tt_deg": 0.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.255,
+      "elbow": 0.217,
+      "yaw": 0.164,
+      "roll": 0.164,
+      "pitch": 0.095,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.9
+     },
+     "pitch_hold_Nm": 0.026,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.6,
+     "yaw_err_deg": 0.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.248,
+      "elbow": 0.258,
+      "yaw": 0.154,
+      "roll": 0.164,
+      "pitch": 0.09,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.68
+     },
+     "pitch_hold_Nm": 0.033,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.7,
+     "yaw_err_deg": 0.3,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.609,
+     "mu": {
+      "plate": 0.25,
+      "pads": 0.561,
+      "jawpetg": 0.203,
+      "shelf": 0.23,
+      "rails": 0.293,
+      "ribs": 0.621,
+      "plate_glass": 0.213
+     },
+     "place_mm": [
+      1.5,
+      3.4
+     ],
+     "tt_deg": -0.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.107,
+      "shoulder": 0.132,
+      "elbow": 0.216,
+      "yaw": 0.169,
+      "roll": 0.08,
+      "pitch": 0.106,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.74
+     },
+     "pitch_hold_Nm": 0.013,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.8,
+     "yaw_err_deg": 0.9,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.106,
+      "shoulder": 0.186,
+      "elbow": 0.387,
+      "yaw": 0.24,
+      "roll": 0.06,
+      "pitch": 0.157,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.56
+     },
+     "pitch_hold_Nm": 0.022,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.1,
+     "yaw_err_deg": 1.8,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.653,
+     "mu": {
+      "plate": 0.208,
+      "pads": 0.664,
+      "jawpetg": 0.243,
+      "shelf": 0.23,
+      "rails": 0.267,
+      "ribs": 0.661,
+      "plate_glass": 0.29
+     },
+     "place_mm": [
+      -1.5,
+      -9.7
+     ],
+     "tt_deg": 5.4
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.124,
+      "shoulder": 0.138,
+      "elbow": 0.223,
+      "yaw": 0.185,
+      "roll": 0.154,
+      "pitch": 0.124,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.73
+     },
+     "pitch_hold_Nm": 0.024,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.4,
+     "yaw_err_deg": 1.3,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.107,
+      "shoulder": 0.294,
+      "elbow": 0.362,
+      "yaw": 0.228,
+      "roll": 0.145,
+      "pitch": 0.152,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.63
+     },
+     "pitch_hold_Nm": 0.035,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.4,
+     "yaw_err_deg": 3.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.71,
+     "mu": {
+      "plate": 0.213,
+      "pads": 0.609,
+      "jawpetg": 0.22,
+      "shelf": 0.212,
+      "rails": 0.26,
+      "ribs": 0.869,
+      "plate_glass": 0.203
+     },
+     "place_mm": [
+      -1.5,
+      -5.7
+     ],
+     "tt_deg": 3.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.35,
+      "elbow": 0.274,
+      "yaw": 0.219,
+      "roll": 0.063,
+      "pitch": 0.143,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.66
+     },
+     "pitch_hold_Nm": 0.015,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.8,
+     "yaw_err_deg": 2.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.344,
+      "elbow": 0.299,
+      "yaw": 0.166,
+      "roll": 0.067,
+      "pitch": 0.107,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.63
+     },
+     "pitch_hold_Nm": 0.026,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.6,
+     "yaw_err_deg": 0.6,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.734,
+     "mu": {
+      "plate": 0.266,
+      "pads": 0.592,
+      "jawpetg": 0.278,
+      "shelf": 0.386,
+      "rails": 0.215,
+      "ribs": 0.788,
+      "plate_glass": 0.214
+     },
+     "place_mm": [
+      1.5,
+      -7.1
+     ],
+     "tt_deg": 2.2
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.105,
+      "shoulder": 0.255,
+      "elbow": 0.249,
+      "yaw": 0.178,
+      "roll": 0.1,
+      "pitch": 0.119,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.77
+     },
+     "pitch_hold_Nm": 0.022,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.1,
+     "yaw_err_deg": 0.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.106,
+      "shoulder": 0.287,
+      "elbow": 0.322,
+      "yaw": 0.171,
+      "roll": 0.099,
+      "pitch": 0.106,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.58
+     },
+     "pitch_hold_Nm": 0.027,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.1,
+     "yaw_err_deg": 0.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.667,
+     "mu": {
+      "plate": 0.264,
+      "pads": 0.473,
+      "jawpetg": 0.213,
+      "shelf": 0.263,
+      "rails": 0.24,
+      "ribs": 0.874,
+      "plate_glass": 0.212
+     },
+     "place_mm": [
+      1.5,
+      -7.1
+     ],
+     "tt_deg": 1.7
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.18,
+      "elbow": 0.238,
+      "yaw": 0.19,
+      "roll": 0.105,
+      "pitch": 0.12,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.74
+     },
+     "pitch_hold_Nm": 0.016,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.5,
+     "yaw_err_deg": 0.5,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.16,
+      "elbow": 0.287,
+      "yaw": 0.157,
+      "roll": 0.08,
+      "pitch": 0.101,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.66
+     },
+     "pitch_hold_Nm": 0.023,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.6,
+     "yaw_err_deg": 0.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.751,
+     "mu": {
+      "plate": 0.224,
+      "pads": 0.568,
+      "jawpetg": 0.236,
+      "shelf": 0.347,
+      "rails": 0.229,
+      "ribs": 0.84,
+      "plate_glass": 0.242
+     },
+     "place_mm": [
+      -1.5,
+      -9.4
+     ],
+     "tt_deg": 1.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.112,
+      "shoulder": 0.197,
+      "elbow": 0.234,
+      "yaw": 0.184,
+      "roll": 0.084,
+      "pitch": 0.118,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.75
+     },
+     "pitch_hold_Nm": 0.019,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.4,
+     "yaw_err_deg": 0.6,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.112,
+      "shoulder": 0.256,
+      "elbow": 0.456,
+      "yaw": 0.318,
+      "roll": 0.081,
+      "pitch": 0.21,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.55
+     },
+     "pitch_hold_Nm": 0.035,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.5,
+     "yaw_err_deg": 1.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.805,
+     "mu": {
+      "plate": 0.245,
+      "pads": 0.548,
+      "jawpetg": 0.206,
+      "shelf": 0.311,
+      "rails": 0.281,
+      "ribs": 0.812,
+      "plate_glass": 0.28
+     },
+     "place_mm": [
+      1.5,
+      -1.4
+     ],
+     "tt_deg": 7.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.188,
+      "elbow": 0.23,
+      "yaw": 0.176,
+      "roll": 0.093,
+      "pitch": 0.109,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.84
+     },
+     "pitch_hold_Nm": 0.016,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.3,
+     "yaw_err_deg": 1.9,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.168,
+      "elbow": 0.273,
+      "yaw": 0.169,
+      "roll": 0.071,
+      "pitch": 0.106,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.72
+     },
+     "pitch_hold_Nm": 0.019,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.4,
+     "yaw_err_deg": 2.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.731,
+     "mu": {
+      "plate": 0.212,
+      "pads": 0.496,
+      "jawpetg": 0.221,
+      "shelf": 0.343,
+      "rails": 0.254,
+      "ribs": 0.686,
+      "plate_glass": 0.226
+     },
+     "place_mm": [
+      1.5,
+      -2.8
+     ],
+     "tt_deg": -1.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.111,
+      "shoulder": 0.131,
+      "elbow": 0.276,
+      "yaw": 0.209,
+      "roll": 0.119,
+      "pitch": 0.125,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.69
+     },
+     "pitch_hold_Nm": 0.037,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.0,
+     "yaw_err_deg": 0.5,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.111,
+      "shoulder": 0.124,
+      "elbow": 0.292,
+      "yaw": 0.174,
+      "roll": 0.12,
+      "pitch": 0.104,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.65
+     },
+     "pitch_hold_Nm": 0.036,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.8,
+     "yaw_err_deg": 1.8,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.794,
+     "mu": {
+      "plate": 0.237,
+      "pads": 0.404,
+      "jawpetg": 0.258,
+      "shelf": 0.217,
+      "rails": 0.266,
+      "ribs": 0.843,
+      "plate_glass": 0.292
+     },
+     "place_mm": [
+      1.5,
+      -6.3
+     ],
+     "tt_deg": -5.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.201,
+      "elbow": 0.265,
+      "yaw": 0.211,
+      "roll": 0.176,
+      "pitch": 0.15,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.82
+     },
+     "pitch_hold_Nm": 0.054,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.3,
+     "yaw_err_deg": 1.3,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.179,
+      "elbow": 0.392,
+      "yaw": 0.219,
+      "roll": 0.173,
+      "pitch": 0.164,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.5
+     },
+     "pitch_hold_Nm": 0.062,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.8,
+     "yaw_err_deg": 1.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.748,
+     "mu": {
+      "plate": 0.24,
+      "pads": 0.395,
+      "jawpetg": 0.203,
+      "shelf": 0.278,
+      "rails": 0.258,
+      "ribs": 0.756,
+      "plate_glass": 0.29
+     },
+     "place_mm": [
+      -1.5,
+      6.0
+     ],
+     "tt_deg": 4.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.199,
+      "elbow": 0.216,
+      "yaw": 0.164,
+      "roll": 0.094,
+      "pitch": 0.105,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.85
+     },
+     "pitch_hold_Nm": 0.022,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.5,
+     "yaw_err_deg": 1.5,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.184,
+      "elbow": 0.232,
+      "yaw": 0.13,
+      "roll": 0.085,
+      "pitch": 0.086,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.75
+     },
+     "pitch_hold_Nm": 0.022,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.0,
+     "yaw_err_deg": 0.6,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.575,
+     "mu": {
+      "plate": 0.203,
+      "pads": 0.559,
+      "jawpetg": 0.223,
+      "shelf": 0.213,
+      "rails": 0.213,
+      "ribs": 0.712,
+      "plate_glass": 0.234
+     },
+     "place_mm": [
+      1.5,
+      -2.3
+     ],
+     "tt_deg": -6.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.104,
+      "shoulder": 0.208,
+      "elbow": 0.206,
+      "yaw": 0.155,
+      "roll": 0.103,
+      "pitch": 0.1,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.81
+     },
+     "pitch_hold_Nm": 0.021,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 7.4,
+     "yaw_err_deg": 1.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.45,
+      "elbow": 0.266,
+      "yaw": 0.145,
+      "roll": 0.117,
+      "pitch": 0.091,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.75
+     },
+     "pitch_hold_Nm": 0.023,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.4,
+     "yaw_err_deg": 3.5,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.575,
+     "mu": {
+      "plate": 0.22,
+      "pads": 0.494,
+      "jawpetg": 0.269,
+      "shelf": 0.288,
+      "rails": 0.251,
+      "ribs": 0.828,
+      "plate_glass": 0.207
+     },
+     "place_mm": [
+      1.5,
+      -4.5
+     ],
+     "tt_deg": -7.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.103,
+      "shoulder": 0.33,
+      "elbow": 0.241,
+      "yaw": 0.186,
+      "roll": 0.066,
+      "pitch": 0.117,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.86
+     },
+     "pitch_hold_Nm": 0.014,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.0,
+     "yaw_err_deg": 0.9,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.103,
+      "shoulder": 0.323,
+      "elbow": 0.268,
+      "yaw": 0.163,
+      "roll": 0.05,
+      "pitch": 0.104,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.65
+     },
+     "pitch_hold_Nm": 0.019,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.8,
+     "yaw_err_deg": 1.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.637,
+     "mu": {
+      "plate": 0.291,
+      "pads": 0.448,
+      "jawpetg": 0.227,
+      "shelf": 0.336,
+      "rails": 0.288,
+      "ribs": 0.689,
+      "plate_glass": 0.238
+     },
+     "place_mm": [
+      1.5,
+      5.6
+     ],
+     "tt_deg": -1.8
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.133,
+      "elbow": 0.254,
+      "yaw": 0.197,
+      "roll": 0.065,
+      "pitch": 0.124,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.73
+     },
+     "pitch_hold_Nm": 0.012,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.7,
+     "yaw_err_deg": 1.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.225,
+      "elbow": 0.45,
+      "yaw": 0.289,
+      "roll": 0.049,
+      "pitch": 0.194,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.54
+     },
+     "pitch_hold_Nm": 0.028,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.2,
+     "yaw_err_deg": 1.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.682,
+     "mu": {
+      "plate": 0.293,
+      "pads": 0.488,
+      "jawpetg": 0.28,
+      "shelf": 0.219,
+      "rails": 0.245,
+      "ribs": 0.755,
+      "plate_glass": 0.281
+     },
+     "place_mm": [
+      1.5,
+      -6.3
+     ],
+     "tt_deg": 7.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.104,
+      "shoulder": 0.188,
+      "elbow": 0.223,
+      "yaw": 0.171,
+      "roll": 0.069,
+      "pitch": 0.107,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 21.0
+     },
+     "pitch_hold_Nm": 0.009,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.8,
+     "yaw_err_deg": 0.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.104,
+      "shoulder": 0.183,
+      "elbow": 0.255,
+      "yaw": 0.146,
+      "roll": 0.052,
+      "pitch": 0.093,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.72
+     },
+     "pitch_hold_Nm": 0.017,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.5,
+     "yaw_err_deg": 0.8,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.664,
+     "mu": {
+      "plate": 0.287,
+      "pads": 0.558,
+      "jawpetg": 0.298,
+      "shelf": 0.233,
+      "rails": 0.294,
+      "ribs": 0.832,
+      "plate_glass": 0.257
+     },
+     "place_mm": [
+      -1.5,
+      8.1
+     ],
+     "tt_deg": -2.2
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.12,
+      "shoulder": 0.149,
+      "elbow": 0.233,
+      "yaw": 0.185,
+      "roll": 0.16,
+      "pitch": 0.11,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.84
+     },
+     "pitch_hold_Nm": 0.022,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.5,
+     "yaw_err_deg": 1.3,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.116,
+      "shoulder": 0.238,
+      "elbow": 0.255,
+      "yaw": 0.154,
+      "roll": 0.141,
+      "pitch": 0.091,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.88
+     },
+     "pitch_hold_Nm": 0.031,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.3,
+     "yaw_err_deg": 1.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.758,
+     "mu": {
+      "plate": 0.245,
+      "pads": 0.61,
+      "jawpetg": 0.281,
+      "shelf": 0.277,
+      "rails": 0.254,
+      "ribs": 0.629,
+      "plate_glass": 0.229
+     },
+     "place_mm": [
+      1.4,
+      -9.9
+     ],
+     "tt_deg": -7.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.104,
+      "shoulder": 0.133,
+      "elbow": 0.249,
+      "yaw": 0.197,
+      "roll": 0.092,
+      "pitch": 0.12,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.84
+     },
+     "pitch_hold_Nm": 0.02,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.4,
+     "yaw_err_deg": 1.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.104,
+      "shoulder": 0.126,
+      "elbow": 0.261,
+      "yaw": 0.151,
+      "roll": 0.092,
+      "pitch": 0.093,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.73
+     },
+     "pitch_hold_Nm": 0.021,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.7,
+     "yaw_err_deg": 1.5,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.656,
+     "mu": {
+      "plate": 0.298,
+      "pads": 0.667,
+      "jawpetg": 0.258,
+      "shelf": 0.357,
+      "rails": 0.29,
+      "ribs": 0.7,
+      "plate_glass": 0.298
+     },
+     "place_mm": [
+      1.5,
+      8.4
+     ],
+     "tt_deg": -6.4
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.153,
+      "elbow": 0.265,
+      "yaw": 0.221,
+      "roll": 0.063,
+      "pitch": 0.139,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.68
+     },
+     "pitch_hold_Nm": 0.013,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.8,
+     "yaw_err_deg": 0.6,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.149,
+      "elbow": 0.3,
+      "yaw": 0.158,
+      "roll": 0.047,
+      "pitch": 0.102,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.57
+     },
+     "pitch_hold_Nm": 0.02,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.3,
+     "yaw_err_deg": 1.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.735,
+     "mu": {
+      "plate": 0.295,
+      "pads": 0.59,
+      "jawpetg": 0.231,
+      "shelf": 0.222,
+      "rails": 0.245,
+      "ribs": 0.744,
+      "plate_glass": 0.247
+     },
+     "place_mm": [
+      1.5,
+      -4.4
+     ],
+     "tt_deg": 0.8
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.186,
+      "elbow": 0.245,
+      "yaw": 0.176,
+      "roll": 0.103,
+      "pitch": 0.114,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.74
+     },
+     "pitch_hold_Nm": 0.016,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.4,
+     "yaw_err_deg": 0.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.21,
+      "elbow": 0.282,
+      "yaw": 0.16,
+      "roll": 0.083,
+      "pitch": 0.108,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.68
+     },
+     "pitch_hold_Nm": 0.021,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.1,
+     "yaw_err_deg": 1.9,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.613,
+     "mu": {
+      "plate": 0.285,
+      "pads": 0.489,
+      "jawpetg": 0.231,
+      "shelf": 0.3,
+      "rails": 0.203,
+      "ribs": 0.606,
+      "plate_glass": 0.226
+     },
+     "place_mm": [
+      -1.5,
+      -8.4
+     ],
+     "tt_deg": -5.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.107,
+      "shoulder": 0.191,
+      "elbow": 0.215,
+      "yaw": 0.169,
+      "roll": 0.089,
+      "pitch": 0.104,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.89
+     },
+     "pitch_hold_Nm": 0.009,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.4,
+     "yaw_err_deg": 1.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.107,
+      "shoulder": 0.187,
+      "elbow": 0.265,
+      "yaw": 0.162,
+      "roll": 0.067,
+      "pitch": 0.1,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.72
+     },
+     "pitch_hold_Nm": 0.017,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.3,
+     "yaw_err_deg": 2.7,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.703,
+     "mu": {
+      "plate": 0.261,
+      "pads": 0.681,
+      "jawpetg": 0.211,
+      "shelf": 0.216,
+      "rails": 0.219,
+      "ribs": 0.666,
+      "plate_glass": 0.216
+     },
+     "place_mm": [
+      1.5,
+      -4.7
+     ],
+     "tt_deg": 1.1
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.186,
+      "elbow": 0.251,
+      "yaw": 0.204,
+      "roll": 0.087,
+      "pitch": 0.123,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.66
+     },
+     "pitch_hold_Nm": 0.016,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.6,
+     "yaw_err_deg": 0.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.108,
+      "shoulder": 0.167,
+      "elbow": 0.286,
+      "yaw": 0.157,
+      "roll": 0.067,
+      "pitch": 0.095,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.68
+     },
+     "pitch_hold_Nm": 0.024,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.6,
+     "yaw_err_deg": 0.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.725,
+     "mu": {
+      "plate": 0.29,
+      "pads": 0.39,
+      "jawpetg": 0.22,
+      "shelf": 0.313,
+      "rails": 0.257,
+      "ribs": 0.894,
+      "plate_glass": 0.298
+     },
+     "place_mm": [
+      -0.7,
+      -9.8
+     ],
+     "tt_deg": 0.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.143,
+      "elbow": 0.264,
+      "yaw": 0.197,
+      "roll": 0.079,
+      "pitch": 0.129,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.63
+     },
+     "pitch_hold_Nm": 0.016,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.0,
+     "yaw_err_deg": 1.1,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.13,
+      "elbow": 0.279,
+      "yaw": 0.155,
+      "roll": 0.081,
+      "pitch": 0.107,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.67
+     },
+     "pitch_hold_Nm": 0.023,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.603,
+     "mu": {
+      "plate": 0.254,
+      "pads": 0.54,
+      "jawpetg": 0.235,
+      "shelf": 0.27,
+      "rails": 0.271,
+      "ribs": 0.744,
+      "plate_glass": 0.241
+     },
+     "place_mm": [
+      1.5,
+      -4.5
+     ],
+     "tt_deg": -3.7
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.385,
+      "shoulder": 0.195,
+      "elbow": 0.259,
+      "yaw": 0.209,
+      "roll": 0.814,
+      "pitch": 0.132,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.89
+     },
+     "pitch_hold_Nm": 0.015,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.4,
+     "yaw_err_deg": 0.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.12,
+      "shoulder": 0.176,
+      "elbow": 0.283,
+      "yaw": 0.174,
+      "roll": 0.058,
+      "pitch": 0.131,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.71
+     },
+     "pitch_hold_Nm": 0.022,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.3,
+     "yaw_err_deg": 1.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.823,
+     "mu": {
+      "plate": 0.227,
+      "pads": 0.647,
+      "jawpetg": 0.203,
+      "shelf": 0.253,
+      "rails": 0.216,
+      "ribs": 0.734,
+      "plate_glass": 0.235
+     },
+     "place_mm": [
+      -1.5,
+      8.3
+     ],
+     "tt_deg": -2.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.105,
+      "shoulder": 0.194,
+      "elbow": 0.208,
+      "yaw": 0.155,
+      "roll": 0.094,
+      "pitch": 0.112,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.8
+     },
+     "pitch_hold_Nm": 0.011,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.1,
+     "yaw_err_deg": 1.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.19,
+      "elbow": 0.241,
+      "yaw": 0.146,
+      "roll": 0.072,
+      "pitch": 0.112,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.76
+     },
+     "pitch_hold_Nm": 0.014,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.6,
+     "yaw_err_deg": 2.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.593,
+     "mu": {
+      "plate": 0.267,
+      "pads": 0.604,
+      "jawpetg": 0.203,
+      "shelf": 0.26,
+      "rails": 0.277,
+      "ribs": 0.66,
+      "plate_glass": 0.254
+     },
+     "place_mm": [
+      1.5,
+      -2.2
+     ],
+     "tt_deg": -6.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.159,
+      "elbow": 0.238,
+      "yaw": 0.178,
+      "roll": 0.06,
+      "pitch": 0.113,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.66
+     },
+     "pitch_hold_Nm": 0.011,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.5,
+     "yaw_err_deg": 0.3,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.102,
+      "shoulder": 0.142,
+      "elbow": 0.271,
+      "yaw": 0.16,
+      "roll": 0.045,
+      "pitch": 0.104,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.64
+     },
+     "pitch_hold_Nm": 0.018,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.0,
+     "yaw_err_deg": 1.4,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.601,
+     "mu": {
+      "plate": 0.239,
+      "pads": 0.617,
+      "jawpetg": 0.228,
+      "shelf": 0.348,
+      "rails": 0.223,
+      "ribs": 0.686,
+      "plate_glass": 0.247
+     },
+     "place_mm": [
+      -1.5,
+      -9.0
+     ],
+     "tt_deg": -2.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.11,
+      "shoulder": 0.131,
+      "elbow": 0.242,
+      "yaw": 0.193,
+      "roll": 0.107,
+      "pitch": 0.114,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.97
+     },
+     "pitch_hold_Nm": 0.024,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.6,
+     "yaw_err_deg": 1.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.11,
+      "shoulder": 0.256,
+      "elbow": 0.264,
+      "yaw": 0.149,
+      "roll": 0.089,
+      "pitch": 0.091,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.72
+     },
+     "pitch_hold_Nm": 0.016,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 8.2,
+     "yaw_err_deg": 1.6,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.762,
+     "mu": {
+      "plate": 0.208,
+      "pads": 0.518,
+      "jawpetg": 0.245,
+      "shelf": 0.243,
+      "rails": 0.257,
+      "ribs": 0.801,
+      "plate_glass": 0.213
+     },
+     "place_mm": [
+      1.5,
+      8.9
+     ],
+     "tt_deg": -2.8
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.135,
+      "elbow": 0.24,
+      "yaw": 0.187,
+      "roll": 0.062,
+      "pitch": 0.121,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.77
+     },
+     "pitch_hold_Nm": 0.014,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.7,
+     "yaw_err_deg": 1.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.109,
+      "shoulder": 0.128,
+      "elbow": 0.279,
+      "yaw": 0.177,
+      "roll": 0.056,
+      "pitch": 0.117,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.64
+     },
+     "pitch_hold_Nm": 0.024,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.1,
+     "yaw_err_deg": 0.7,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.752,
+     "mu": {
+      "plate": 0.241,
+      "pads": 0.459,
+      "jawpetg": 0.21,
+      "shelf": 0.319,
+      "rails": 0.211,
+      "ribs": 0.755,
+      "plate_glass": 0.269
+     },
+     "place_mm": [
+      1.5,
+      -2.1
+     ],
+     "tt_deg": -1.2
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.237,
+      "elbow": 0.218,
+      "yaw": 0.161,
+      "roll": 0.094,
+      "pitch": 0.097,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.92
+     },
+     "pitch_hold_Nm": 0.02,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.7,
+     "yaw_err_deg": 0.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.257,
+      "elbow": 0.388,
+      "yaw": 0.227,
+      "roll": 0.095,
+      "pitch": 0.151,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.49
+     },
+     "pitch_hold_Nm": 0.032,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.7,
+     "yaw_err_deg": 1.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.574,
+     "mu": {
+      "plate": 0.265,
+      "pads": 0.492,
+      "jawpetg": 0.212,
+      "shelf": 0.326,
+      "rails": 0.244,
+      "ribs": 0.692,
+      "plate_glass": 0.227
+     },
+     "place_mm": [
+      1.5,
+      7.3
+     ],
+     "tt_deg": 7.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.197,
+      "elbow": 0.218,
+      "yaw": 0.16,
+      "roll": 0.102,
+      "pitch": 0.096,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.82
+     },
+     "pitch_hold_Nm": 0.019,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.1,
+     "yaw_err_deg": 0.8,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.1,
+      "shoulder": 0.343,
+      "elbow": 0.29,
+      "yaw": 0.17,
+      "roll": 0.101,
+      "pitch": 0.091,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.62
+     },
+     "pitch_hold_Nm": 0.025,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.0,
+     "yaw_err_deg": 0.2,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.3
+    },
+    "params": {
+     "mass": 1.584,
+     "mu": {
+      "plate": 0.232,
+      "pads": 0.699,
+      "jawpetg": 0.297,
+      "shelf": 0.334,
+      "rails": 0.213,
+      "ribs": 0.602,
+      "plate_glass": 0.225
+     },
+     "place_mm": [
+      0.5,
+      -3.4
+     ],
+     "tt_deg": 3.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.111,
+      "shoulder": 0.133,
+      "elbow": 0.235,
+      "yaw": 0.184,
+      "roll": 0.074,
+      "pitch": 0.118,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 20.81
+     },
+     "pitch_hold_Nm": 0.017,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.8,
+     "yaw_err_deg": 0.3,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.111,
+      "shoulder": 0.127,
+      "elbow": 0.26,
+      "yaw": 0.154,
+      "roll": 0.056,
+      "pitch": 0.1,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 11.75
+     },
+     "pitch_hold_Nm": 0.016,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.7,
+     "yaw_err_deg": 0.5,
+     "tilt_deg": 0.0,
+     "slip_mm": 0.2
+    },
+    "params": {
+     "mass": 1.775,
+     "mu": {
+      "plate": 0.254,
+      "pads": 0.47,
+      "jawpetg": 0.218,
+      "shelf": 0.373,
+      "rails": 0.241,
+      "ribs": 0.795,
+      "plate_glass": 0.207
+     },
+     "place_mm": [
+      0.6,
+      -1.8
+     ],
+     "tt_deg": -7.7
+    }
+   }
+  ]
+ },
+ "jar_small": {
+  "trials": 30,
+  "passed": 30,
+  "nominal_ok": true,
+  "failures": [],
+  "peak_of_stall": {
+   "lift": 0.072,
+   "shoulder": 0.365,
+   "elbow": 0.37,
+   "yaw": 0.512,
+   "roll": 0.127,
+   "pitch": 0.406,
+   "grip": 1.0
+  },
+  "pitch_hold_mean_Nm": {
+   "max": 1.054,
+   "of_rated": 1.07
+  },
+  "runtime_s": 111.3,
+  "detail": [
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.152,
+      "elbow": 0.156,
+      "yaw": 0.18,
+      "roll": 0.027,
+      "pitch": 0.378,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.12
+     },
+     "pitch_hold_Nm": 0.998,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.5
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.197,
+      "elbow": 0.254,
+      "yaw": 0.37,
+      "roll": 0.039,
+      "pitch": 0.381,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.08
+     },
+     "pitch_hold_Nm": 0.996,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.8
+    },
+    "params": {
+     "mass": 0.75,
+     "mu": {
+      "plate": 0.25,
+      "pads": 0.525,
+      "jawpetg": 0.25,
+      "shelf": 0.3,
+      "rails": 0.25,
+      "ribs": 0.75,
+      "plate_glass": 0.25
+     },
+     "place_mm": [
+      0.0,
+      0.0
+     ],
+     "tt_deg": 0.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.265,
+      "elbow": 0.107,
+      "yaw": 0.13,
+      "roll": 0.066,
+      "pitch": 0.362,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.18
+     },
+     "pitch_hold_Nm": 0.956,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 9.3,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.6
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.267,
+      "elbow": 0.176,
+      "yaw": 0.282,
+      "roll": 0.06,
+      "pitch": 0.367,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 14.99
+     },
+     "pitch_hold_Nm": 0.954,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 8.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.7
+    },
+    "params": {
+     "mass": 0.713,
+     "mu": {
+      "plate": 0.25,
+      "pads": 0.561,
+      "jawpetg": 0.203,
+      "shelf": 0.23,
+      "rails": 0.293,
+      "ribs": 0.621,
+      "plate_glass": 0.213
+     },
+     "place_mm": [
+      5.8,
+      3.4
+     ],
+     "tt_deg": -5.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.171,
+      "elbow": 0.13,
+      "yaw": 0.151,
+      "roll": 0.071,
+      "pitch": 0.377,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.1
+     },
+     "pitch_hold_Nm": 0.996,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.9,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.6
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.297,
+      "elbow": 0.075,
+      "yaw": 0.193,
+      "roll": 0.066,
+      "pitch": 0.381,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.12
+     },
+     "pitch_hold_Nm": 0.992,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.4
+    },
+    "params": {
+     "mass": 0.747,
+     "mu": {
+      "plate": 0.228,
+      "pads": 0.379,
+      "jawpetg": 0.29,
+      "shelf": 0.286,
+      "rails": 0.215,
+      "ribs": 0.802,
+      "plate_glass": 0.22
+     },
+     "place_mm": [
+      3.9,
+      -3.2
+     ],
+     "tt_deg": -5.2
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.144,
+      "elbow": 0.232,
+      "yaw": 0.215,
+      "roll": 0.037,
+      "pitch": 0.353,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.13
+     },
+     "pitch_hold_Nm": 0.945,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.3,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.8
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.134,
+      "elbow": 0.34,
+      "yaw": 0.362,
+      "roll": 0.021,
+      "pitch": 0.358,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.1
+     },
+     "pitch_hold_Nm": 0.942,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.3,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.6
+    },
+    "params": {
+     "mass": 0.702,
+     "mu": {
+      "plate": 0.284,
+      "pads": 0.513,
+      "jawpetg": 0.213,
+      "shelf": 0.348,
+      "rails": 0.22,
+      "ribs": 0.619,
+      "plate_glass": 0.26
+     },
+     "place_mm": [
+      4.5,
+      -0.1
+     ],
+     "tt_deg": -1.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.142,
+      "elbow": 0.144,
+      "yaw": 0.18,
+      "roll": 0.12,
+      "pitch": 0.365,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.15
+     },
+     "pitch_hold_Nm": 0.972,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.1
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.224,
+      "elbow": 0.264,
+      "yaw": 0.405,
+      "roll": 0.08,
+      "pitch": 0.356,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.16
+     },
+     "pitch_hold_Nm": 0.969,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.4
+    },
+    "params": {
+     "mass": 0.725,
+     "mu": {
+      "plate": 0.285,
+      "pads": 0.61,
+      "jawpetg": 0.255,
+      "shelf": 0.332,
+      "rails": 0.269,
+      "ribs": 0.834,
+      "plate_glass": 0.293
+     },
+     "place_mm": [
+      -9.3,
+      -2.8
+     ],
+     "tt_deg": -4.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.146,
+      "elbow": 0.137,
+      "yaw": 0.064,
+      "roll": 0.041,
+      "pitch": 0.36,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.26
+     },
+     "pitch_hold_Nm": 0.947,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 7.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.9
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.242,
+      "elbow": 0.176,
+      "yaw": 0.28,
+      "roll": 0.045,
+      "pitch": 0.359,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.06
+     },
+     "pitch_hold_Nm": 0.946,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.3,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.8
+    },
+    "params": {
+     "mass": 0.704,
+     "mu": {
+      "plate": 0.212,
+      "pads": 0.544,
+      "jawpetg": 0.264,
+      "shelf": 0.265,
+      "rails": 0.264,
+      "ribs": 0.706,
+      "plate_glass": 0.213
+     },
+     "place_mm": [
+      8.1,
+      4.0
+     ],
+     "tt_deg": -4.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.162,
+      "elbow": 0.221,
+      "yaw": 0.21,
+      "roll": 0.043,
+      "pitch": 0.36,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.06
+     },
+     "pitch_hold_Nm": 0.958,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.6
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.181,
+      "elbow": 0.27,
+      "yaw": 0.366,
+      "roll": 0.04,
+      "pitch": 0.357,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.1
+     },
+     "pitch_hold_Nm": 0.957,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.9,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.6
+    },
+    "params": {
+     "mass": 0.714,
+     "mu": {
+      "plate": 0.239,
+      "pads": 0.524,
+      "jawpetg": 0.229,
+      "shelf": 0.321,
+      "rails": 0.26,
+      "ribs": 0.672,
+      "plate_glass": 0.262
+     },
+     "place_mm": [
+      0.4,
+      -4.8
+     ],
+     "tt_deg": -2.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.187,
+      "elbow": 0.167,
+      "yaw": 0.181,
+      "roll": 0.047,
+      "pitch": 0.39,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.22
+     },
+     "pitch_hold_Nm": 1.027,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.261,
+      "elbow": 0.136,
+      "yaw": 0.275,
+      "roll": 0.048,
+      "pitch": 0.39,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.06
+     },
+     "pitch_hold_Nm": 1.026,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.8
+    },
+    "params": {
+     "mass": 0.775,
+     "mu": {
+      "plate": 0.238,
+      "pads": 0.404,
+      "jawpetg": 0.288,
+      "shelf": 0.338,
+      "rails": 0.274,
+      "ribs": 0.768,
+      "plate_glass": 0.278
+     },
+     "place_mm": [
+      -0.1,
+      7.6
+     ],
+     "tt_deg": -0.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.172,
+      "elbow": 0.191,
+      "yaw": 0.177,
+      "roll": 0.022,
+      "pitch": 0.362,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.02
+     },
+     "pitch_hold_Nm": 0.962,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.8
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.203,
+      "elbow": 0.34,
+      "yaw": 0.405,
+      "roll": 0.051,
+      "pitch": 0.357,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.11
+     },
+     "pitch_hold_Nm": 0.955,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.3
+    },
+    "params": {
+     "mass": 0.713,
+     "mu": {
+      "plate": 0.251,
+      "pads": 0.652,
+      "jawpetg": 0.217,
+      "shelf": 0.202,
+      "rails": 0.207,
+      "ribs": 0.738,
+      "plate_glass": 0.297
+     },
+     "place_mm": [
+      0.8,
+      -4.2
+     ],
+     "tt_deg": -7.1
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.126,
+      "elbow": 0.134,
+      "yaw": 0.126,
+      "roll": 0.03,
+      "pitch": 0.369,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.15
+     },
+     "pitch_hold_Nm": 0.967,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.5
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.151,
+      "elbow": 0.331,
+      "yaw": 0.409,
+      "roll": 0.021,
+      "pitch": 0.371,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.12
+     },
+     "pitch_hold_Nm": 0.966,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.8,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.8
+    },
+    "params": {
+     "mass": 0.722,
+     "mu": {
+      "plate": 0.239,
+      "pads": 0.609,
+      "jawpetg": 0.261,
+      "shelf": 0.206,
+      "rails": 0.205,
+      "ribs": 0.736,
+      "plate_glass": 0.287
+     },
+     "place_mm": [
+      -6.9,
+      1.5
+     ],
+     "tt_deg": 3.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.147,
+      "elbow": 0.149,
+      "yaw": 0.199,
+      "roll": 0.04,
+      "pitch": 0.37,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.1
+     },
+     "pitch_hold_Nm": 0.977,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.185,
+      "elbow": 0.205,
+      "yaw": 0.345,
+      "roll": 0.044,
+      "pitch": 0.371,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.05
+     },
+     "pitch_hold_Nm": 0.976,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.5
+    },
+    "params": {
+     "mass": 0.732,
+     "mu": {
+      "plate": 0.269,
+      "pads": 0.526,
+      "jawpetg": 0.245,
+      "shelf": 0.394,
+      "rails": 0.217,
+      "ribs": 0.746,
+      "plate_glass": 0.216
+     },
+     "place_mm": [
+      -9.4,
+      -2.2
+     ],
+     "tt_deg": -4.1
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.152,
+      "elbow": 0.132,
+      "yaw": 0.159,
+      "roll": 0.084,
+      "pitch": 0.354,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.02
+     },
+     "pitch_hold_Nm": 0.943,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.1
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.163,
+      "elbow": 0.25,
+      "yaw": 0.317,
+      "roll": 0.081,
+      "pitch": 0.352,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.06
+     },
+     "pitch_hold_Nm": 0.944,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.9,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.3
+    },
+    "params": {
+     "mass": 0.703,
+     "mu": {
+      "plate": 0.247,
+      "pads": 0.601,
+      "jawpetg": 0.244,
+      "shelf": 0.273,
+      "rails": 0.266,
+      "ribs": 0.649,
+      "plate_glass": 0.201
+     },
+     "place_mm": [
+      2.0,
+      -5.5
+     ],
+     "tt_deg": -7.2
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.365,
+      "elbow": 0.138,
+      "yaw": 0.154,
+      "roll": 0.03,
+      "pitch": 0.38,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.1
+     },
+     "pitch_hold_Nm": 1.001,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 7.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.363,
+      "elbow": 0.321,
+      "yaw": 0.424,
+      "roll": 0.034,
+      "pitch": 0.373,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.04
+     },
+     "pitch_hold_Nm": 1.001,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.9
+    },
+    "params": {
+     "mass": 0.755,
+     "mu": {
+      "plate": 0.262,
+      "pads": 0.612,
+      "jawpetg": 0.296,
+      "shelf": 0.271,
+      "rails": 0.266,
+      "ribs": 0.733,
+      "plate_glass": 0.222
+     },
+     "place_mm": [
+      -6.0,
+      -1.8
+     ],
+     "tt_deg": -3.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.161,
+      "elbow": 0.096,
+      "yaw": 0.106,
+      "roll": 0.022,
+      "pitch": 0.353,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.08
+     },
+     "pitch_hold_Nm": 0.945,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.1,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.6
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.188,
+      "elbow": 0.224,
+      "yaw": 0.34,
+      "roll": 0.023,
+      "pitch": 0.352,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.06
+     },
+     "pitch_hold_Nm": 0.946,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.5
+    },
+    "params": {
+     "mass": 0.703,
+     "mu": {
+      "plate": 0.225,
+      "pads": 0.357,
+      "jawpetg": 0.281,
+      "shelf": 0.224,
+      "rails": 0.297,
+      "ribs": 0.664,
+      "plate_glass": 0.231
+     },
+     "place_mm": [
+      8.2,
+      -4.4
+     ],
+     "tt_deg": 6.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.062,
+      "shoulder": 0.138,
+      "elbow": 0.178,
+      "yaw": 0.199,
+      "roll": 0.055,
+      "pitch": 0.394,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.23
+     },
+     "pitch_hold_Nm": 1.034,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.208,
+      "elbow": 0.279,
+      "yaw": 0.432,
+      "roll": 0.068,
+      "pitch": 0.395,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.08
+     },
+     "pitch_hold_Nm": 1.028,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.4
+    },
+    "params": {
+     "mass": 0.778,
+     "mu": {
+      "plate": 0.242,
+      "pads": 0.397,
+      "jawpetg": 0.289,
+      "shelf": 0.339,
+      "rails": 0.258,
+      "ribs": 0.805,
+      "plate_glass": 0.239
+     },
+     "place_mm": [
+      -2.6,
+      8.5
+     ],
+     "tt_deg": 0.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.059,
+      "shoulder": 0.253,
+      "elbow": 0.193,
+      "yaw": 0.202,
+      "roll": 0.062,
+      "pitch": 0.4,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.03
+     },
+     "pitch_hold_Nm": 1.051,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.8,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.059,
+      "shoulder": 0.226,
+      "elbow": 0.37,
+      "yaw": 0.442,
+      "roll": 0.058,
+      "pitch": 0.406,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.11
+     },
+     "pitch_hold_Nm": 1.046,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.8,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.8
+    },
+    "params": {
+     "mass": 0.796,
+     "mu": {
+      "plate": 0.219,
+      "pads": 0.534,
+      "jawpetg": 0.232,
+      "shelf": 0.328,
+      "rails": 0.261,
+      "ribs": 0.754,
+      "plate_glass": 0.232
+     },
+     "place_mm": [
+      9.1,
+      -3.7
+     ],
+     "tt_deg": -7.7
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.072,
+      "shoulder": 0.265,
+      "elbow": 0.247,
+      "yaw": 0.247,
+      "roll": 0.066,
+      "pitch": 0.393,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.06
+     },
+     "pitch_hold_Nm": 1.035,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.9,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 7.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.183,
+      "elbow": 0.329,
+      "yaw": 0.512,
+      "roll": 0.05,
+      "pitch": 0.39,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.11
+     },
+     "pitch_hold_Nm": 1.015,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.8
+    },
+    "params": {
+     "mass": 0.768,
+     "mu": {
+      "plate": 0.247,
+      "pads": 0.667,
+      "jawpetg": 0.226,
+      "shelf": 0.364,
+      "rails": 0.299,
+      "ribs": 0.869,
+      "plate_glass": 0.296
+     },
+     "place_mm": [
+      8.7,
+      -2.8
+     ],
+     "tt_deg": -2.7
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.128,
+      "elbow": 0.138,
+      "yaw": 0.108,
+      "roll": 0.036,
+      "pitch": 0.372,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.13
+     },
+     "pitch_hold_Nm": 0.979,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.7
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.171,
+      "elbow": 0.277,
+      "yaw": 0.384,
+      "roll": 0.063,
+      "pitch": 0.375,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.15
+     },
+     "pitch_hold_Nm": 0.977,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 4.6
+    },
+    "params": {
+     "mass": 0.733,
+     "mu": {
+      "plate": 0.283,
+      "pads": 0.354,
+      "jawpetg": 0.201,
+      "shelf": 0.211,
+      "rails": 0.287,
+      "ribs": 0.79,
+      "plate_glass": 0.273
+     },
+     "place_mm": [
+      -5.0,
+      -0.5
+     ],
+     "tt_deg": 1.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.176,
+      "elbow": 0.164,
+      "yaw": 0.196,
+      "roll": 0.092,
+      "pitch": 0.387,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.21
+     },
+     "pitch_hold_Nm": 1.019,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 9.1,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.1
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.072,
+      "shoulder": 0.321,
+      "elbow": 0.117,
+      "yaw": 0.211,
+      "roll": 0.122,
+      "pitch": 0.388,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.11
+     },
+     "pitch_hold_Nm": 1.013,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.1,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.0
+    },
+    "params": {
+     "mass": 0.769,
+     "mu": {
+      "plate": 0.267,
+      "pads": 0.365,
+      "jawpetg": 0.264,
+      "shelf": 0.384,
+      "rails": 0.267,
+      "ribs": 0.893,
+      "plate_glass": 0.251
+     },
+     "place_mm": [
+      6.9,
+      4.2
+     ],
+     "tt_deg": -3.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.059,
+      "shoulder": 0.234,
+      "elbow": 0.17,
+      "yaw": 0.199,
+      "roll": 0.048,
+      "pitch": 0.39,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.24
+     },
+     "pitch_hold_Nm": 1.041,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.9
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.059,
+      "shoulder": 0.205,
+      "elbow": 0.255,
+      "yaw": 0.37,
+      "roll": 0.048,
+      "pitch": 0.392,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.09
+     },
+     "pitch_hold_Nm": 1.038,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.4
+    },
+    "params": {
+     "mass": 0.788,
+     "mu": {
+      "plate": 0.229,
+      "pads": 0.387,
+      "jawpetg": 0.235,
+      "shelf": 0.387,
+      "rails": 0.216,
+      "ribs": 0.683,
+      "plate_glass": 0.293
+     },
+     "place_mm": [
+      9.8,
+      9.2
+     ],
+     "tt_deg": 1.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.153,
+      "elbow": 0.272,
+      "yaw": 0.253,
+      "roll": 0.084,
+      "pitch": 0.386,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 14.99
+     },
+     "pitch_hold_Nm": 1.03,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.5
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.229,
+      "elbow": 0.369,
+      "yaw": 0.476,
+      "roll": 0.058,
+      "pitch": 0.37,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.19
+     },
+     "pitch_hold_Nm": 1.023,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.1,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.6
+    },
+    "params": {
+     "mass": 0.775,
+     "mu": {
+      "plate": 0.296,
+      "pads": 0.636,
+      "jawpetg": 0.294,
+      "shelf": 0.327,
+      "rails": 0.273,
+      "ribs": 0.776,
+      "plate_glass": 0.208
+     },
+     "place_mm": [
+      -1.1,
+      -8.5
+     ],
+     "tt_deg": -5.4
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.151,
+      "elbow": 0.234,
+      "yaw": 0.225,
+      "roll": 0.07,
+      "pitch": 0.361,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.06
+     },
+     "pitch_hold_Nm": 0.95,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.0
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.168,
+      "elbow": 0.365,
+      "yaw": 0.346,
+      "roll": 0.045,
+      "pitch": 0.366,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.15
+     },
+     "pitch_hold_Nm": 0.949,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.9
+    },
+    "params": {
+     "mass": 0.708,
+     "mu": {
+      "plate": 0.221,
+      "pads": 0.428,
+      "jawpetg": 0.248,
+      "shelf": 0.33,
+      "rails": 0.236,
+      "ribs": 0.65,
+      "plate_glass": 0.209
+     },
+     "place_mm": [
+      -8.6,
+      -1.3
+     ],
+     "tt_deg": 7.7
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.059,
+      "shoulder": 0.202,
+      "elbow": 0.224,
+      "yaw": 0.22,
+      "roll": 0.112,
+      "pitch": 0.396,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.13
+     },
+     "pitch_hold_Nm": 1.054,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.7
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.059,
+      "shoulder": 0.203,
+      "elbow": 0.353,
+      "yaw": 0.374,
+      "roll": 0.127,
+      "pitch": 0.39,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.11
+     },
+     "pitch_hold_Nm": 1.05,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.1,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.6
+    },
+    "params": {
+     "mass": 0.798,
+     "mu": {
+      "plate": 0.259,
+      "pads": 0.616,
+      "jawpetg": 0.27,
+      "shelf": 0.227,
+      "rails": 0.26,
+      "ribs": 0.692,
+      "plate_glass": 0.236
+     },
+     "place_mm": [
+      -6.5,
+      2.0
+     ],
+     "tt_deg": 3.4
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.066,
+      "shoulder": 0.159,
+      "elbow": 0.183,
+      "yaw": 0.209,
+      "roll": 0.118,
+      "pitch": 0.386,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.19
+     },
+     "pitch_hold_Nm": 1.003,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.7
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.246,
+      "elbow": 0.108,
+      "yaw": 0.251,
+      "roll": 0.107,
+      "pitch": 0.382,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.02
+     },
+     "pitch_hold_Nm": 0.996,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.9
+    },
+    "params": {
+     "mass": 0.748,
+     "mu": {
+      "plate": 0.241,
+      "pads": 0.389,
+      "jawpetg": 0.228,
+      "shelf": 0.369,
+      "rails": 0.297,
+      "ribs": 0.712,
+      "plate_glass": 0.287
+     },
+     "place_mm": [
+      4.6,
+      4.1
+     ],
+     "tt_deg": -3.8
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.263,
+      "elbow": 0.157,
+      "yaw": 0.179,
+      "roll": 0.063,
+      "pitch": 0.356,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.21
+     },
+     "pitch_hold_Nm": 0.961,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.26,
+      "elbow": 0.294,
+      "yaw": 0.401,
+      "roll": 0.052,
+      "pitch": 0.361,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.19
+     },
+     "pitch_hold_Nm": 0.957,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.7
+    },
+    "params": {
+     "mass": 0.716,
+     "mu": {
+      "plate": 0.245,
+      "pads": 0.473,
+      "jawpetg": 0.239,
+      "shelf": 0.37,
+      "rails": 0.258,
+      "ribs": 0.782,
+      "plate_glass": 0.239
+     },
+     "place_mm": [
+      8.2,
+      5.3
+     ],
+     "tt_deg": -7.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.175,
+      "elbow": 0.154,
+      "yaw": 0.195,
+      "roll": 0.09,
+      "pitch": 0.367,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.02
+     },
+     "pitch_hold_Nm": 0.974,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.6
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.204,
+      "elbow": 0.19,
+      "yaw": 0.286,
+      "roll": 0.102,
+      "pitch": 0.368,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.07
+     },
+     "pitch_hold_Nm": 0.973,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.9,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.9
+    },
+    "params": {
+     "mass": 0.73,
+     "mu": {
+      "plate": 0.277,
+      "pads": 0.42,
+      "jawpetg": 0.254,
+      "shelf": 0.361,
+      "rails": 0.257,
+      "ribs": 0.637,
+      "plate_glass": 0.291
+     },
+     "place_mm": [
+      -9.1,
+      -6.6
+     ],
+     "tt_deg": -1.8
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.197,
+      "elbow": 0.194,
+      "yaw": 0.192,
+      "roll": 0.065,
+      "pitch": 0.39,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.05
+     },
+     "pitch_hold_Nm": 1.029,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.9
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.197,
+      "elbow": 0.28,
+      "yaw": 0.342,
+      "roll": 0.07,
+      "pitch": 0.393,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.16
+     },
+     "pitch_hold_Nm": 1.026,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.8
+    },
+    "params": {
+     "mass": 0.776,
+     "mu": {
+      "plate": 0.228,
+      "pads": 0.61,
+      "jawpetg": 0.223,
+      "shelf": 0.257,
+      "rails": 0.247,
+      "ribs": 0.622,
+      "plate_glass": 0.245
+     },
+     "place_mm": [
+      7.6,
+      -4.5
+     ],
+     "tt_deg": 2.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.139,
+      "elbow": 0.112,
+      "yaw": 0.147,
+      "roll": 0.056,
+      "pitch": 0.363,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.01
+     },
+     "pitch_hold_Nm": 0.952,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.1
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.17,
+      "elbow": 0.216,
+      "yaw": 0.289,
+      "roll": 0.068,
+      "pitch": 0.359,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.13
+     },
+     "pitch_hold_Nm": 0.951,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.8,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.8
+    },
+    "params": {
+     "mass": 0.708,
+     "mu": {
+      "plate": 0.248,
+      "pads": 0.508,
+      "jawpetg": 0.221,
+      "shelf": 0.314,
+      "rails": 0.267,
+      "ribs": 0.638,
+      "plate_glass": 0.23
+     },
+     "place_mm": [
+      8.9,
+      -5.4
+     ],
+     "tt_deg": -2.8
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.233,
+      "elbow": 0.233,
+      "yaw": 0.229,
+      "roll": 0.064,
+      "pitch": 0.387,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.11
+     },
+     "pitch_hold_Nm": 1.012,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.1
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.233,
+      "elbow": 0.33,
+      "yaw": 0.371,
+      "roll": 0.051,
+      "pitch": 0.372,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.12
+     },
+     "pitch_hold_Nm": 1.01,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.0
+    },
+    "params": {
+     "mass": 0.761,
+     "mu": {
+      "plate": 0.241,
+      "pads": 0.459,
+      "jawpetg": 0.21,
+      "shelf": 0.319,
+      "rails": 0.211,
+      "ribs": 0.755,
+      "plate_glass": 0.269
+     },
+     "place_mm": [
+      2.3,
+      -2.1
+     ],
+     "tt_deg": 3.7
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.21,
+      "elbow": 0.084,
+      "yaw": 0.107,
+      "roll": 0.079,
+      "pitch": 0.376,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.26
+     },
+     "pitch_hold_Nm": 0.99,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 8.3,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.7
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.28,
+      "elbow": 0.115,
+      "yaw": 0.249,
+      "roll": 0.071,
+      "pitch": 0.373,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.01
+     },
+     "pitch_hold_Nm": 0.987,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 7.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.7
+    },
+    "params": {
+     "mass": 0.742,
+     "mu": {
+      "plate": 0.201,
+      "pads": 0.577,
+      "jawpetg": 0.241,
+      "shelf": 0.223,
+      "rails": 0.263,
+      "ribs": 0.733,
+      "plate_glass": 0.231
+     },
+     "place_mm": [
+      0.4,
+      8.3
+     ],
+     "tt_deg": -4.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.06,
+      "shoulder": 0.132,
+      "elbow": 0.167,
+      "yaw": 0.206,
+      "roll": 0.1,
+      "pitch": 0.398,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.21
+     },
+     "pitch_hold_Nm": 1.049,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.9
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.06,
+      "shoulder": 0.241,
+      "elbow": 0.159,
+      "yaw": 0.293,
+      "roll": 0.089,
+      "pitch": 0.391,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.1
+     },
+     "pitch_hold_Nm": 1.049,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.5
+    },
+    "params": {
+     "mass": 0.795,
+     "mu": {
+      "plate": 0.3,
+      "pads": 0.367,
+      "jawpetg": 0.232,
+      "shelf": 0.4,
+      "rails": 0.297,
+      "ribs": 0.801,
+      "plate_glass": 0.213
+     },
+     "place_mm": [
+      -4.0,
+      7.5
+     ],
+     "tt_deg": 1.3
+    }
+   }
+  ]
+ },
+ "jar_large": {
+  "trials": 30,
+  "passed": 30,
+  "nominal_ok": true,
+  "failures": [],
+  "peak_of_stall": {
+   "lift": 0.091,
+   "shoulder": 0.369,
+   "elbow": 0.399,
+   "yaw": 0.517,
+   "roll": 0.128,
+   "pitch": 0.439,
+   "grip": 1.0
+  },
+  "pitch_hold_mean_Nm": {
+   "max": 1.058,
+   "of_rated": 1.08
+  },
+  "runtime_s": 121.4,
+  "detail": [
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.167,
+      "elbow": 0.152,
+      "yaw": 0.183,
+      "roll": 0.028,
+      "pitch": 0.379,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.71
+     },
+     "pitch_hold_Nm": 1.002,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.0
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.197,
+      "elbow": 0.26,
+      "yaw": 0.364,
+      "roll": 0.057,
+      "pitch": 0.381,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.09
+     },
+     "pitch_hold_Nm": 0.997,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.4
+    },
+    "params": {
+     "mass": 0.75,
+     "mu": {
+      "plate": 0.25,
+      "pads": 0.525,
+      "jawpetg": 0.25,
+      "shelf": 0.3,
+      "rails": 0.25,
+      "ribs": 0.75,
+      "plate_glass": 0.25
+     },
+     "place_mm": [
+      0.0,
+      0.0
+     ],
+     "tt_deg": 0.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.273,
+      "elbow": 0.112,
+      "yaw": 0.126,
+      "roll": 0.079,
+      "pitch": 0.362,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.8
+     },
+     "pitch_hold_Nm": 0.961,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 9.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.267,
+      "elbow": 0.173,
+      "yaw": 0.277,
+      "roll": 0.059,
+      "pitch": 0.367,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 14.98
+     },
+     "pitch_hold_Nm": 0.954,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 8.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.7
+    },
+    "params": {
+     "mass": 0.713,
+     "mu": {
+      "plate": 0.25,
+      "pads": 0.561,
+      "jawpetg": 0.203,
+      "shelf": 0.23,
+      "rails": 0.293,
+      "ribs": 0.621,
+      "plate_glass": 0.213
+     },
+     "place_mm": [
+      5.8,
+      3.4
+     ],
+     "tt_deg": -5.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.16,
+      "elbow": 0.131,
+      "yaw": 0.166,
+      "roll": 0.074,
+      "pitch": 0.375,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.71
+     },
+     "pitch_hold_Nm": 1.0,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.8,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.6
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.268,
+      "elbow": 0.099,
+      "yaw": 0.21,
+      "roll": 0.074,
+      "pitch": 0.38,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.13
+     },
+     "pitch_hold_Nm": 0.992,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.1
+    },
+    "params": {
+     "mass": 0.747,
+     "mu": {
+      "plate": 0.228,
+      "pads": 0.379,
+      "jawpetg": 0.29,
+      "shelf": 0.286,
+      "rails": 0.215,
+      "ribs": 0.802,
+      "plate_glass": 0.22
+     },
+     "place_mm": [
+      3.9,
+      -3.2
+     ],
+     "tt_deg": -5.2
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.144,
+      "elbow": 0.209,
+      "yaw": 0.202,
+      "roll": 0.037,
+      "pitch": 0.358,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.74
+     },
+     "pitch_hold_Nm": 0.948,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.9
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.139,
+      "elbow": 0.306,
+      "yaw": 0.332,
+      "roll": 0.024,
+      "pitch": 0.354,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.1
+     },
+     "pitch_hold_Nm": 0.942,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.3,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.9
+    },
+    "params": {
+     "mass": 0.702,
+     "mu": {
+      "plate": 0.284,
+      "pads": 0.513,
+      "jawpetg": 0.213,
+      "shelf": 0.348,
+      "rails": 0.22,
+      "ribs": 0.619,
+      "plate_glass": 0.26
+     },
+     "place_mm": [
+      4.5,
+      -0.1
+     ],
+     "tt_deg": -1.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.19,
+      "elbow": 0.149,
+      "yaw": 0.177,
+      "roll": 0.105,
+      "pitch": 0.365,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.73
+     },
+     "pitch_hold_Nm": 0.975,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.5
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.248,
+      "elbow": 0.245,
+      "yaw": 0.383,
+      "roll": 0.074,
+      "pitch": 0.375,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.14
+     },
+     "pitch_hold_Nm": 0.971,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.1,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.5
+    },
+    "params": {
+     "mass": 0.725,
+     "mu": {
+      "plate": 0.285,
+      "pads": 0.61,
+      "jawpetg": 0.255,
+      "shelf": 0.332,
+      "rails": 0.269,
+      "ribs": 0.834,
+      "plate_glass": 0.293
+     },
+     "place_mm": [
+      -9.3,
+      -2.8
+     ],
+     "tt_deg": -4.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.162,
+      "elbow": 0.133,
+      "yaw": 0.115,
+      "roll": 0.04,
+      "pitch": 0.36,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.88
+     },
+     "pitch_hold_Nm": 0.952,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.9,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.249,
+      "elbow": 0.185,
+      "yaw": 0.281,
+      "roll": 0.047,
+      "pitch": 0.362,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.06
+     },
+     "pitch_hold_Nm": 0.945,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.1,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.4
+    },
+    "params": {
+     "mass": 0.704,
+     "mu": {
+      "plate": 0.212,
+      "pads": 0.544,
+      "jawpetg": 0.264,
+      "shelf": 0.265,
+      "rails": 0.264,
+      "ribs": 0.706,
+      "plate_glass": 0.213
+     },
+     "place_mm": [
+      8.1,
+      4.0
+     ],
+     "tt_deg": -4.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.188,
+      "elbow": 0.204,
+      "yaw": 0.201,
+      "roll": 0.044,
+      "pitch": 0.365,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.65
+     },
+     "pitch_hold_Nm": 0.962,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.1
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.181,
+      "elbow": 0.299,
+      "yaw": 0.385,
+      "roll": 0.04,
+      "pitch": 0.368,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.1
+     },
+     "pitch_hold_Nm": 0.957,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.9,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.7
+    },
+    "params": {
+     "mass": 0.714,
+     "mu": {
+      "plate": 0.239,
+      "pads": 0.524,
+      "jawpetg": 0.229,
+      "shelf": 0.321,
+      "rails": 0.26,
+      "ribs": 0.672,
+      "plate_glass": 0.262
+     },
+     "place_mm": [
+      0.4,
+      -4.8
+     ],
+     "tt_deg": -2.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.061,
+      "shoulder": 0.189,
+      "elbow": 0.16,
+      "yaw": 0.177,
+      "roll": 0.049,
+      "pitch": 0.392,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.81
+     },
+     "pitch_hold_Nm": 1.034,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.8,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.277,
+      "elbow": 0.133,
+      "yaw": 0.296,
+      "roll": 0.049,
+      "pitch": 0.393,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.06
+     },
+     "pitch_hold_Nm": 1.026,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.1,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.6
+    },
+    "params": {
+     "mass": 0.775,
+     "mu": {
+      "plate": 0.238,
+      "pads": 0.404,
+      "jawpetg": 0.288,
+      "shelf": 0.338,
+      "rails": 0.274,
+      "ribs": 0.768,
+      "plate_glass": 0.278
+     },
+     "place_mm": [
+      -0.1,
+      7.6
+     ],
+     "tt_deg": -0.0
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.207,
+      "elbow": 0.198,
+      "yaw": 0.187,
+      "roll": 0.037,
+      "pitch": 0.364,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.62
+     },
+     "pitch_hold_Nm": 0.967,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 4.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.202,
+      "elbow": 0.291,
+      "yaw": 0.406,
+      "roll": 0.034,
+      "pitch": 0.369,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.1
+     },
+     "pitch_hold_Nm": 0.957,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.7
+    },
+    "params": {
+     "mass": 0.713,
+     "mu": {
+      "plate": 0.251,
+      "pads": 0.652,
+      "jawpetg": 0.217,
+      "shelf": 0.202,
+      "rails": 0.207,
+      "ribs": 0.738,
+      "plate_glass": 0.297
+     },
+     "place_mm": [
+      0.8,
+      -4.2
+     ],
+     "tt_deg": -7.1
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.156,
+      "elbow": 0.131,
+      "yaw": 0.139,
+      "roll": 0.035,
+      "pitch": 0.369,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.73
+     },
+     "pitch_hold_Nm": 0.972,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.9,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.0
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.184,
+      "elbow": 0.331,
+      "yaw": 0.438,
+      "roll": 0.031,
+      "pitch": 0.371,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.12
+     },
+     "pitch_hold_Nm": 0.966,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.8,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.1
+    },
+    "params": {
+     "mass": 0.722,
+     "mu": {
+      "plate": 0.239,
+      "pads": 0.609,
+      "jawpetg": 0.261,
+      "shelf": 0.206,
+      "rails": 0.205,
+      "ribs": 0.736,
+      "plate_glass": 0.287
+     },
+     "place_mm": [
+      -6.9,
+      1.5
+     ],
+     "tt_deg": 3.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.171,
+      "elbow": 0.145,
+      "yaw": 0.194,
+      "roll": 0.063,
+      "pitch": 0.374,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.66
+     },
+     "pitch_hold_Nm": 0.982,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.6
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.184,
+      "elbow": 0.197,
+      "yaw": 0.326,
+      "roll": 0.048,
+      "pitch": 0.376,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.05
+     },
+     "pitch_hold_Nm": 0.976,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.5
+    },
+    "params": {
+     "mass": 0.732,
+     "mu": {
+      "plate": 0.269,
+      "pads": 0.526,
+      "jawpetg": 0.245,
+      "shelf": 0.394,
+      "rails": 0.217,
+      "ribs": 0.746,
+      "plate_glass": 0.216
+     },
+     "place_mm": [
+      -9.4,
+      -2.2
+     ],
+     "tt_deg": -4.1
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.197,
+      "elbow": 0.129,
+      "yaw": 0.148,
+      "roll": 0.083,
+      "pitch": 0.357,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.63
+     },
+     "pitch_hold_Nm": 0.949,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.8
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.163,
+      "elbow": 0.261,
+      "yaw": 0.348,
+      "roll": 0.075,
+      "pitch": 0.355,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.05
+     },
+     "pitch_hold_Nm": 0.942,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.9,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.6
+    },
+    "params": {
+     "mass": 0.703,
+     "mu": {
+      "plate": 0.247,
+      "pads": 0.601,
+      "jawpetg": 0.244,
+      "shelf": 0.273,
+      "rails": 0.266,
+      "ribs": 0.649,
+      "plate_glass": 0.201
+     },
+     "place_mm": [
+      2.0,
+      -5.5
+     ],
+     "tt_deg": -7.2
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.369,
+      "elbow": 0.133,
+      "yaw": 0.148,
+      "roll": 0.036,
+      "pitch": 0.378,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.68
+     },
+     "pitch_hold_Nm": 1.007,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 7.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.9
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.363,
+      "elbow": 0.306,
+      "yaw": 0.411,
+      "roll": 0.052,
+      "pitch": 0.372,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.04
+     },
+     "pitch_hold_Nm": 1.001,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.8
+    },
+    "params": {
+     "mass": 0.755,
+     "mu": {
+      "plate": 0.262,
+      "pads": 0.612,
+      "jawpetg": 0.296,
+      "shelf": 0.271,
+      "rails": 0.266,
+      "ribs": 0.733,
+      "plate_glass": 0.222
+     },
+     "place_mm": [
+      -6.0,
+      -1.8
+     ],
+     "tt_deg": -3.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.061,
+      "shoulder": 0.176,
+      "elbow": 0.093,
+      "yaw": 0.111,
+      "roll": 0.033,
+      "pitch": 0.356,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.7
+     },
+     "pitch_hold_Nm": 0.952,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 4.4
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.183,
+      "elbow": 0.205,
+      "yaw": 0.282,
+      "roll": 0.02,
+      "pitch": 0.354,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.06
+     },
+     "pitch_hold_Nm": 0.943,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.1,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.8
+    },
+    "params": {
+     "mass": 0.703,
+     "mu": {
+      "plate": 0.225,
+      "pads": 0.357,
+      "jawpetg": 0.281,
+      "shelf": 0.224,
+      "rails": 0.297,
+      "ribs": 0.664,
+      "plate_glass": 0.231
+     },
+     "place_mm": [
+      8.2,
+      -4.4
+     ],
+     "tt_deg": 6.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.066,
+      "shoulder": 0.176,
+      "elbow": 0.173,
+      "yaw": 0.187,
+      "roll": 0.05,
+      "pitch": 0.391,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.82
+     },
+     "pitch_hold_Nm": 1.039,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 4.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.178,
+      "elbow": 0.284,
+      "yaw": 0.428,
+      "roll": 0.065,
+      "pitch": 0.38,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.09
+     },
+     "pitch_hold_Nm": 1.03,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.1,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.0
+    },
+    "params": {
+     "mass": 0.778,
+     "mu": {
+      "plate": 0.242,
+      "pads": 0.397,
+      "jawpetg": 0.289,
+      "shelf": 0.339,
+      "rails": 0.258,
+      "ribs": 0.805,
+      "plate_glass": 0.239
+     },
+     "place_mm": [
+      -2.6,
+      8.5
+     ],
+     "tt_deg": 0.9
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.067,
+      "shoulder": 0.254,
+      "elbow": 0.18,
+      "yaw": 0.189,
+      "roll": 0.059,
+      "pitch": 0.401,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.68
+     },
+     "pitch_hold_Nm": 1.056,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.5
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.063,
+      "shoulder": 0.282,
+      "elbow": 0.399,
+      "yaw": 0.477,
+      "roll": 0.06,
+      "pitch": 0.403,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.11
+     },
+     "pitch_hold_Nm": 1.05,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 4.8
+    },
+    "params": {
+     "mass": 0.796,
+     "mu": {
+      "plate": 0.219,
+      "pads": 0.534,
+      "jawpetg": 0.232,
+      "shelf": 0.328,
+      "rails": 0.261,
+      "ribs": 0.754,
+      "plate_glass": 0.232
+     },
+     "place_mm": [
+      9.1,
+      -3.7
+     ],
+     "tt_deg": -7.7
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.091,
+      "shoulder": 0.141,
+      "elbow": 0.24,
+      "yaw": 0.239,
+      "roll": 0.085,
+      "pitch": 0.439,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.68
+     },
+     "pitch_hold_Nm": 1.039,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 8.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.181,
+      "elbow": 0.335,
+      "yaw": 0.517,
+      "roll": 0.036,
+      "pitch": 0.389,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.13
+     },
+     "pitch_hold_Nm": 1.015,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.9
+    },
+    "params": {
+     "mass": 0.768,
+     "mu": {
+      "plate": 0.247,
+      "pads": 0.667,
+      "jawpetg": 0.226,
+      "shelf": 0.364,
+      "rails": 0.299,
+      "ribs": 0.869,
+      "plate_glass": 0.296
+     },
+     "place_mm": [
+      8.7,
+      -2.8
+     ],
+     "tt_deg": -2.7
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.145,
+      "elbow": 0.145,
+      "yaw": 0.147,
+      "roll": 0.039,
+      "pitch": 0.372,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.71
+     },
+     "pitch_hold_Nm": 0.984,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.176,
+      "elbow": 0.288,
+      "yaw": 0.399,
+      "roll": 0.066,
+      "pitch": 0.377,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.17
+     },
+     "pitch_hold_Nm": 0.976,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 4.7
+    },
+    "params": {
+     "mass": 0.733,
+     "mu": {
+      "plate": 0.283,
+      "pads": 0.354,
+      "jawpetg": 0.201,
+      "shelf": 0.211,
+      "rails": 0.287,
+      "ribs": 0.79,
+      "plate_glass": 0.273
+     },
+     "place_mm": [
+      -5.0,
+      -0.5
+     ],
+     "tt_deg": 1.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.183,
+      "elbow": 0.169,
+      "yaw": 0.203,
+      "roll": 0.092,
+      "pitch": 0.383,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.82
+     },
+     "pitch_hold_Nm": 1.024,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 9.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.6
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.068,
+      "shoulder": 0.307,
+      "elbow": 0.117,
+      "yaw": 0.227,
+      "roll": 0.117,
+      "pitch": 0.377,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.11
+     },
+     "pitch_hold_Nm": 1.011,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.3,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.0
+    },
+    "params": {
+     "mass": 0.769,
+     "mu": {
+      "plate": 0.267,
+      "pads": 0.365,
+      "jawpetg": 0.264,
+      "shelf": 0.384,
+      "rails": 0.267,
+      "ribs": 0.893,
+      "plate_glass": 0.251
+     },
+     "place_mm": [
+      6.9,
+      4.2
+     ],
+     "tt_deg": -3.6
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.066,
+      "shoulder": 0.249,
+      "elbow": 0.169,
+      "yaw": 0.193,
+      "roll": 0.051,
+      "pitch": 0.395,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.88
+     },
+     "pitch_hold_Nm": 1.048,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 4.6
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.059,
+      "shoulder": 0.231,
+      "elbow": 0.254,
+      "yaw": 0.338,
+      "roll": 0.068,
+      "pitch": 0.391,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.11
+     },
+     "pitch_hold_Nm": 1.04,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.1,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.9
+    },
+    "params": {
+     "mass": 0.788,
+     "mu": {
+      "plate": 0.229,
+      "pads": 0.387,
+      "jawpetg": 0.235,
+      "shelf": 0.387,
+      "rails": 0.216,
+      "ribs": 0.683,
+      "plate_glass": 0.293
+     },
+     "place_mm": [
+      9.8,
+      9.2
+     ],
+     "tt_deg": 1.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.061,
+      "shoulder": 0.194,
+      "elbow": 0.251,
+      "yaw": 0.24,
+      "roll": 0.059,
+      "pitch": 0.388,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.59
+     },
+     "pitch_hold_Nm": 1.035,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.6
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.207,
+      "elbow": 0.34,
+      "yaw": 0.475,
+      "roll": 0.06,
+      "pitch": 0.392,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.19
+     },
+     "pitch_hold_Nm": 1.024,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.0
+    },
+    "params": {
+     "mass": 0.775,
+     "mu": {
+      "plate": 0.296,
+      "pads": 0.636,
+      "jawpetg": 0.294,
+      "shelf": 0.327,
+      "rails": 0.273,
+      "ribs": 0.776,
+      "plate_glass": 0.208
+     },
+     "place_mm": [
+      -1.1,
+      -8.5
+     ],
+     "tt_deg": -5.4
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.054,
+      "shoulder": 0.151,
+      "elbow": 0.223,
+      "yaw": 0.231,
+      "roll": 0.081,
+      "pitch": 0.361,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.65
+     },
+     "pitch_hold_Nm": 0.955,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.4
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.285,
+      "elbow": 0.349,
+      "yaw": 0.361,
+      "roll": 0.046,
+      "pitch": 0.348,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.15
+     },
+     "pitch_hold_Nm": 0.949,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.9
+    },
+    "params": {
+     "mass": 0.708,
+     "mu": {
+      "plate": 0.221,
+      "pads": 0.428,
+      "jawpetg": 0.248,
+      "shelf": 0.33,
+      "rails": 0.236,
+      "ribs": 0.65,
+      "plate_glass": 0.209
+     },
+     "place_mm": [
+      -8.6,
+      -1.3
+     ],
+     "tt_deg": 7.7
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.059,
+      "shoulder": 0.206,
+      "elbow": 0.199,
+      "yaw": 0.209,
+      "roll": 0.114,
+      "pitch": 0.399,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.72
+     },
+     "pitch_hold_Nm": 1.058,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.3,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.0
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.059,
+      "shoulder": 0.203,
+      "elbow": 0.37,
+      "yaw": 0.403,
+      "roll": 0.115,
+      "pitch": 0.387,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.11
+     },
+     "pitch_hold_Nm": 1.05,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.1,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.1
+    },
+    "params": {
+     "mass": 0.798,
+     "mu": {
+      "plate": 0.259,
+      "pads": 0.616,
+      "jawpetg": 0.27,
+      "shelf": 0.227,
+      "rails": 0.26,
+      "ribs": 0.692,
+      "plate_glass": 0.236
+     },
+     "place_mm": [
+      -6.5,
+      2.0
+     ],
+     "tt_deg": 3.4
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.063,
+      "shoulder": 0.156,
+      "elbow": 0.191,
+      "yaw": 0.207,
+      "roll": 0.128,
+      "pitch": 0.383,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.82
+     },
+     "pitch_hold_Nm": 1.005,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 3.9
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.251,
+      "elbow": 0.11,
+      "yaw": 0.261,
+      "roll": 0.107,
+      "pitch": 0.382,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.03
+     },
+     "pitch_hold_Nm": 0.996,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.9
+    },
+    "params": {
+     "mass": 0.748,
+     "mu": {
+      "plate": 0.241,
+      "pads": 0.389,
+      "jawpetg": 0.228,
+      "shelf": 0.369,
+      "rails": 0.297,
+      "ribs": 0.712,
+      "plate_glass": 0.287
+     },
+     "place_mm": [
+      4.6,
+      4.1
+     ],
+     "tt_deg": -3.8
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.265,
+      "elbow": 0.154,
+      "yaw": 0.176,
+      "roll": 0.063,
+      "pitch": 0.359,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.84
+     },
+     "pitch_hold_Nm": 0.964,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.5,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.0
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.26,
+      "elbow": 0.299,
+      "yaw": 0.416,
+      "roll": 0.057,
+      "pitch": 0.366,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.2
+     },
+     "pitch_hold_Nm": 0.958,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.4
+    },
+    "params": {
+     "mass": 0.716,
+     "mu": {
+      "plate": 0.245,
+      "pads": 0.473,
+      "jawpetg": 0.239,
+      "shelf": 0.37,
+      "rails": 0.258,
+      "ribs": 0.782,
+      "plate_glass": 0.239
+     },
+     "place_mm": [
+      8.2,
+      5.3
+     ],
+     "tt_deg": -7.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.199,
+      "elbow": 0.166,
+      "yaw": 0.206,
+      "roll": 0.09,
+      "pitch": 0.366,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.59
+     },
+     "pitch_hold_Nm": 0.979,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.177,
+      "elbow": 0.193,
+      "yaw": 0.297,
+      "roll": 0.099,
+      "pitch": 0.369,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.07
+     },
+     "pitch_hold_Nm": 0.973,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.8
+    },
+    "params": {
+     "mass": 0.73,
+     "mu": {
+      "plate": 0.277,
+      "pads": 0.42,
+      "jawpetg": 0.254,
+      "shelf": 0.361,
+      "rails": 0.257,
+      "ribs": 0.637,
+      "plate_glass": 0.291
+     },
+     "place_mm": [
+      -9.1,
+      -6.6
+     ],
+     "tt_deg": -1.8
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.218,
+      "elbow": 0.194,
+      "yaw": 0.185,
+      "roll": 0.068,
+      "pitch": 0.388,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.67
+     },
+     "pitch_hold_Nm": 1.034,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.7
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.197,
+      "elbow": 0.27,
+      "yaw": 0.355,
+      "roll": 0.064,
+      "pitch": 0.386,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.17
+     },
+     "pitch_hold_Nm": 1.026,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 0.9,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.7
+    },
+    "params": {
+     "mass": 0.776,
+     "mu": {
+      "plate": 0.228,
+      "pads": 0.61,
+      "jawpetg": 0.223,
+      "shelf": 0.257,
+      "rails": 0.247,
+      "ribs": 0.622,
+      "plate_glass": 0.245
+     },
+     "place_mm": [
+      7.6,
+      -4.5
+     ],
+     "tt_deg": 2.3
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.172,
+      "elbow": 0.109,
+      "yaw": 0.14,
+      "roll": 0.074,
+      "pitch": 0.359,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.66
+     },
+     "pitch_hold_Nm": 0.956,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 4.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.1
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.055,
+      "shoulder": 0.17,
+      "elbow": 0.218,
+      "yaw": 0.283,
+      "roll": 0.07,
+      "pitch": 0.359,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.12
+     },
+     "pitch_hold_Nm": 0.951,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 3.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.7
+    },
+    "params": {
+     "mass": 0.708,
+     "mu": {
+      "plate": 0.248,
+      "pads": 0.508,
+      "jawpetg": 0.221,
+      "shelf": 0.314,
+      "rails": 0.267,
+      "ribs": 0.638,
+      "plate_glass": 0.23
+     },
+     "place_mm": [
+      8.9,
+      -5.4
+     ],
+     "tt_deg": -2.8
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.058,
+      "shoulder": 0.238,
+      "elbow": 0.223,
+      "yaw": 0.222,
+      "roll": 0.055,
+      "pitch": 0.384,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.71
+     },
+     "pitch_hold_Nm": 1.017,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 2.2,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.9
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.057,
+      "shoulder": 0.233,
+      "elbow": 0.366,
+      "yaw": 0.386,
+      "roll": 0.053,
+      "pitch": 0.375,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.12
+     },
+     "pitch_hold_Nm": 1.01,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 1.7,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.7
+    },
+    "params": {
+     "mass": 0.761,
+     "mu": {
+      "plate": 0.241,
+      "pads": 0.459,
+      "jawpetg": 0.21,
+      "shelf": 0.319,
+      "rails": 0.211,
+      "ribs": 0.755,
+      "plate_glass": 0.269
+     },
+     "place_mm": [
+      2.3,
+      -2.1
+     ],
+     "tt_deg": 3.7
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.22,
+      "elbow": 0.082,
+      "yaw": 0.12,
+      "roll": 0.076,
+      "pitch": 0.374,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.82
+     },
+     "pitch_hold_Nm": 0.994,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 8.4,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.3
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.056,
+      "shoulder": 0.276,
+      "elbow": 0.116,
+      "yaw": 0.251,
+      "roll": 0.068,
+      "pitch": 0.375,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.01
+     },
+     "pitch_hold_Nm": 0.987,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 7.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 1.7
+    },
+    "params": {
+     "mass": 0.742,
+     "mu": {
+      "plate": 0.201,
+      "pads": 0.577,
+      "jawpetg": 0.241,
+      "shelf": 0.223,
+      "rails": 0.263,
+      "ribs": 0.733,
+      "plate_glass": 0.231
+     },
+     "place_mm": [
+      0.4,
+      8.3
+     ],
+     "tt_deg": -4.5
+    }
+   },
+   {
+    "ok": true,
+    "seg1": {
+     "peak": {
+      "lift": 0.06,
+      "shoulder": 0.147,
+      "elbow": 0.162,
+      "yaw": 0.216,
+      "roll": 0.106,
+      "pitch": 0.397,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 19.8
+     },
+     "pitch_hold_Nm": 1.054,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 5.6,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.2
+    },
+    "seg2": {
+     "peak": {
+      "lift": 0.06,
+      "shoulder": 0.252,
+      "elbow": 0.156,
+      "yaw": 0.301,
+      "roll": 0.095,
+      "pitch": 0.396,
+      "grip": 1.0
+     },
+     "stalled_s": {
+      "lift": 0.0,
+      "shoulder": 0.0,
+      "elbow": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0,
+      "pitch": 0.0,
+      "grip": 15.1
+     },
+     "pitch_hold_Nm": 1.048,
+     "ok": true,
+     "why": "",
+     "place_err_mm": 6.0,
+     "yaw_err_deg": 0.0,
+     "tilt_deg": 0.0,
+     "slip_mm": 2.7
+    },
+    "params": {
+     "mass": 0.795,
+     "mu": {
+      "plate": 0.3,
+      "pads": 0.367,
+      "jawpetg": 0.232,
+      "shelf": 0.4,
+      "rails": 0.297,
+      "ribs": 0.801,
+      "plate_glass": 0.213
+     },
+     "place_mm": [
+      -4.0,
+      7.5
+     ],
+     "tt_deg": 1.3
+    }
+   }
+  ]
+ }
+}
